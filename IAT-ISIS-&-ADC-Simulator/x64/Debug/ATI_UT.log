@@ -1,0 +1,252 @@
+﻿Build started 21-08-2026 16:30:18.
+     1>Project "C:\Deepak\New folder\IAT Software Application 14 aug Current\ATI_UT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Deepak\New folder\IAT Software Application 14 aug Current\include" /Z7 /nologo /W3 /WX- /MP /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt Dialog_ADC_MachCHK.cpp
+         Dialog_ADC_MachCHK.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>Dialog_ADC_MachCHK.cpp(101): warning C4101: 'value' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Deepak\New folder\IAT Software Application 14 aug Current\x64\Debug\ATI_UT.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Deepak\New folder\IAT Software Application 14 aug Current\lib" ADT_L1.lib ADT_L0.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Deepak\New folder\IAT Software Application 14 aug Current\x64\Debug\ATI_UT.pdb" /SUBSYSTEM:WINDOWS /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Deepak\New folder\IAT Software Application 14 aug Current\x64\Debug\ATI_UT.lib" /MACHINE:X64 /VERBOSE:LIB x64\Debug\SIPU_SDU_GndRig.res
+         x64\Debug\AddUser.obj
+         x64\Debug\Arinc429.obj
+         x64\Debug\BenchSelfTest.obj
+         x64\Debug\CaptionBar.obj
+         x64\Debug\CaptionListView.obj
+         x64\Debug\CaptionView.obj
+         x64\Debug\CHANGEPASSWORD.obj
+         x64\Debug\Cursor.obj
+         x64\Debug\DataStruct.obj
+         x64\Debug\demos.obj
+         x64\Debug\DialogSmfdAHRS.obj
+         x64\Debug\DialogSmfd_ADC.obj
+         x64\Debug\DialogSmfd_Tacan.obj
+         x64\Debug\Dialog_ADC_AIR1.obj
+         x64\Debug\Dialog_ADC_AIR2.obj
+         x64\Debug\Dialog_ADC_AIR3.obj
+         x64\Debug\Dialog_ADC_ALTI2.obj
+         x64\Debug\Dialog_ADC_ALTI3.obj
+         x64\Debug\Dialog_ADC_ALTIRATE.obj
+         x64\Debug\Dialog_ADC_FUNCHK.obj
+         x64\Debug\Dialog_ADC_LEAK.obj
+         x64\Debug\Dialog_ADC_MACH2.obj
+         x64\Debug\Dialog_ADC_MachCHK.obj
+         x64\Debug\Dialog_ADC_Visual.obj
+         x64\Debug\Dialog_AHRS_PWR.obj
+         x64\Debug\Dialog_AHRS_QualityChecks.obj
+         x64\Debug\Dialog_AHRS_VISUAL.obj
+         x64\Debug\Dialog_GPS_DBInfo.obj
+         x64\Debug\Dialog_GPS_PWR.obj
+         x64\Debug\Dialog_GPS_SYSINFO.obj
+         x64\Debug\Dialog_GPS_VISUAL.obj
+         x64\Debug\Dialog_ISIS_ALN.obj
+         x64\Debug\Dialog_ISIS_BRTCHK.obj
+         x64\Debug\Dialog_ISIS_IBIT.obj
+         x64\Debug\Dialog_ISIS_NAVMODE.obj
+         x64\Debug\Dialog_Smfd_Adc_RC.obj
+         x64\Debug\Dialog_Smfd_AHRS_RC.obj
+         x64\Debug\Dialog_Smfd_Analog.obj
+         x64\Debug\Dialog_Smfd_Analog1_RC.obj
+         x64\Debug\Dialog_Smfd_Analog2.obj
+         x64\Debug\Dialog_Smfd_Analog_RC.obj
+         x64\Debug\Dialog_Smfd_Discrete.obj
+         x64\Debug\Dialog_Smfd_Discrete_RC.obj
+         x64\Debug\Dialog_Smfd_Fuel.obj
+         x64\Debug\Dialog_Smfd_Fuel_RC.obj
+         x64\Debug\Dialog_SMFD_GPS.obj
+         x64\Debug\Dialog_Smfd_Gps_RC.obj
+         x64\Debug\Dialog_SMFD_PWR.obj
+         x64\Debug\Dialog_Smfd_Pwr_RC.obj
+         x64\Debug\Dialog_Smfd_Rev_Page.obj
+         x64\Debug\Dialog_Smfd_Rev_RC.obj
+         x64\Debug\Dialog_SMFD_SW.obj
+         x64\Debug\Dialog_Smfd_Sw_RC.obj
+         x64\Debug\Dialog_Smfd_Tacan_RC.obj
+         x64\Debug\Dialog_Smfd_Visual.obj
+         x64\Debug\Dialog_Smfd_Visual_RC.obj
+         x64\Debug\Dialog_Smfd_VORILS.obj
+         x64\Debug\Dialog_Smfd_Vorils_RC.obj
+         x64\Debug\Dialog_VORTAC_PWR.obj
+         x64\Debug\Dialog_VORTAC_Visual.obj
+         x64\Debug\Dlg_ADC_PWR.obj
+         x64\Debug\Dlg_ISIS_AHRS.obj
+         x64\Debug\Globals.obj
+         x64\Debug\led.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\MessageBox_Dlg.obj
+         x64\Debug\Mouse.obj
+         x64\Debug\MyCEditView.obj
+         x64\Debug\MyListView.obj
+         x64\Debug\MySplitterClass.obj
+         x64\Debug\picture.obj
+         x64\Debug\Picture1.obj
+         x64\Debug\PlxInit.obj
+         x64\Debug\ProgressDlg.obj
+         x64\Debug\rowcursor.obj
+         x64\Debug\Schedule.obj
+         x64\Debug\SerialPort.obj
+         x64\Debug\SIPU_SDU_GndRig.obj
+         x64\Debug\SIPU_SDU_GndRigDoc.obj
+         x64\Debug\SIPU_SDU_GndRigView.obj
+         x64\Debug\SIPUPowerONPage.obj
+         x64\Debug\Dlg_ISIS_SWCHK.obj
+         x64\Debug\Splach.obj
+         x64\Debug\StdAfx.obj
+         x64\Debug\TestTable.obj
+         x64\Debug\unit_headerpage.obj
+         x64\Debug\unit_indexpage.obj
+         x64\Debug\unit_table1.obj
+         x64\Debug\UserAuthendication.obj
+         x64\Debug\VisualInspection.obj
+         x64\Debug\WndSlider.obj
+         x64\Debug\XComboList.obj
+         x64\Debug\XHeaderCtrl.obj
+         x64\Debug\XListCtrl.obj
+         x64\Debug\XTOutlookBar.obj
+         x64\Debug\XTPagerCtrl.obj
+         x64\Debug\Dlg_ISIS_ADUTest.obj
+         x64\Debug\Dlg_ISIS_PWR.obj
+         x64\Debug\font.obj
+         x64\Debug\FormEmpty.obj
+         x64\Debug\gfx_printjob.obj
+         x64\Debug\gfx_printunit.obj
+         x64\Debug\helper.obj
+         x64\Debug\HlprFuncs.obj
+         Debug\apiLib1.3.lib
+         PlxApi.lib
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         
+         Searching libraries
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L1.lib:
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comctl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uxtheme.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\windowscodecs.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\dwmapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\atlsnd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oledlg.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\urlmon.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdiplus.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\comsuppwd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\wininet.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ws2_32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\mswsock.lib:
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L1.lib:
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comctl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uxtheme.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\windowscodecs.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\dwmapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\atlsnd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oledlg.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\urlmon.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdiplus.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\comsuppwd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\wininet.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ws2_32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\mswsock.lib:
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L1.lib:
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+         
+         Finished searching libraries
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         
+         Searching libraries
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L1.lib:
+             Searching C:\Deepak\New folder\IAT Software Application 14 aug Current\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comctl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uxtheme.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\windowscodecs.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\dwmapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\atlsnd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oledlg.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\urlmon.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdiplus.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\comsuppwd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\wininet.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ws2_32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\mswsock.lib:
+         
+         Finished searching libraries
+         ATI_UT.vcxproj -> C:\Deepak\New folder\IAT Software Application 14 aug Current\x64\Debug\ATI_UT.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"C:\Deepak\New folder\IAT Software Application 14 aug Current\x64\Debug\ATI_UT.bsc" x64\Debug\AddUser.sbr x64\Debug\Arinc429.sbr x64\Debug\BenchSelfTest.sbr x64\Debug\CaptionBar.sbr x64\Debug\CaptionListView.sbr x64\Debug\CaptionView.sbr x64\Debug\CHANGEPASSWORD.sbr x64\Debug\Cursor.sbr x64\Debug\DataStruct.sbr x64\Debug\demos.sbr x64\Debug\DialogSmfdAHRS.sbr x64\Debug\DialogSmfd_ADC.sbr x64\Debug\DialogSmfd_Tacan.sbr x64\Debug\Dialog_ADC_AIR1.sbr x64\Debug\Dialog_ADC_AIR2.sbr x64\Debug\Dialog_ADC_AIR3.sbr x64\Debug\Dialog_ADC_ALTI2.sbr x64\Debug\Dialog_ADC_ALTI3.sbr x64\Debug\Dialog_ADC_ALTIRATE.sbr x64\Debug\Dialog_ADC_FUNCHK.sbr x64\Debug\Dialog_ADC_LEAK.sbr x64\Debug\Dialog_ADC_MACH2.sbr x64\Debug\Dialog_ADC_MachCHK.sbr x64\Debug\Dialog_ADC_Visual.sbr x64\Debug\Dialog_AHRS_PWR.sbr x64\Debug\Dialog_AHRS_QualityChecks.sbr x64\Debug\Dialog_AHRS_VISUAL.sbr x64\Debug\Dialog_GPS_DBInfo.sbr x64\Debug\Dialog_GPS_PWR.sbr x64\Debug\Dialog_GPS_SYSINFO.sbr x64\Debug\Dialog_GPS_VISUAL.sbr x64\Debug\Dialog_ISIS_ALN.sbr x64\Debug\Dialog_ISIS_BRTCHK.sbr x64\Debug\Dialog_ISIS_IBIT.sbr x64\Debug\Dialog_ISIS_NAVMODE.sbr x64\Debug\Dialog_Smfd_Adc_RC.sbr x64\Debug\Dialog_Smfd_AHRS_RC.sbr x64\Debug\Dialog_Smfd_Analog.sbr x64\Debug\Dialog_Smfd_Analog1_RC.sbr x64\Debug\Dialog_Smfd_Analog2.sbr x64\Debug\Dialog_Smfd_Analog_RC.sbr x64\Debug\Dialog_Smfd_Discrete.sbr x64\Debug\Dialog_Smfd_Discrete_RC.sbr x64\Debug\Dialog_Smfd_Fuel.sbr x64\Debug\Dialog_Smfd_Fuel_RC.sbr x64\Debug\Dialog_SMFD_GPS.sbr x64\Debug\Dialog_Smfd_Gps_RC.sbr x64\Debug\Dialog_SMFD_PWR.sbr x64\Debug\Dialog_Smfd_Pwr_RC.sbr x64\Debug\Dialog_Smfd_Rev_Page.sbr x64\Debug\Dialog_Smfd_Rev_RC.sbr x64\Debug\Dialog_SMFD_SW.sbr x64\Debug\Dialog_Smfd_Sw_RC.sbr x64\Debug\Dialog_Smfd_Tacan_RC.sbr x64\Debug\Dialog_Smfd_Visual.sbr x64\Debug\Dialog_Smfd_Visual_RC.sbr x64\Debug\Dialog_Smfd_VORILS.sbr x64\Debug\Dialog_Smfd_Vorils_RC.sbr x64\Debug\Dialog_VORTAC_PWR.sbr x64\Debug\Dialog_VORTAC_Visual.sbr x64\Debug\Dlg_ADC_PWR.sbr x64\Debug\Dlg_ISIS_AHRS.sbr x64\Debug\Globals.sbr x64\Debug\led.sbr x64\Debug\MainFrm.sbr x64\Debug\MessageBox_Dlg.sbr x64\Debug\Mouse.sbr x64\Debug\MyCEditView.sbr x64\Debug\MyListView.sbr x64\Debug\MySplitterClass.sbr x64\Debug\picture.sbr x64\Debug\Picture1.sbr x64\Debug\PlxInit.sbr x64\Debug\ProgressDlg.sbr x64\Debug\rowcursor.sbr x64\Debug\Schedule.sbr x64\Debug\SerialPort.sbr x64\Debug\SIPU_SDU_GndRig.sbr x64\Debug\SIPU_SDU_GndRigDoc.sbr x64\Debug\SIPU_SDU_GndRigView.sbr x64\Debug\SIPUPowerONPage.sbr x64\Debug\Dlg_ISIS_SWCHK.sbr x64\Debug\Splach.sbr x64\Debug\StdAfx.sbr x64\Debug\TestTable.sbr x64\Debug\unit_headerpage.sbr x64\Debug\unit_indexpage.sbr x64\Debug\unit_table1.sbr x64\Debug\UserAuthendication.sbr x64\Debug\VisualInspection.sbr x64\Debug\WndSlider.sbr x64\Debug\XComboList.sbr x64\Debug\XHeaderCtrl.sbr x64\Debug\XListCtrl.sbr x64\Debug\XTOutlookBar.sbr x64\Debug\XTPagerCtrl.sbr x64\Debug\Dlg_ISIS_ADUTest.sbr x64\Debug\Dlg_ISIS_PWR.sbr x64\Debug\font.sbr x64\Debug\FormEmpty.sbr x64\Debug\gfx_printjob.sbr x64\Debug\gfx_printunit.sbr x64\Debug\helper.sbr x64\Debug\HlprFuncs.sbr
+       PostBuildEvent:
+         xcopy /D/Y "C:\Deepak\New folder\IAT Software Application 14 aug Current\bin\*.dll" "C:\Deepak\New folder\IAT Software Application 14 aug Current\x64\Debug\"
+         :VCEnd
+         0 File(s) copied
+     1>Done Building Project "C:\Deepak\New folder\IAT Software Application 14 aug Current\ATI_UT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.20
