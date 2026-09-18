@@ -1,0 +1,3422 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SIPU_SDU_GndRig.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PLANES.ICO"
+IDR_SIPU_STYPE          ICON                    "res\\SIPU_SDU_GndRigDoc.ico"
+IDI_4509                ICON                    "res\\icon3.ico"
+IDI_ADC1105             ICON                    "res\\ico00004.ico"
+IDI_DIN                 ICON                    "res\\Audio Analyzer.ico"
+IDI_SDU1                ICON                    "res\\ico00011.ico"
+IDI_ICON2               ICON                    "res\\ico00009.ico"
+IDI_QTREPORT            ICON                    "res\\ico00010.ico"
+IDI_ICON5               ICON                    "res\\icon5.ico"
+IDI_MEM                 ICON                    "res\\mem.ico"
+IDI_PROCESSOR           ICON                    "res\\icon4.ico"
+IDI_RESET               ICON                    "res\\ico00014.ico"
+IDI_RIGSELFTEST         ICON                    "res\\AUD Bus Status Config.ico"
+IDI_RTC                 ICON                    "res\\ico00013.ico"
+IDI_SDU2                ICON                    "res\\sdu2.ico"
+IDI_SIPUFaultLog        ICON                    "res\\sipufaul.ico"
+IDI_SDUCode             ICON                    "res\\sducode.ico"
+IDI_SDU4                ICON                    "res\\icon6.ico"
+IDI_ICON1               ICON                    "res\\ico00001.ico"
+IDI_OPMODE              ICON                    "res\\opmode.ico"
+IDI_FTC                 ICON                    "res\\ico00002.ico"
+IDI_WTC                 ICON                    "res\\ico00003.ico"
+IDI_SPR                 ICON                    "res\\spr.ico"
+IDI_FTC_OC              ICON                    "res\\ico00005.ico"
+IDI_WTC_OC              ICON                    "res\\ico00006.ico"
+IDI_TEMP_DENS           ICON                    "res\\ico00007.ico"
+IDI_ATT_FUEL            ICON                    "res\\ico00008.ico"
+IDI_CONFIGURATION       ICON                    "res\\TOOLS1.ICO"
+IDI_PASSWORD            ICON                    "res\\PASSWORD.ICO"
+IDI_USERNAME            ICON                    "res\\ico00012.ico"
+IDI_ICON_AUTOMODE       ICON                    "res\\ico00015.ico"
+IDI_ICON6               ICON                    "res\\wi0126-16.ico"
+IDI_ICON_MANUAL         ICON                    "res\\TOOLS3.ICO"
+IDI_ICON_RHLHTANK       ICON                    "res\\PLANE5.ICO"
+IDI_ICON_FUSE           ICON                    "res\\icon_fus.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_CUSTOM1             BITMAP                  "res\\custom1.bmp"
+IDR_MMEMRPT             BITMAP                  "res\\toolbar1.bmp"
+IDB_BITMAP1             BITMAP                  "res\\greenButton.bmp"
+IDB_BITMAP2             BITMAP                  "res\\redButton.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+IDB_CHECKBOXES          BITMAP                  "res\\checkboxes.bmp"
+IDB_BITMAP26            BITMAP                  "res\\bitmap26.bmp"
+IDB_BITMAP27            BITMAP                  "res\\Untitled.bmp"
+IDB_BITMAP28            BITMAP                  "res\\brtness (1).bmp"
+IDB_BITMAP29            BITMAP                  "res\\ibit_fc (1).bmp"
+IDB_BITMAP30            BITMAP                  "res\\ibit_rc (1).bmp"
+IDB_BITMAP31            BITMAP                  "res\\alignment (1).bmp"
+IDB_BITMAP32            BITMAP                  "res\\Media.bmp"
+IDB_BITMAP33            BITMAP                  "res\\Media (1).bmp"
+IDB_BITMAP34            BITMAP                  "res\\nav (1).bmp"
+IDB_BITMAP35            BITMAP                  "res\\Screenshot 2026-08-21 170846 (1).bmp"
+IDB_BITMAP36            BITMAP                  "res\\Screenshot 2026-08-21 170846 (2).bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_CUSTOM1 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_EDIT_MAXIMIZEVIEWPANNEL
+    BUTTON      ID_EDIT_HIDEOUTBAR
+    BUTTON      ID_EDIT_ACTIONLOG
+END
+
+IDR_MMEMRPT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_RPTPRINT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_RPTPRINT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP ""
+    BEGIN
+        MENUITEM "&Maximize\tCtrl+M",           ID_EDIT_MAXIMIZEVIEWPANNEL, GRAYED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MFD Test Bench",       ID_APP_ABOUT
+        MENUITEM "Application &Help (F1)",      ID_HELP, INACTIVE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_TAB,         ID_NEXT_WND,            VIRTKEY, CONTROL, NOINVERT
+    VK_TAB,         ID_NEXT_VIEW,           VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 57
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Universal Tester Test Bench Application "
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20,NOT WS_VISIBLE
+    DEFPUSHBUTTON   "OK",IDOK,177,39,50,14,WS_GROUP
+    LTEXT           "App SW Version",IDC_STATIC_APP_VERSION,48,6,183,11
+    LTEXT           "checksum",IDC_STATIC_APP_CHECKSUM,44,19,187,11
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,44,39,83,12
+END
+
+IDR_MAINFRAME DIALOG 0, 0, 330, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DLG_MAINPANEL DIALOGEX 0, 0, 513, 324
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "System", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO_MODE,69,16,61,61,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TEST_DESC,69,60,64,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFD1_SNO,49,109,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "START",IDC_BUTTON_EXEC,39,275,96,14
+    EDITTEXT        IDC_EDIT_START,307,305,51,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Execution &Mode",IDC_STATIC,10,17,53,8
+    LTEXT           "&Start Test No.",IDC_STATIC_START,315,307,47,10,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "&End Test No.",IDC_STATIC_END,316,312,48,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_EDIT_END,307,307,51,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    LISTBOX         IDC_LIST_MAIN_TEST,180,10,148,79,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Test Configuration",IDC_STATIC,0,4,176,88
+    GROUPBOX        "Test Type",IDC_STATIC,178,1,151,91
+    GROUPBOX        "Sub Test",IDC_STATIC,335,-1,156,93
+    GROUPBOX        "Selected Configuration",IDC_STATIC,0,92,179,178
+    LTEXT           "SMFD FC Sr. No.",IDC_STATIC,4,109,40,17
+    PUSHBUTTON      "&Print",IDC_BUT_PRINT,38,295,97,14
+    LTEXT           "Test Description",IDC_STATIC,10,62,54,10
+    LTEXT           "SMFD RC Sr. No.",IDC_STATIC,94,109,34,16
+    LTEXT           "MFD FC Sr. No.",IDC_STATIC,3,132,35,16
+    LTEXT           "MFD RC Sr. No.",IDC_STATIC,92,133,31,16
+    LTEXT           "ISIS_DU FC Sr. No.",IDC_STATIC,3,154,40,16
+    LTEXT           "ISIS_DU RC Sr. No.",IDC_STATIC,92,155,39,16
+    LTEXT           "ISIS_ADU Sr. No.",IDC_STATIC,3,177,32,16
+    LTEXT           "ISIS_AHRS Sr. No.",IDC_STATIC,92,178,38,15
+    EDITTEXT        IDC_EDIT_SMFD2_SNO,136,110,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MFD1_SNO,49,130,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MFD2_SNO,136,134,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_DU1_SNO,49,153,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_DU2_SNO,136,155,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_ADU_SNO,49,176,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_AHRS_SNO,136,177,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "PAUSE",IDC_BUTTON_EXEC2,317,308,41,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "RESUME",IDC_BUTTON_EXEC3,319,309,40,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "STOP",IDC_BUTTON_EXEC_STOP,248,310,41,14,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "ISIS_MMS Sr. No.",IDC_STATIC,3,201,36,16
+    EDITTEXT        IDC_EDIT_ISIS_MGM_SNO,49,199,40,14,ES_AUTOHSCROLL
+    LTEXT           "ADC Sr. No.",IDC_STATIC,92,202,49,10
+    LTEXT           "AHRS Sr. No.",IDC_STATIC,4,225,30,18
+    LTEXT           "GPS Sr. No.",IDC_STATIC,92,225,52,10
+    EDITTEXT        IDC_EDIT_ADC_SNO,136,200,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AHRS_SNO,49,224,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPS_SNO,136,221,40,14,ES_AUTOHSCROLL
+    LTEXT           "VOR/ILS Sr. No.",IDC_STATIC,3,248,35,19
+    EDITTEXT        IDC_EDIT_VORILS_TACAN_SNO,49,246,40,14,ES_AUTOHSCROLL
+    LTEXT           "LRU Type",IDC_STATIC_START2,10,38,47,10
+    COMBOBOX        IDC_COMBO_DU_TYPE,69,37,62,61,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_SUB_TEST,340,9,151,80,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "TACAN Sr. No.",IDC_STATIC,93,247,38,16
+    EDITTEXT        IDC_EDIT_TACAN_SNO,136,244,40,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_SMFD_SELECTION,135,37,37,61,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_SPLASH DIALOGEX 0, 0, 442, 332
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE
+FONT 10, "Arial", 400, 0, 0x0
+BEGIN
+    CTEXT           "Version : 1.00",IDC_STATIC_APP_VERSION,124,249,232,14
+    CTEXT           "Exe File Checksum : ",IDC_STATIC_EXE_CHECKSUM,146,262,201,12
+    LTEXT           "Screen Hold Time",IDC_STATIC,99,283,63,9
+    COMBOBOX        IDC_COMBO_HOLD_TIME,167,280,57,75,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sec",IDC_STATIC,227,282,15,10
+    PUSHBUTTON      "&Continue",IDC_BUT_CONTINUE,302,279,54,14
+    CONTROL         "IAT LRUs TEST",IDC_RAD_TESTTYPE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,110,307,81,10
+    CONTROL         "Tester Self Test",IDC_RAD_ILTSELFTEST,"Button",BS_AUTORADIOBUTTON,203,307,73,10
+    CONTROL         "Simulation Mode",IDC_RAD_IAT_SIMULATION,"Button",BS_AUTORADIOBUTTON,289,307,69,10
+    CONTROL         622,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_RIGHTJUST,0,0,467,242
+END
+
+IDD_DIAG_USER_AUTHENTICATION DIALOGEX 0, 0, 277, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDT_PASSWORD,127,42,69,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "&Login",IDC_BTN_LOGIN,35,68,63,14
+    EDITTEXT        IDC_EDIT1,127,14,68,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Create Account",IDC_BTN_ADD_USER,107,68,63,14
+    PUSHBUTTON      "Modify &Password",IDC_BTN_CHANGE_PASSWRD,179,68,63,14
+    PUSHBUTTON      "&Cancel",IDC_BTN_CANCEL,211,7,63,14,NOT WS_VISIBLE
+    LTEXT           "User &Name",IDC_STATIC,82,15,41,13
+    LTEXT           "&Password",IDC_STATIC,82,45,37,13
+    ICON            IDI_PASSWORD,IDC_STATIC,56,42,20,20
+    ICON            IDI_USERNAME,IDC_STATIC,56,14,20,20
+END
+
+IDD_DIAG_ADD_USER DIALOGEX 0, 0, 209, 184
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add New User"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT2,111,22,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,111,41,75,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,111,58,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_PASSWORD,111,79,75,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDT_PASSWORD2,111,96,75,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO1,111,114,75,29,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "A&dd User",IDC_BTN_ADD,41,148,63,14
+    PUSHBUTTON      "&Cancel",IDC_BTN_CANCEL,128,148,63,14
+    LTEXT           "Creator &Name",IDC_STATIC,25,23,58,13
+    LTEXT           "Creator &Password",IDC_STATIC,25,45,74,13
+    LTEXT           "Login &User Name",IDC_STATIC,25,62,81,13
+    LTEXT           "P&assword",IDC_STATIC,25,81,39,13
+    LTEXT           "&Confirm Password",IDC_STATIC,25,98,54,13
+    LTEXT           "User &Type",IDC_STATIC,25,115,54,13
+END
+
+IDD_DIAG_CHANGE_PASSWORD DIALOGEX 0, 0, 203, 112
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Password"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT7,111,12,74,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_PASSWORD5,111,27,74,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDT_PASSWORD3,111,43,74,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDT_PASSWORD4,111,59,74,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    PUSHBUTTON      "C&hange Password",IDC_BTN_CHANGEPWD,31,85,63,14
+    PUSHBUTTON      "C&ancel",IDC_BTN_CANCEL,103,85,63,14
+    LTEXT           "Login &User Name",-1,27,11,54,13
+    LTEXT           "&New Password",-1,27,45,56,13
+    LTEXT           "&Confirm Password",-1,27,61,54,13
+    LTEXT           "&Old Password",-1,27,29,63,13
+END
+
+IDD_FORM_EMPTY DIALOG 0, 0, 185, 93
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "TODO: layout formview",IDC_STATIC,55,42,74,8
+END
+
+IDD_DIALOG_MSGBOX DIALOGEX 0, 0, 368, 88
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "TEST FAILURE WARNING MESSAGE"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Yes",IDOK,122,60,50,14
+    DEFPUSHBUTTON   "No",IDCANCEL,193,60,50,14
+    LTEXT           "Static",IDC_STATIC_MSG_STR,44,12,308,29
+    CONTROL         481,IDC_STATIC_LED,"Static",SS_BITMAP,9,7,28,17
+    LTEXT           "Static",IDC_STATIC_FAULTY_MOD,47,44,294,9
+END
+
+IDD_DIALOG_BENCH_SELFTEST DIALOGEX 0, 0, 322, 220
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Integrated Avionics Tester Self Test Screen"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,123,196,50,14
+    LTEXT           "PCI Card 1711 Self Test -----------------> ",IDC_STATIC,48,55,128,13
+    PUSHBUTTON      "Do Self Test",IDC_BUT_SELFTEST,49,196,50,14
+    CONTROL         "Not OK",IDC_CHECK_1711,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,55,35,10
+    LTEXT           "PCI Card 1715 Self Test -----------------> ",IDC_STATIC,48,73,128,13
+    CONTROL         "Not OK",IDC_CHECK_1715,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,72,35,10
+    LTEXT           "PCI Card 1733 Self Test -----------------> ",IDC_STATIC,48,91,128,13
+    CONTROL         "Not OK",IDC_CHECK_1733,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,90,35,10
+    LTEXT           "PCIE Card 1758 Self Test -----------------> ",IDC_STATIC,48,108,128,13
+    CONTROL         "Not OK",IDC_CHECK_1758,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,107,35,10
+    LTEXT           "PCIE Card 1824 Self Test -----------------> ",IDC_STATIC,48,127,128,13
+    CONTROL         "Not OK",IDC_CHECK_1824,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,127,35,10
+    LTEXT           "PCI Card ARINC429 Self Test --------------> ",IDC_STATIC,48,146,137,13
+    CONTROL         "Not OK",IDC_CHECK_ARINC429,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,146,35,10
+    LTEXT           "PCI Card 1622B Self Test -----------------> ",IDC_STATIC,48,164,128,13
+    CONTROL         "Not OK",IDC_CHECK_1622B,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,164,35,10
+    LTEXT           "28V DC Power Supply Self Test-------------> ",IDC_STATIC,48,37,137,13
+    CONTROL         "Not OK",IDC_CHECK_PWRSPLY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,37,35,10
+    LTEXT           "Ethernet Communication Self Test ------------> ",IDC_STATIC,48,181,148,13
+    CONTROL         "Not OK",IDC_CHECK_ETHCOMM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,181,35,10
+    LTEXT           "Click on Do Self Test Button for performing the self test of the bench and see the status.",IDC_STATIC,47,12,210,17
+    PUSHBUTTON      "Print",IDC_BUT_PRINT_SELFTEST,196,195,40,15
+END
+
+IDD_DIALOG_ISIS_PWR DIALOGEX 0, 0, 316, 159
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS Power Consumption(Test No. 2.01 to 2.04)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,169,135,50,14
+    LTEXT           " 2.01) Current Consumption of ISIS DU FC",IDC_STATIC,32,44,146,10
+    EDITTEXT        IDC_EDIT_ISIS_PWR,189,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "<1.08 A",IDC_STATIC,252,46,30,8
+    GROUPBOX        "Specification",IDC_STATIC,244,35,51,73
+    LTEXT           "1) Click on the Test button to get the current consumption of ISIS System.",IDC_STATIC,23,22,244,10
+    LTEXT           " 2.02) Current Conusmption of ISIS DU RC",IDC_STATIC,32,61,147,9
+    EDITTEXT        IDC_EDIT_ISIS_PWRRC,189,57,40,14,ES_AUTOHSCROLL
+    LTEXT           " 2.03) Current Consumption of ISIS ADU",IDC_STATIC,32,77,147,10
+    LTEXT           " 2.04) Current Consumption of ISIS AHRS",IDC_STATIC,32,94,143,9
+    EDITTEXT        IDC_EDIT_ISIS_PWRADU,189,74,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_PWRAHRS,189,90,40,14,ES_AUTOHSCROLL
+    LTEXT           "<1.08 A",IDC_STATIC,252,60,26,8
+    LTEXT           "<0.3 A",IDC_STATIC,253,76,26,8
+    LTEXT           "<1 A",IDC_STATIC,253,92,26,8
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,23,115,184,8
+    PUSHBUTTON      "Test",IDC_BUTTON_ISISPWR,98,135,51,14
+    LTEXT           "Test Procedure :",IDC_STATIC,14,9,68,8
+END
+
+IDD_DIALOG_ISIS_SWCHK DIALOGEX 0, 0, 393, 248
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS Software Checks(Test No. 3.01 to 3.08)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,204,225,44,14
+    LTEXT           "3.01) ISIS-DU FC MPM Software Version",IDC_STATIC,37,50,141,8
+    LTEXT           "3.02) ISIS-DU FC MPM Software Checksum",IDC_STATIC,37,69,155,8
+    LTEXT           "3.03) ISIS-DU FC BLGM Software Version",IDC_STATIC,37,87,149,8
+    LTEXT           " 3.04) ISIS-DU FC BLGM Software Checksum",IDC_STATIC,37,106,163,8
+    LTEXT           "01.00",IDC_STATIC,309,49,23,8
+    LTEXT           "0xCA347B86",IDC_STATIC,308,67,49,8
+    LTEXT           "01.00",IDC_STATIC,310,86,45,8
+    GROUPBOX        "Specifications",IDC_STATIC,301,39,67,164
+    LTEXT           "0x43760D0A",IDC_STATIC,308,108,49,8
+    LTEXT           "Test Procedure : ",IDC_STATIC,17,12,65,10
+    LTEXT           " 1) Click on Test button below to recieve the software version &and checkum details from ISIS FC and RC DU.",IDC_STATIC,17,26,360,10
+    LTEXT           "3.05) ISIS-DU RC MPM Software Version",IDC_STATIC,37,125,140,8
+    LTEXT           "3.06) ISIS-DU RC MPM Software Checksum",IDC_STATIC,37,145,152,8
+    LTEXT           "3.07) ISIS-DU RC BLGM Software Version",IDC_STATIC,37,165,147,8
+    LTEXT           " 3.08) ISIS-DU RC BLGM Software Checksum",IDC_STATIC,36,185,163,8
+    LTEXT           "01.00",IDC_STATIC,309,126,23,8
+    LTEXT           "0xCA347B86",IDC_STATIC,308,147,49,8
+    LTEXT           "01.00",IDC_STATIC,310,167,45,8
+    LTEXT           "0x43760D0A",IDC_STATIC,308,187,49,8
+    PUSHBUTTON      "Test",IDC_BUTTON_ISIS_SW,139,225,44,14
+    LTEXT           "3) Click on continue button to proceed to the next Test.",IDC_STATIC,22,209,184,10
+    EDITTEXT        IDC_EDIT_ISISFC_MPMVR,224,46,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISFC_MPMCHK,224,65,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISFC_BLGMVR,224,85,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISFC_BLGMCHK,224,105,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISRC_MPMVR,224,125,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISRC_MPMCHK,224,145,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISRC_BLGMVR,224,165,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISRC_BLGMCHK,224,184,59,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_ISIS_AHRS DIALOGEX 0, 0, 476, 274
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS AHRS CHECKS(Test No 8.01 to 8.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,220,247,50,14
+    LTEXT           "8.01)Rotate the AHRS Nose Left and Nose Right. Verify that the Roll indication changes on the ISIS-DU FC.",IDC_STATIC,41,50,320,16
+    LTEXT           "8.02)Rotate the AHRS Nose Up and Nose Down. Verify that the Pitch indication changes on the ISIS-DU FC.",IDC_STATIC,41,78,323,15
+    LTEXT           "8.03)Rotate the AHRS Clockwise and Counterclockwise. Verify that the Heading indication changes on the ISIS-DU FC.",IDC_STATIC,41,105,313,17
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_AHRSROLL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,49,63,10
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_AHRSPITCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,76,63,10
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_AHRSHEAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,107,63,10
+    LTEXT           "Test Procedure for ISIS AHRS Checks :",IDC_STATIC,15,13,150,8
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,21,223,191,8
+    LTEXT           "1) Move the AHRS from the ISIS interface box from IAT rack 1 and perform the following tests :",IDC_STATIC,21,31,306,8
+    LTEXT           "8.04)Rotate the AHRS Nose Left and Nose Right. Verify that the Roll indication changes on the ISIS-DU RC.",IDC_STATIC,41,138,320,16
+    LTEXT           "8.05)Rotate the AHRS Nose Up and Nose Down. Verify that the Pitch indication changes on the ISIS-DU RC.",IDC_STATIC,41,167,323,18
+    LTEXT           "8.06)Rotate the AHRS Clockwise and Counterclockwise. Verify that the Heading indication changes on the ISIS-DU RC.",IDC_STATIC,41,194,306,17
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_AHRSROLL2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,372,140,63,10
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_AHRSPITCH2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,165,63,10
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_AHRSHEAD2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,195,63,10
+END
+
+IDD_DIALOG_ISIS_ADU DIALOGEX 0, 0, 482, 303
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS ADU Checks(Test No. 9.01 to 9.08)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,289,282,50,14
+    LTEXT           "1) Turn on ADTS and connect the pitot and static tubes to the ADU and perform the following tests :",IDC_STATIC,28,18,325,8
+    LTEXT           "",IDC_STATIC,0,30,8,8
+    LTEXT           "9.01)Set Airspeed as 189 Knots and 3000 ft altitude on ADTS ,wait for the ADTS to reach the given pressure and enter the AirSpeed value from ISIS-DU FC.Click on Test button to get the value.",IDC_STATIC,43,42,287,25
+    LTEXT           "9.02)Set Altitude as 10000 ft and 30 CAS Knots on ADTS,wait for the ADTS to reach the given pressure and enter the Altitude value from ISIS-DU FC.Click on Test button to get the value.",IDC_STATIC,43,70,286,23
+    LTEXT           "9.03)Set Altitude as 13123 ft and CAS as189 Knots,wait for the ADTS to reach the given pressure and enter the Mach No. from ISIS-DU FC.Click on Test button to get the value.",IDC_STATIC,43,97,289,17
+    LTEXT           "9.04)Set the Vertical speed as 6000 ft/min. Set altitude to 0 Check Vertical speed marking to be observed at 6000 ft/min mark (lower most marking of VSI scale) on ISIS-DU FC.Set the status as Operational/Not Operational.",IDC_STATIC,43,120,284,25
+    EDITTEXT        IDC_EDIT_ISIS_AIRSPEED,353,46,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_ALTITUDE,353,69,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_MACH,353,97,52,14,ES_AUTOHSCROLL
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_VERTICAL_SPEED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,356,124,63,10
+    LTEXT           "192±5 knots",IDC_STATIC,423,49,48,8
+    LTEXT           "9980±30 Ft",IDC_STATIC,424,72,37,8
+    LTEXT           "0.37± 0.012 M",IDC_STATIC,422,98,47,8
+    GROUPBOX        "Specifiactions",IDC_STATIC,412,39,60,72
+    LTEXT           "2) Click on continue button to finish the ISIS Test procedure.",IDC_STATIC,29,270,193,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,8,60,8
+    PUSHBUTTON      "Test",IDC_BUTTON_ARINCRX,170,282,50,14
+    LTEXT           "9.05)Set Airspeed as 189 Knots and 3000 ft altitude on ADTS ,wait for the ADTS to reach the given pressure and enter the AirSpeed value from ISIS-DU RC.Click on Test button to Get the value.",IDC_STATIC,42,163,280,23
+    LTEXT           "9.06)Set Altitude as 10000 ft and 30 CAS Knots on ADTS,wait for the ADTS to reach the given pressure and enter the Altitude value from ISIS-DU RC.Click on Test button to Get the value.",IDC_STATIC,42,191,286,24
+    LTEXT           "9.07)Set Altitude as 13123 ft and CAS as189 Knots,wait for the ADTS to reach the given pressure and enter the Mach No. from ISIS-DU RC.Click on Test button to Get the value.",IDC_STATIC,42,217,289,17
+    LTEXT           "9.08)Set the Vertical speed as 6000 ft/min. Set altitude to 0 Check Vertical speed marking to be observed at 6000 ft/min mark (lower most marking of VSI scale) on ISIS-DU RC.Set the status as Operational/Not Operational.",IDC_STATIC,42,240,284,25
+    EDITTEXT        IDC_EDIT_ISIS_AIRSPEED2,352,168,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_ALTITUDE2,352,191,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISIS_MACH2,352,220,52,14,ES_AUTOHSCROLL
+    CONTROL         "Not Operational",IDC_CHECK_ISIS_VERTICAL_SPEED2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,355,247,63,10
+    LTEXT           "192±5 knots",IDC_STATIC,422,172,48,8
+    LTEXT           "9980±30 Ft",IDC_STATIC,423,196,37,8
+    LTEXT           "0.37± 0.012 M",IDC_STATIC,422,222,46,8
+    GROUPBOX        "Specifiactions",IDC_STATIC,414,164,60,72
+    LTEXT           "- ADU Checks with ISIS-DU FC :",IDC_STATIC,36,30,101,8,WS_BORDER
+    LTEXT           "- ADU Checks with ISIS-DU RC :",IDC_STATIC,36,149,101,8,WS_BORDER
+END
+
+IDD_DIALOG_ADC_VISUAl DIALOGEX 0, 0, 412, 223
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Visual Examination(Test No. 1.01 to 1.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,183,201,50,14
+    LTEXT           " 1.01)Part No. of Air Data Computer",IDC_STATIC,48,45,123,8
+    CONTROL         "Not Ok",IDC_CHECK_ADC_PARTNO,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,368,206,37,10
+    LTEXT           "1.02Inspect for physical damages on the ADC.",IDC_STATIC,50,83,178,8
+    CONTROL         "NO",IDC_CHECK_ADC_DAMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,84,26,10
+    LTEXT           "1.03)Inspect for blocking of pressure input holes (ps,pt).",IDC_STATIC,50,102,186,10
+    CONTROL         "NO",IDC_CHECK_ADC_SCRATCHES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,103,27,10
+    LTEXT           "1.04)Inspect for corrosion on the ADC.",IDC_STATIC,50,123,132,9
+    CONTROL         "NO",IDC_CHECK_ADC_SCREW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,122,25,10
+    LTEXT           "1.05)Inspect for any foreign material and loose parts .",IDC_STATIC,50,146,174,11
+    CONTROL         "NO",IDC_CHECK_ADC_PINS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,142,28,10
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "1) Enter the part number written on the ADC.",IDC_STATIC,20,24,172,9
+    EDITTEXT        IDC_EDIT_ADCPN,183,43,91,14,ES_AUTOHSCROLL
+    LTEXT           "U104.01.0000 ADC 2601 A HTT1",IDC_STATIC,287,45,107,8
+    GROUPBOX        "Specifications",IDC_STATIC,278,36,119,22
+    LTEXT           "2) Inspect the ADC for the following defects. Select the corresponding checkbox only if the defect is present.",IDC_STATIC,22,64,358,9
+    LTEXT           "3) Click Continue button to proceed for the next Test.",IDC_STATIC,24,187,174,9
+    LTEXT           "1.06)Inspect for markings on pressure connectors.",IDC_STATIC,50,166,172,9
+    CONTROL         "Yes",IDC_CHECK_ADC_PINS2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,164,28,10
+END
+
+IDD_DIALOG_ADC_Leak DIALOGEX 0, 0, 393, 240
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " ADC Leak tests(Test No. 2.01 to 2.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,173,213,50,14
+    LTEXT           "2) Turn on ADTS ,Click on GND button on ADTS and wait till ADTS achieve the ground state.",IDC_STATIC,25,35,317,9
+    LTEXT           "2.01) Enter Pitot Pressure leak test Value.",IDC_STATIC,46,84,138,9
+    LTEXT           "2.02) Enter Static Pressure leak test value.",IDC_STATIC,45,169,143,9
+    EDITTEXT        IDC_EDIT_ADC_PITLEAK,214,81,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_STLEAK,213,167,40,14,ES_AUTOHSCROLL
+    LTEXT           "< 0.1 Hg",IDC_STATIC,286,86,27,8
+    GROUPBOX        "Specification",IDC_STATIC,277,77,52,21
+    GROUPBOX        "Specification",IDC_STATIC,278,163,52,21
+    LTEXT           "< 0.1 Hg",IDC_STATIC,288,173,27,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "4) Wait for 1 min to perform the leak test and enter the leak value.",IDC_STATIC,25,64,226,8
+    LTEXT           "3) Configure ADTS in leak test mode, Set the value 60 in hg pitot pressure leak test and press Go on ADTS.",IDC_STATIC,25,50,353,9
+    LTEXT           "6) Ensure ADTS in leak test mode.",IDC_STATIC,25,116,173,9
+    LTEXT           "7) Set the value 5.0 hg in pitot pressure leak test and press Go on ADTS.",IDC_STATIC,25,132,249,9
+    LTEXT           "9) Click Continue button to proceed for the next Test.",IDC_STATIC,23,195,174,9
+    LTEXT           "1) Interface the Pt port of ADC with Pt port of ADTS via pneumatic tube.",IDC_STATIC,25,21,244,9
+    LTEXT           "5) Interface the Ps port of ADC with Ps port of ADTS via pneumatic tube.",IDC_STATIC,25,101,244,9
+    LTEXT           "8) Wait for 1 min to perform the leak test and enter the leak value.",IDC_STATIC,25,148,226,8
+END
+
+IDD_DIALOG_ADC_PWR DIALOGEX 0, 0, 344, 110
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Power Consumption Checks(3.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,198,88,50,14
+    LTEXT           "3.01) Current Drawn by ADC  (in mA)",IDC_STATIC,37,45,123,8
+    EDITTEXT        IDC_EDIT_ADC_PWR,164,43,53,14,ES_AUTOHSCROLL
+    LTEXT           "100 mA to 300 mA",IDC_STATIC,240,46,70,8
+    GROUPBOX        "Specification",IDC_STATIC,234,35,85,26
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "1) Click on the Test button to fetch the current consumption of ADC.",IDC_STATIC,23,22,244,10
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,24,66,171,8
+    PUSHBUTTON      "Test",IDC_BUTTON_ADCPWR,103,87,51,14
+END
+
+IDD_DIALOG_GPS_VISUAL DIALOGEX 0, 0, 357, 165
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GPS Visual Examination(1.01 to 1.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,145,136,50,14
+    CONTROL         "NO",IDC_CHECK_GPS_DAMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,217,86,35,10
+    LTEXT           "1.02) Check for any Physical Damage on GPS.",IDC_STATIC,43,88,156,10
+    LTEXT           "1.01) Enter the GTN 625Xi Part Number.",IDC_STATIC,43,44,137,8
+    EDITTEXT        IDC_EDIT_GPS_PtNo,187,41,72,13,ES_AUTOHSCROLL
+    LTEXT           "011-04629-00",IDC_STATIC,272,43,50,8
+    GROUPBOX        "Specification",IDC_STATIC,266,33,60,24
+    LTEXT           "Test Procedure :",IDC_STATIC,19,13,65,8
+    LTEXT           "1.03)Check for any Scratches on GPS",IDC_STATIC,203,148,130,10,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Not Ok",IDC_CHECK_GPS_SCRATCHES,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,235,136,44,10
+    LTEXT           "1.04)Check for any damage of screws on GPS",IDC_STATIC,204,134,142,9,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Not Ok",IDC_CHECK_GPS_SCREW,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,287,136,35,10
+    LTEXT           "1.05)Check if any pins connectos are bend ",IDC_STATIC,203,134,140,14,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Not Ok",IDC_CHECK_GPS_PINS,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,291,136,35,10
+    LTEXT           "1) Enter the part number written on the GPS.",IDC_STATIC,26,24,172,9
+    LTEXT           "2) Inspect the GPS for the following defect. Select the checkbox only if the defect is present.",IDC_STATIC,26,69,301,15
+    LTEXT           "3) Click on continue button to proceed to the next Test.",IDC_STATIC,26,112,193,9
+END
+
+IDD_DIALOG_GPS_PWR DIALOGEX 0, 0, 387, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GPS Power Consumption Checks(2.01 to 2.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,222,105,50,14
+    LTEXT           "2.02) Current Drawn by GPS.",IDC_STATIC,43,65,141,8
+    EDITTEXT        IDC_EDIT_GPS_VOL,198,42,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPS_CUR,198,61,46,14,ES_AUTOHSCROLL
+    LTEXT           "28V DC ± 1V",IDC_STATIC,279,48,44,8
+    LTEXT           "1 A ± 0.7A",IDC_STATIC,282,63,36,8
+    GROUPBOX        "Specifications",IDC_STATIC,274,38,51,38
+    LTEXT           "Test Procedure : ",IDC_STATIC,19,13,73,11
+    LTEXT           "1) Click on the Test button to fetch the Power Consumption of GPS.",IDC_STATIC,23,24,244,10
+    LTEXT           "2.01) Voltage Drawn by GPS .",IDC_STATIC,42,45,123,8
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,25,84,196,8
+    PUSHBUTTON      "Test",IDC_BUTTON_GPS_PWR,128,105,50,14
+END
+
+IDD_DIALOG_GPS_DATAINFO DIALOGEX 0, 0, 387, 178
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GPS Database information(3.01 to 3.05)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,166,154,50,14
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,71,8
+    LTEXT           "3.02) Basemap Information",IDC_STATIC,39,61,90,8
+    LTEXT           "3.03) Obstacle/Hot line Information",IDC_STATIC,39,79,113,8
+    LTEXT           "3.04) Safe Taxi Information",IDC_STATIC,39,99,93,8
+    LTEXT           "3.05) Terrain Information",IDC_STATIC,39,117,85,8
+    LTEXT           "3.01) Navigation",IDC_STATIC,39,42,61,8
+    CONTROL         "Not Available",IDC_CHECK_GPS_NAVI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,42,55,10
+    CONTROL         "Not Available",IDC_CHECK_GPS_BASEMAP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,58,55,10
+    CONTROL         "Not Available",IDC_CHECK_GPS_SAFETAXI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,94,55,10
+    CONTROL         "Not Available",IDC_CHECK_GPS_TERRAIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,114,55,10
+    LTEXT           "1) Turn on the GPS and wait for the database information to show and check for the below parameters :",IDC_STATIC,21,23,344,11
+    CONTROL         "Not Available",IDC_CHECK_GPS_OBSTACLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,75,55,10
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,25,137,196,8
+END
+
+IDD_DIALOG_GPS_SYSINFO DIALOGEX 0, 0, 440, 199
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GPS SYSTEM INFORMATION(Test No. 4.01 to 4.04)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,197,176,50,14
+    LTEXT           "4.01) GPS Serial Number",IDC_STATIC,70,84,88,8
+    LTEXT           "4.02) GPS System ID",IDC_STATIC,70,100,88,8
+    LTEXT           "4.03) GPS Main Software Version",IDC_STATIC,70,117,115,8
+    LTEXT           "4.04) GPS/WAAS Software Version",IDC_STATIC,70,133,120,8
+    LTEXT           "1) In the GPS Homepage click on System > System status > System info.",IDC_STATIC,30,25,233,10
+    LTEXT           "2)To view the System app press the Down Arrow.",IDC_STATIC,30,43,191,8
+    EDITTEXT        IDC_EDIT_GPS_SNO,238,78,52,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPS_SID,238,95,52,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPS_SWVR,238,111,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPS_WAAS,238,127,52,12,ES_AUTOHSCROLL
+    CONTROL         "Not Correct",IDC_CHECK_GPS_SR_NO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,77,51,10
+    CONTROL         "Not Correct",IDC_CHECK_GPS_SYSID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,95,51,10
+    CONTROL         "Not Correct",IDC_CHECK_GPS_SWVR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,113,51,10
+    CONTROL         "Not Correct",IDC_CHECK_GPS_WAAS_SW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,130,51,10
+    LTEXT           "Test Procedure :",IDC_STATIC,21,10,71,8
+    LTEXT           "3) Enter the System Information for reference by tapping System Infobar.",IDC_STATIC,30,59,269,8
+    LTEXT           "4) Click on continue button to complete the GPS test procedure.",IDC_STATIC,32,156,229,8
+END
+
+IDD_DIALOG_SMFD_VISUAL DIALOGEX 0, 0, 437, 210
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD and MFD FC Visual Inspection(Test No. 1.01 to 1.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,193,185,50,14
+    LTEXT           "1.03) Inspect for corrosion,any foreign material on the SMFD, MFD FC.",IDC_STATIC,37,98,231,8
+    CONTROL         "NO",IDC_CHECK_SMFD_DAMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,284,98,38,10
+    CONTROL         "NO",IDC_CHECK_SMFD_PINS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,284,143,26,10
+    LTEXT           "1.04) Inspect for any damage of screws on the SMFD, MFD FC.",IDC_STATIC,37,112,209,8
+    CONTROL         "NO",IDC_CHECK_SMFD_SCREW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,284,114,43,10
+    LTEXT           "1.06)  Inspect for bent pins of connectors of the SMFD,MFD FC.",IDC_STATIC,37,144,223,8
+    GROUPBOX        "Specification",IDC_STATIC,338,26,73,41
+    LTEXT           "1.01) Enter CMA-7200 Smart Display FC Part No. ",IDC_STATIC,34,42,168,8
+    LTEXT           "1.02) Enter CMA-2140 Multifunctional Display FC Part No.",IDC_STATIC,34,58,186,11
+    LTEXT           "100-604078-000",IDC_STATIC,345,39,60,8
+    LTEXT           "100-604077-000",IDC_STATIC,345,53,56,8
+    EDITTEXT        IDC_EDIT_SMFD_FC_PN,239,38,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MFD_FC_PN,239,56,71,12,ES_AUTOHSCROLL
+    LTEXT           "3) Click on continue button to proceed for the next Test.",IDC_STATIC,24,164,179,8
+    LTEXT           "1.05) Inspect for any major scratches on the SMFD,MFD FC.",IDC_STATIC,37,128,210,8
+    CONTROL         "NO",IDC_CHECK_SMFD_SCRATCHES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,284,128,44,10
+    LTEXT           "Test Procedure :",IDC_STATIC,14,9,69,8
+    LTEXT           "1) Enter the part number written on the SMFD and MFD FC.",IDC_STATIC,21,21,208,9
+    LTEXT           "2) Inspect the SMFD and MFD FC for the following defects. Select the corresponding checkbox only if the defect is present.",IDC_STATIC,23,79,405,9
+END
+
+IDD_DIALOG_SMFD_PWR DIALOGEX 0, 0, 393, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC Power Consumption(Test No. 2.01 to 2.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "CONTINUE",IDOK,220,121,50,13
+    LTEXT           "2.02) Current Consumption of MFD FC.",IDC_STATIC,45,67,129,8
+    LTEXT           "2.01) Current Consumption of SMFD FC.",IDC_STATIC,45,48,134,10
+    EDITTEXT        IDC_EDIT_SMFD1_PWR,207,47,53,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MFD1_PWR,207,66,53,12,ES_AUTOHSCROLL
+    LTEXT           "<3.0 A",IDC_STATIC,296,49,31,8
+    LTEXT           "<1.8 A",IDC_STATIC,297,66,29,8
+    GROUPBOX        "Specification",IDC_STATIC,289,39,52,40
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,23,96,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,11,68,8
+    LTEXT           "1) Click on the Test button to get the current consumption of SMFD and MFD FC.",IDC_STATIC,23,23,276,8
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFDFC_PWR,131,120,50,14
+END
+
+IDD_DIALOG_AHRS_VISUAL DIALOGEX 0, 0, 428, 247
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AHRS Visual Examination(Test No 1.01 to 1.07)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,188,226,50,14
+    LTEXT           "1.01) Enter the  Part Number of AHRU.",IDC_STATIC,50,43,130,8
+    LTEXT           "1.02) Enter the Part Number of RMM.",IDC_STATIC,50,63,135,8
+    LTEXT           "1.03) Enter the Part Number of MMS.",IDC_STATIC,50,85,133,8
+    CONTROL         "Not OK",IDC_CHECK_PN_AHRU,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,383,230,38,10
+    CONTROL         "Not OK",IDC_CHECK_PN_RMM,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,383,230,38,10
+    CONTROL         "Not OK",IDC_CHECK_PN_MMS,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,382,230,38,10
+    LTEXT           "420-00332-440",IDC_STATIC,341,44,50,8
+    LTEXT           "420-01867-310",IDC_STATIC,341,62,50,8
+    LTEXT           "420-00339-000",IDC_STATIC,341,83,50,9
+    GROUPBOX        "Specification",IDC_STATIC,334,34,71,60
+    LTEXT           "1.04) Inspect for any Damage on the AHRS.",IDC_STATIC,49,122,166,11
+    CONTROL         "NO",IDC_CHECK_AHRS_DAMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,119,38,10
+    LTEXT           "1.05) Insepct for any Foreign material on the AHRS.",IDC_STATIC,49,142,183,10
+    CONTROL         "NO",IDC_CHECK_AHRS_SCRATCHES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,139,44,10
+    LTEXT           "1.06) Inspect for loose screws on the AHRS.",IDC_STATIC,49,162,160,9
+    CONTROL         "NO",IDC_CHECK_AHRS_SCREW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,162,29,10
+    LTEXT           "1.07)  Inspect for any bend pins on the AHRS.",IDC_STATIC,48,183,179,10
+    CONTROL         "NO",IDC_CHECK_AHRS_PINS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,262,184,44,10
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "1) Enter the part number written on the AHRS.",IDC_STATIC,20,24,172,9
+    EDITTEXT        IDC_EDIT_AHRS_AHRUPNO,242,41,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AHRS_RMMPNO,242,58,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AHRS_MMSPNO,242,77,61,14,ES_AUTOHSCROLL
+    LTEXT           "2) Inspect the AHRS for the following defects. Select the corresponding checkbox only if the defect is present.",IDC_STATIC,22,99,358,9
+    LTEXT           "3) Click on continue button to proceed to the next Test.",IDC_STATIC,22,205,232,9
+END
+
+IDD_DIALOG_AHRS_PWR DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AHRS Power Consumption(Test No 2.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,195,102,50,14
+    LTEXT           "2.01) Current Drawn by AHRS :",IDC_STATIC,46,48,134,9
+    EDITTEXT        IDC_EDIT_AHRS_PWR,177,45,49,14,ES_AUTOHSCROLL
+    LTEXT           "< 1.1 A",IDC_STATIC,259,50,30,8
+    GROUPBOX        "Specification",IDC_STATIC,250,39,48,24
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "1) Click on the Test button to fetch the current consumption of AHRS.",IDC_STATIC,23,22,235,10
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,25,73,191,8
+    PUSHBUTTON      "Test",IDC_BUTTON_AHRS_PWR,100,102,50,14
+END
+
+IDD_DIALOG_VORTAC_VISUAL DIALOGEX 0, 0, 427, 199
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VOR/ILS TACAN Visual Examination(Test No 1.01 to 1.04)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,185,175,50,14
+    LTEXT           "1.01)Part Number of VOR/ILS Reciever .",IDC_STATIC,53,47,135,8
+    LTEXT           "1.02)Part Number of TACAN.",IDC_STATIC,53,68,101,8
+    LTEXT           "1.03)Part Number of VOR/ILS -TACAN Controller.",IDC_STATIC,53,86,162,11
+    EDITTEXT        IDC_EDIT_VOR_RECIEVER,219,44,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TACAN,219,64,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CDU,219,86,70,14,ES_AUTOHSCROLL
+    LTEXT           "ANS2810A HTT1",IDC_STATIC,305,49,59,8
+    GROUPBOX        "Specification",IDC_STATIC,300,39,69,67
+    LTEXT           "2920A HTT1",IDC_STATIC,306,69,46,8
+    LTEXT           "CDU-2810A HTT1",IDC_STATIC,304,89,60,8
+    LTEXT           "1.04)Inspect for any Damage on the Syetem.",IDC_STATIC,54,133,153,9
+    CONTROL         "NO",IDC_CHECK_VORTAC_DAMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,133,37,10
+    LTEXT           "1) Check for the part number of the VOR/ILS and TACAN system and enter the value :",IDC_STATIC,29,25,297,8
+    LTEXT           "1.05)Check for any Scratches",IDC_STATIC,305,149,113,10,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Not Ok",IDC_CHECK_VORTAC_SCRATCHES,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,354,151,44,10
+    LTEXT           "1.06)Check for any damage of screws",IDC_STATIC,298,157,128,9,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Not Ok",IDC_CHECK_VORTAC_SCREW,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,363,160,43,10
+    LTEXT           "1.07)Check if any connectors pins are bend",IDC_STATIC,294,159,133,16,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Not Ok",IDC_CHECK_VORTAC_PINS,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,351,163,44,10
+    LTEXT           "Test Procedure :",IDC_STATIC,19,11,55,8
+    LTEXT           "3) Click Continue button to proceed for the next Test.",IDC_STATIC,26,156,174,9
+    LTEXT           "2) Inspect the VOR/ILS TACAN  for the following defect. Select the checkbox only if the defect is present.",IDC_STATIC,30,109,303,17
+END
+
+IDD_DIALOG_VORTAC_PWR DIALOGEX 0, 0, 390, 125
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VOR/ILS TACAN Power Consumption(2.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,220,95,50,14
+    LTEXT           "2.01)Current Drawn by VOR/ILS TACAN System.",IDC_STATIC,49,47,160,8
+    EDITTEXT        IDC_EDIT_VORTAC_PWR,238,44,52,14,ES_AUTOHSCROLL
+    LTEXT           "< 3 A",IDC_STATIC,320,48,33,8
+    GROUPBOX        "Specification",IDC_STATIC,311,36,52,27
+    LTEXT           "Test Procedure :",IDC_STATIC,19,11,55,8
+    LTEXT           "1) Click on the Test button to fetch the Power Consumption of VOR/ILS TACAN System.",IDC_STATIC,30,24,302,10
+    LTEXT           "2) Click on continue button to complete the VOR/ILS TACAN test procedure.",IDC_STATIC,31,73,253,8
+    PUSHBUTTON      "Test",IDC_BUTTON_VORSYS_PWR,124,95,50,14
+END
+
+IDD_DIALOG_SMFD_SW DIALOGEX 0, 0, 431, 148
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Software Configuration Checks of SMFD & MFD FC(Test No. 3.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,194,120,46,14
+    LTEXT           "3.01) Operational Software version of SMFD FC.",IDC_STATIC,51,70,156,9
+    EDITTEXT        IDC_EDIT_SMFD_SW,226,67,56,14,ES_AUTOHSCROLL
+    LTEXT           "1) Press the 4th and 5th bezel key from the top on left and right side SMFD FC simultaneously to enter maintenance page .(LSK4,LSK5 ,RSK4,RSK5 to be pressed simultaneously ).",IDC_STATIC,28,23,391,16
+    LTEXT           "3) Click on continue button to proceed for the next Test.",IDC_STATIC,28,97,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,9,68,8
+    LTEXT           "2) Enter the observed software version below :-",IDC_STATIC,29,50,138,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,9,68,8
+    LTEXT           "E73D5822",IDC_STATIC,326,71,36,8
+    GROUPBOX        "Specification",IDC_STATIC,319,59,51,26
+END
+
+IDD_DIALOG_SMFD_ANALOG DIALOGEX 0, 0, 415, 136
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,256,109,50,14
+    LTEXT           "1) Click on Test button for performing each analog input checks on SMFD FC.",IDC_STATIC,33,29,260,8
+    LTEXT           "4.01)Engine Oil Temperature",IDC_STATIC,66,55,107,8
+    EDITTEXT        IDC_EDIT_OILTEMP,227,52,59,14,ES_AUTOHSCROLL
+    LTEXT           "60±2 C",IDC_STATIC,312,57,26,8
+    GROUPBOX        "Expected",IDC_STATIC,304,44,60,27
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG,130,108,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,34,83,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+END
+
+IDD_DIALOG_SMFD_DISCRETE DIALOGEX 0, 0, 475, 283
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC Discrete Parameters Check(Test No. 6.01 to 6.08)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,208,258,50,14
+    LTEXT           "1) Click on Test button for performing each Discrete input checks on SMFD FC and check for the expected value and color on SMFD FC after each test and mark the status as Ok/Not Ok.",IDC_STATIC,26,30,379,17
+    LTEXT           "6.01)Bus Tie Contactor de energized input",IDC_STATIC,48,65,109,16
+    LTEXT           "BTC FAIL",IDC_STATIC,242,67,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_BUSTIE,171,60,39,14
+    LTEXT           "RED",IDC_STATIC,327,68,17,8
+    LTEXT           "6.02)Canopy",IDC_STATIC,49,87,51,12
+    LTEXT           "Canopy Unlock",IDC_STATIC,242,82,33,17
+    PUSHBUTTON      "TEST",IDC_BUTTON_CANOPY,171,81,39,14
+    LTEXT           "RED",IDC_STATIC,327,87,16,8
+    LTEXT           "6.03)ECS OFF",IDC_STATIC,49,106,66,8
+    LTEXT           "ECS OFF",IDC_STATIC,242,107,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_ECSOFF,171,100,39,14
+    LTEXT           "Yellow",IDC_STATIC,326,107,21,8
+    LTEXT           "6.04)ECS Over Pressure",IDC_STATIC,49,126,90,10
+    LTEXT           "ECS OV PR",IDC_STATIC,239,129,41,9
+    PUSHBUTTON      "TEST",IDC_BUTTON_ECSOVPR,171,121,39,14
+    LTEXT           "Yellow",IDC_STATIC,327,130,22,8
+    LTEXT           "6.05)AOA Mute ",IDC_STATIC,49,147,61,8
+    LTEXT           "AOA Muted",IDC_STATIC,240,149,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_AOAMUTE,171,142,39,14
+    LTEXT           "White",IDC_STATIC,327,151,20,8
+    LTEXT           "6.06)Alarm Mute",IDC_STATIC,50,167,62,11
+    LTEXT           "Alarm Muted",IDC_STATIC,239,172,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_ALARM_MUTE,171,165,39,14
+    LTEXT           "White",IDC_STATIC,327,174,21,8
+    LTEXT           "6.07)Demist",IDC_STATIC,50,191,57,10
+    LTEXT           "Demist ON",IDC_STATIC,241,194,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_DEMIST,171,187,39,14
+    LTEXT           "Green",IDC_STATIC,327,194,21,8
+    LTEXT           "6.08)Start ON",IDC_STATIC,50,212,53,10
+    LTEXT           "Engine ON",IDC_STATIC,242,217,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_STARTON,171,209,39,14
+    LTEXT           "Green",IDC_STATIC,327,215,21,8
+    GROUPBOX        "Color on SMFD",IDC_STATIC,315,57,55,174
+    GROUPBOX        "Expected",IDC_STATIC,235,57,48,174
+    CONTROL         "Not Ok",IDC_CHECK_BUSTIE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,66,37,10
+    CONTROL         "Not Ok",IDC_CHECK_CANOPY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,84,37,10
+    CONTROL         "Not Ok",IDC_CHECK_ECSOFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,105,37,10
+    CONTROL         "Not Ok",IDC_CHECK_ECSOVPR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,127,37,10
+    CONTROL         "Not Ok",IDC_CHECK_AOAMUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,147,37,10
+    CONTROL         "Not Ok",IDC_CHECK_ALARMMUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,169,37,10
+    CONTROL         "Not Ok",IDC_CHECK_DEMIST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,193,37,10
+    CONTROL         "Not Ok",IDC_CHECK_STARTON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,404,214,37,10
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,29,241,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,16,14,81,10
+END
+
+IDD_DIALOG_SMFD_REVI_PAGE DIALOGEX 0, 0, 448, 186
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC Reversionary Page Check(Test No. 7.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,192,158,50,14
+    LTEXT           "1) To check the Reversionary Page on SMFD FC Press Bottom 5th key and check on Smfd for Reversionary page and mark the Status.",IDC_STATIC,19,22,386,18
+    CONTROL         "Not Displayed",IDC_CHECK_SMFD_REV_PAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,66,73,10
+    LTEXT           "Test procedure : ",IDC_STATIC,12,13,70,8
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,27,112,179,8
+    LTEXT           "7.01) Reversionary page Status ",IDC_STATIC,55,67,106,8
+END
+
+IDD_DIALOG_SMFD_ADC DIALOGEX 0, 0, 415, 204
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC ADC Parameters Check(Test No. 8.01 to 8.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,244,172,50,14
+    LTEXT           "1) Click on the send label button to simulate Arinc label of each test.",IDC_STATIC,27,25,225,11
+    LTEXT           "8.01) Pressure Altitude (203) ",IDC_STATIC,64,45,95,8
+    LTEXT           "8.02) Mach Number (205)",IDC_STATIC,64,62,88,8
+    LTEXT           "8.03) Computed Air Speed (206)",IDC_STATIC,64,80,105,8
+    LTEXT           "8.04) Altitude Rate (212)",IDC_STATIC,64,96,85,8
+    LTEXT           "8.05) Static Air Temperature (213)",IDC_STATIC,64,112,110,8
+    LTEXT           "8.06) True Air Speed (210)",IDC_STATIC,64,129,89,8
+    EDITTEXT        IDC_EDIT_SMFDAR203,223,44,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR205,223,60,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR206,223,76,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR212,223,92,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR213,223,108,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR210,223,124,58,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send label",IDC_BUTTON_SENDARINC_LABEL,132,172,50,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,31,153,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,16,13,72,9
+    LTEXT           "5000 ft",IDC_STATIC,307,47,35,8
+    LTEXT           "0.5 M",IDC_STATIC,307,61,30,8
+    LTEXT           "100 knots",IDC_STATIC,307,78,34,8
+    LTEXT           "-1500 ft/min",IDC_STATIC,305,95,40,8
+    LTEXT           "25 °C",IDC_STATIC,309,112,25,8
+    LTEXT           "100 knots",IDC_STATIC,309,126,32,8
+    GROUPBOX        "Specifications",IDC_STATIC,300,38,46,103
+END
+
+IDD_DIALOG_SMFD_AHRS DIALOGEX 0, 0, 383, 208
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC AHRS Parameters Checks(Test No. 9.01 to 9.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,241,185,50,14
+    LTEXT           "9.01)Magnetic Heading (320) ",IDC_STATIC,57,49,99,8
+    LTEXT           "9.02)Pitch Angle (324)",IDC_STATIC,57,66,77,8
+    LTEXT           "9.03)Roll Angle (325)",IDC_STATIC,57,84,76,8
+    LTEXT           "9.05)Body Yaw Rate (330)",IDC_STATIC,57,118,92,8
+    LTEXT           "9.06)Lateral Acceleration (332)",IDC_STATIC,57,133,102,8
+    LTEXT           "9.04)Normal Acceleration (333)",IDC_STATIC,57,100,102,8
+    EDITTEXT        IDC_EDIT_SMFDAR320,208,49,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR324,208,65,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR325,208,81,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR333,208,98,40,14,ES_AUTOHSCROLL
+    LTEXT           "60 deg°",IDC_STATIC,299,52,34,8
+    LTEXT           "20 deg°",IDC_STATIC,299,66,33,8
+    LTEXT           "10 deg°",IDC_STATIC,299,82,26,8
+    LTEXT           "Rectangle within LH box",IDC_STATIC,296,113,41,15
+    LTEXT           "Ball at right extreme",IDC_STATIC,296,132,38,16
+    LTEXT           "6 g",IDC_STATIC,300,97,19,8
+    GROUPBOX        "Specifications",IDC_STATIC,292,42,46,111
+    CONTROL         "Not Ok",IDC_CHECK_SMFD_AHRS330,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,209,117,37,10
+    CONTROL         "Not Ok",IDC_CHECK_SMFD_AHRS332,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,209,131,37,10
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SEND_ARINCLABEL,120,185,50,14
+    LTEXT           "1) Click on the send label button to simulate Arinc label of each test.",IDC_STATIC,26,27,230,8
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,29,161,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,12,67,9
+END
+
+IDD_DIALOG_SMFD_VORILS DIALOGEX 0, 0, 394, 254
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC VOR/ILS Parameters Checks(Test No. 10.01 to 10.05)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,221,230,50,14
+    LTEXT           "1) Click on the send label button to simulate Arinc labels.",IDC_STATIC,31,30,237,11
+    LTEXT           "10.01)VOR Frequency Label  (034) ",IDC_STATIC,49,68,121,8
+    LTEXT           "10.03)ILS Frequency Label (034)",IDC_STATIC,49,146,106,8
+    LTEXT           "10.04)Localizer Deviation(173)",IDC_STATIC,49,164,106,8
+    LTEXT           "10.05)Glideslope Deviation (174)",IDC_STATIC,49,182,111,8
+    LTEXT           "10.02)VOR Bearing (222)",IDC_STATIC,49,108,84,8
+    EDITTEXT        IDC_EDIT_LOCDEV173,195,160,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VORBRG,200,106,52,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SENDARINCLABEL,119,229,50,14
+    LTEXT           "Displayed",IDC_STATIC,331,66,33,8
+    LTEXT           "0.077 DDM",IDC_STATIC,331,162,40,8
+    LTEXT           "90 deg°",IDC_STATIC,334,108,34,11
+    LTEXT           "-0.087 DDM",IDC_STATIC,331,183,40,8
+    GROUPBOX        "Specifications",IDC_STATIC,322,37,58,180
+    CONTROL         "Not Displayed",IDC_CHECK_VORFREQ,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,204,67,55,10
+    CONTROL         "Not Displayed",IDC_CHECK_ILS_FREQ,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,197,144,56,10
+    LTEXT           "5) Click on continue button to proceed for the next Test.",IDC_STATIC,29,205,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,16,14,62,9
+    LTEXT           "2) For Test No. 10.01 check for the VOR sign on the SMFD FC.",IDC_STATIC,31,48,213,11
+    LTEXT           "4) For Test No. 10.03 check for the ILS sign on the SMFD .",IDC_STATIC,32,129,205,11
+    EDITTEXT        IDC_EDIT_GLSDEV174,196,179,52,14,ES_AUTOHSCROLL
+    LTEXT           "3) For Test No. 10.02 Enter the Bearing value below the VOR sign on the SMFD .",IDC_STATIC,32,85,261,11
+    LTEXT           "Displayed",IDC_STATIC,332,144,33,8
+END
+
+IDD_DIALOG_SMFD_TACAN DIALOGEX 0, 0, 381, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC TACAN Parameters Checks(Test No. 11.01 to 11.03)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,206,172,50,14
+    LTEXT           "11.01)TACAN control word (145) ",IDC_STATIC,50,67,113,8
+    LTEXT           "11.02)TACAN Distance (201)",IDC_STATIC,50,113,100,8
+    LTEXT           "11.03)TACAN Bearing (222)",IDC_STATIC,50,134,97,8
+    EDITTEXT        IDC_EDIT_TAC201,195,111,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAC222,195,131,57,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SENDARINCLABEL,105,172,50,14
+    LTEXT           "300 Nm",IDC_STATIC,330,112,31,8
+    LTEXT           "90 deg°",IDC_STATIC,330,133,30,8
+    GROUPBOX        "Specification",IDC_STATIC,321,45,48,112
+    LTEXT           "1) Click on the send label button to simulate Arinc labels for each test.",IDC_STATIC,24,27,237,9
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,27,153,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,13,79,11
+    LTEXT           "2) For Test No. 11.01 check for the TAC sign on the SMFD FC.",IDC_STATIC,25,45,198,11
+    CONTROL         "Not Displayed",IDC_CHECK_TACWORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,197,66,55,10
+    LTEXT           "Displayed",IDC_STATIC,328,66,33,8
+    LTEXT           "3) For Test No. 11.02 to 11.03 Enter the TACAN Distance and  Bearing value below the TAC sign on the SMFD FC.",IDC_STATIC,30,85,285,19
+END
+
+IDD_DIALOG_SMFD_FUEl DIALOGEX 0, 0, 361, 147
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC Fuel Flow Parameter Checks(Test No. 5.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,212,115,50,14
+    LTEXT           "1) Click on test button to get the Fuel Flow value from SMFD FC.",IDC_STATIC,30,29,219,12
+    EDITTEXT        IDC_EDIT1,262,89,54,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_FUEL_LABEL,110,114,50,14
+    LTEXT           "5.01) Value of Fuel Flow",IDC_STATIC,63,57,98,9
+    EDITTEXT        IDC_EDIT2,182,54,57,14,ES_AUTOHSCROLL
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,90,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,13,12,71,8
+    LTEXT           "300",IDC_STATIC,295,57,32,8
+    GROUPBOX        "Specification",IDC_STATIC,286,47,50,21
+END
+
+IDD_DIALOG_SMFD_ANALOG2 DIALOGEX 0, 0, 389, 125
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,256,97,50,14
+    LTEXT           "1) Click on Test button for performing each analog input checks on SMFD FC.",IDC_STATIC,29,27,253,8
+    LTEXT           "4.12) Hydraulics Pressure Main",IDC_STATIC,62,49,114,8
+    EDITTEXT        IDC_EDIT_HYDPRESMAIN,222,48,59,14,ES_AUTOHSCROLL
+    LTEXT           "2930±20 psi",IDC_STATIC,308,51,41,8
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG,122,97,47,14
+    GROUPBOX        "Expected",IDC_STATIC,303,41,48,24
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,33,78,179,8
+    LTEXT           "Test Procedure  : ",IDC_STATIC,16,12,64,8
+END
+
+IDD_DIALOG_SMFD_GPS DIALOGEX 0, 0, 367, 171
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC GPS Parameters Checks(Test No. 12.01 to 12.04)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,214,145,50,14
+    LTEXT           "1) Click on the send label button to Simulate arinc labels for each test.",IDC_STATIC,24,30,242,9
+    LTEXT           "12.01)GPS Ground Speed (012)",IDC_STATIC,51,52,110,8
+    LTEXT           "12.04)UTC Time(125)",IDC_STATIC,51,104,79,8
+    EDITTEXT        IDC_EDIT_GPSGRSPD,204,51,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPSTRUETRACK,204,68,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPSMAGTRACK,204,85,57,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SENDARINCLABEL,114,146,50,14
+    LTEXT           "1000 KM",IDC_STATIC,284,57,31,8
+    LTEXT           "90 deg°",IDC_STATIC,284,72,36,8
+    LTEXT           "Actual Time",IDC_STATIC,283,108,39,8
+    LTEXT           "90 deg°",IDC_STATIC,283,89,34,8
+    GROUPBOX        "Specifications",IDC_STATIC,277,47,46,73
+    LTEXT           "12.02)GPS True Track(013)",IDC_STATIC,51,67,93,8
+    LTEXT           "12.03)GPS Mag Track(053)",IDC_STATIC,51,85,95,8
+    EDITTEXT        IDC_EDIT_GPSTIME,204,103,57,14,ES_AUTOHSCROLL
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,28,126,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,12,14,78,10
+END
+
+IDD_DIALOG_AHRS_QUALITATIVE DIALOGEX 0, 0, 455, 184
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AHRS Qualitative Checks(Test No. 3.01 to 3.03)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,212,162,50,14
+    LTEXT           "3.02) Rotate the AHRS Nose Left and Nose Right. Verify that the Pitch angle Value is changing in the edit box given and mark the status as Operation/Not Operational.",IDC_STATIC,42,80,268,16
+    CONTROL         "Not Operational",IDC_CHECK_AHRS_PITCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,325,47,70,10
+    CONTROL         "Not Operational",IDC_CHECK_AHRS_ROLL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,326,80,61,10
+    CONTROL         "Not Operational",IDC_CHECK_AHRS_HEADING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,326,114,61,10
+    LTEXT           "3.01) Rotate the AHRS Nose Left and Nose Right. Verify that the Roll angle Value is changing in the edit box given and mark the status as Operation/Not Operational.",IDC_STATIC,43,46,267,16
+    LTEXT           "3.03) Rotate the AHRS Nose Left and Nose Right. Verify that the Heading Value is changing in the edit box given and mark the status as Operation/Not Operational.",IDC_STATIC,42,115,263,16
+    LTEXT           "Test procedure ",IDC_STATIC,16,10,55,8
+    LTEXT           "1) Move the AHRS from the interface box from IAT rack 2 and perform the following tests :",IDC_STATIC,24,24,306,8
+    LTEXT           "2) Click on continue button to complete the AHRS test procedure.",IDC_STATIC,30,143,223,8
+    EDITTEXT        IDC_EDIT_AHRS_PITCH,401,44,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AHRS_ROLL,401,78,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AHRS_HEAD,401,112,40,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SMFD_VISUAL_RC DIALOGEX 0, 0, 437, 210
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD and MFD RC Visual Inspection(Test No. 1.01 to 1.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,192,184,50,14
+    LTEXT           "1.03) Check for any Damages on the SMFD, MFD RC",IDC_STATIC,46,96,191,15
+    CONTROL         "NO",IDC_CHECK_SMFD_RC_DAMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,253,95,32,10
+    CONTROL         "NO",IDC_CHECK_SMFD_RC_PINS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,253,141,29,10
+    LTEXT           "1.04) Check for any damage of screws on the SMFD, MFD RC",IDC_STATIC,46,113,191,8
+    CONTROL         "NO",IDC_CHECK_SMFD_RC_SCREW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,253,111,36,10
+    LTEXT           "1.06) Check if any pins connectos are bend on the SMFD,MFD RC",IDC_STATIC,46,141,198,8
+    GROUPBOX        "Specification",IDC_STATIC,343,32,70,42
+    LTEXT           "1.01) Enter CMA-7200 Smart Display RC Part No. ",IDC_STATIC,47,43,157,8
+    LTEXT           "1.02) Enter CMA-2140 Multifunctional Display RC Part No.",IDC_STATIC,47,57,197,12
+    LTEXT           "100-604078-000",IDC_STATIC,347,46,62,8
+    LTEXT           "100-604077-000",IDC_STATIC,347,60,59,8
+    EDITTEXT        IDC_EDIT_SMFD_RC_PN,252,39,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MFD_RC_PN,252,54,71,12,ES_AUTOHSCROLL
+    LTEXT           "1.05) Check if any scratches on the SMFD,MFD RC",IDC_STATIC,46,127,198,8
+    CONTROL         "NO",IDC_CHECK_SMFD_RC_SCRATCHES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,253,125,30,10
+    LTEXT           "Test Procedure :",IDC_STATIC,14,11,60,8
+    LTEXT           "1) Enter the part number written on the SMFD and MFD RC.",IDC_STATIC,21,23,208,9
+    LTEXT           "2) Inspect the SMFD and MFD RC for the following defects. Select the corresponding checkbox only if the defect is present.",IDC_STATIC,24,79,405,9
+    LTEXT           "3) Click on continue button to proceed for the next Test.",IDC_STATIC,28,163,179,8
+END
+
+IDD_DIALOG_SMFD_ADC_RC DIALOGEX 0, 0, 416, 205
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC ADC Parameters Check(Test No. 8.01 to 8.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,228,181,50,14
+    EDITTEXT        IDC_EDIT_SMFDAR203,246,51,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR205,246,67,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR206,246,83,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR212,246,99,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR213,246,115,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR210,246,132,57,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send Label",IDC_BUTTON_RCARINC,121,181,50,14
+    LTEXT           "Test Procedure :",IDC_STATIC,16,12,72,9
+    LTEXT           "1) Click on the send label button to simulate Arinc label of each test.",IDC_STATIC,26,26,225,11
+    LTEXT           "5000 ft",IDC_STATIC,330,53,35,8
+    LTEXT           "0.5 M",IDC_STATIC,330,67,30,8
+    LTEXT           "100 knots",IDC_STATIC,330,84,34,8
+    LTEXT           "-1500 ft/min",IDC_STATIC,328,101,40,8
+    LTEXT           "25 °C",IDC_STATIC,332,118,25,8
+    LTEXT           "100 knots",IDC_STATIC,332,132,32,8
+    GROUPBOX        "Specifications",IDC_STATIC,323,44,46,103
+    LTEXT           "8.01) Pressure Altitude (203) ",IDC_STATIC,64,51,95,8
+    LTEXT           "8.02) Mach Number (205)",IDC_STATIC,64,68,88,8
+    LTEXT           "8.03) Computed Air Speed (206)",IDC_STATIC,64,86,105,8
+    LTEXT           "8.04) Altitude Rate (212)",IDC_STATIC,64,102,85,8
+    LTEXT           "8.05) Static Air Temperature (213)",IDC_STATIC,64,118,110,8
+    LTEXT           "8.06) True Air Speed (210)",IDC_STATIC,64,135,89,8
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,155,179,8
+END
+
+IDD_DIALOG_SMFD_AHRS_RC DIALOGEX 0, 0, 405, 208
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD RC AHRS Parameters Checks(Test No. 9.01 to 9.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,225,179,50,14
+    LTEXT           "9.01)Magnetic Heading (320) ",IDC_STATIC,71,48,99,8
+    LTEXT           "9.02)Pitch Angle (324)",IDC_STATIC,71,65,77,8
+    LTEXT           "9.03)Roll Angle (325)",IDC_STATIC,71,83,76,8
+    LTEXT           "9.05)Body Yaw Rate (330)",IDC_STATIC,71,117,92,8
+    LTEXT           "9.06)Lateral Acceleration (332)",IDC_STATIC,71,132,102,8
+    LTEXT           "9.04)Normal Acceleration (333)",IDC_STATIC,71,99,102,8
+    EDITTEXT        IDC_EDIT_SMFDAR320RC,225,47,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR324RC,225,63,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR325RC,225,79,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFDAR333RC,225,96,57,14,ES_AUTOHSCROLL
+    CONTROL         "Not Ok",IDC_CHECK_SMFD_AHRS330RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,226,116,37,10
+    CONTROL         "Not Ok",IDC_CHECK_SMFD_AHRS332RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,226,131,37,10
+    PUSHBUTTON      "Send Label",IDC_BUTTON_AHRS_RC,133,179,50,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,35,155,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,12,67,9
+    LTEXT           "1) Click on the send label button to simulate Arinc label of each test.",IDC_STATIC,35,27,230,8
+    LTEXT           "60 deg°",IDC_STATIC,313,51,34,8
+    LTEXT           "20 deg°",IDC_STATIC,313,65,33,8
+    LTEXT           "10 deg°",IDC_STATIC,313,81,26,8
+    LTEXT           "Rectangle within LH box",IDC_STATIC,310,112,41,15
+    LTEXT           "Ball at right extreme",IDC_STATIC,310,131,38,16
+    LTEXT           "6 g",IDC_STATIC,314,96,19,8
+    GROUPBOX        "Specifications",IDC_STATIC,306,41,46,111
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC DIALOGEX 0, 0, 415, 302
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD Analog Checks(4.01 to 4.11)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,243,279,50,14
+    LTEXT           "4.01)Engine Oil Temperature",IDC_STATIC,57,46,101,8
+    EDITTEXT        IDC_EDIT_OILTEMP,221,45,57,14,ES_AUTOHSCROLL
+    LTEXT           "60±2 C",IDC_STATIC,309,48,26,8
+    LTEXT           "4.02)Engine Oil Pressure",IDC_STATIC,57,64,91,8
+    EDITTEXT        IDC_EDIT_OILPRES,221,63,57,14,ES_AUTOHSCROLL
+    LTEXT           "40±3 psi",IDC_STATIC,309,64,26,8
+    LTEXT           "4.03)Engine Torque",IDC_STATIC,57,84,76,8
+    EDITTEXT        IDC_EDIT_TORQUE,221,82,57,14,ES_AUTOHSCROLL
+    LTEXT           "1740±4 ft-lb",IDC_STATIC,308,83,35,8
+    LTEXT           "4.04)Rudder Trim Position",IDC_STATIC,57,105,96,8
+    EDITTEXT        IDC_EDIT_RUDER,221,103,57,14,ES_AUTOHSCROLL
+    LTEXT           "Nose at centre white line",IDC_STATIC,308,100,45,16
+    LTEXT           "4.05)Elevator Trim Position",IDC_STATIC,57,123,97,8
+    EDITTEXT        IDC_EDIT_ELEVATOR,221,123,57,14,ES_AUTOHSCROLL
+    LTEXT           "Nose at green line & -1.2 deg",IDC_STATIC,309,121,52,16
+    LTEXT           "4.06)Aileron Trim Position",IDC_STATIC,58,144,90,8
+    EDITTEXT        IDC_EDIT_AILERON,221,143,57,14,ES_AUTOHSCROLL
+    LTEXT           "Wing at green line",IDC_STATIC,308,141,45,16
+    LTEXT           "4.07)Flap Position at 3V",IDC_STATIC,58,162,83,8
+    EDITTEXT        IDC_EDIT_FLAT3V,221,162,57,14,ES_AUTOHSCROLL
+    LTEXT           "Flaps 20 in Green\r\n",IDC_STATIC,308,161,45,15
+    LTEXT           "4.08)Flap Position at  4.31 V",IDC_STATIC,58,182,99,8
+    EDITTEXT        IDC_EDIT_FLAP4V,221,182,57,14,ES_AUTOHSCROLL
+    LTEXT           "Flaps 30 in Yellow",IDC_STATIC,308,181,45,15
+    EDITTEXT        IDC_EDIT_GENERAL_V,221,201,57,14,ES_AUTOHSCROLL
+    LTEXT           "28±1 V",IDC_STATIC,308,204,29,10
+    LTEXT           "4.10)Battery Voltage",IDC_STATIC,58,220,75,8
+    EDITTEXT        IDC_EDIT_BATTERY_VOLT,221,220,57,14,ES_AUTOHSCROLL
+    LTEXT           "28±1 V",IDC_STATIC,308,220,45,8
+    LTEXT           "4.11)Current Load",IDC_STATIC,58,239,73,8
+    EDITTEXT        IDC_EDIT_CURR,221,239,57,14,ES_AUTOHSCROLL
+    LTEXT           "200±10 A",IDC_STATIC,308,239,45,9
+    LTEXT           "4.09)Generator Voltage",IDC_STATIC,58,201,86,8
+    GROUPBOX        "Expected",IDC_STATIC,304,39,60,216
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG,151,280,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,30,261,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "1) Click on Test button for performing each analog input checks on SMFD RC.",IDC_STATIC,33,27,260,8
+END
+
+IDD_DIALOG_SMFD_ANALOG1_RC DIALOGEX 0, 0, 428, 254
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD Analog Checks(4.12 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,248,227,50,14
+    LTEXT           "4.12)Hydraulics Pressure Main",IDC_STATIC,49,50,114,8
+    EDITTEXT        IDC_EDIT_HYDPRESMAIN,265,50,40,14,ES_AUTOHSCROLL
+    LTEXT           "2930±20 psi",IDC_STATIC,340,52,41,8
+    LTEXT           "4.13)Hydraulics Pressure Emergency",IDC_STATIC,49,67,129,8
+    EDITTEXT        IDC_EDIT_HYDPRESEMER,265,66,40,14,ES_AUTOHSCROLL
+    LTEXT           "3330± 20 psi",IDC_STATIC,340,69,43,8
+    LTEXT           "4.14)Emergency Brake (Accumulator Pressure)",IDC_STATIC,49,83,162,16
+    EDITTEXT        IDC_EDIT_ACCUMPRES,265,83,40,14,ES_AUTOHSCROLL
+    LTEXT           "1300± 15 psi",IDC_STATIC,340,87,43,8
+    LTEXT           "4.15)LH Brake Pressure",IDC_STATIC,49,101,91,8
+    EDITTEXT        IDC_EDIT_LHBRAKE,265,100,40,14,ES_AUTOHSCROLL
+    LTEXT           "1200± 15 psi",IDC_STATIC,340,104,42,8
+    LTEXT           "4.16)RH Brake Pressure",IDC_STATIC,49,119,92,8
+    EDITTEXT        IDC_EDIT_RHBRAKE,265,117,40,14,ES_AUTOHSCROLL
+    LTEXT           "1200± 15 psi",IDC_STATIC,340,119,42,8
+    LTEXT           "4.17)Engine Speed",IDC_STATIC,50,136,84,8
+    EDITTEXT        IDC_EDIT_ENGSPD,265,135,40,14,ES_AUTOHSCROLL
+    LTEXT           "79±2 % rpm",IDC_STATIC,340,138,41,8
+    LTEXT           "4.18)Fuel Tank LH",IDC_STATIC,51,156,72,8
+    EDITTEXT        IDC_EDIT_LHFUEL,265,155,40,14,ES_AUTOHSCROLL
+    LTEXT           "168±5 lb",IDC_STATIC,340,157,41,8
+    LTEXT           "4.19)Fuel Tank RH",IDC_STATIC,51,174,74,8
+    EDITTEXT        IDC_EDIT_RHFUEL,265,173,40,14,ES_AUTOHSCROLL
+    LTEXT           "161±5 lb",IDC_STATIC,340,175,41,8
+    LTEXT           "4.20)Collector Tank",IDC_STATIC,51,193,75,8
+    EDITTEXT        IDC_EDIT_COLLECTORANK,265,191,40,14,ES_AUTOHSCROLL
+    LTEXT           "183±5 lb",IDC_STATIC,340,194,41,8
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RC,147,227,47,14
+    GROUPBOX        "Expected",IDC_STATIC,336,42,48,166
+    LTEXT           "3) Click on continue button to proceed for the next Test.",IDC_STATIC,26,212,179,8
+    LTEXT           "Test Procedure  : ",IDC_STATIC,16,12,64,8
+    LTEXT           "1) Click on Test button for performing each analog input checks on SMFD RC.",IDC_STATIC,29,27,253,8
+END
+
+IDD_DIALOG_SMFD_DISCRETE_RC DIALOGEX 0, 0, 465, 288
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD RC Discrete Parameters Check(Test No. 6.01 to 6.08)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,212,264,50,14
+    LTEXT           "6.01)Bus Tie Contactor de energized input",IDC_STATIC,50,64,95,16
+    LTEXT           "BTC FAIL",IDC_STATIC,257,66,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_BUSTIE,184,59,39,14
+    LTEXT           "RED",IDC_STATIC,329,67,17,8
+    LTEXT           "6.02)Canopy",IDC_STATIC,51,86,50,11
+    LTEXT           "Canopy Unlock",IDC_STATIC,257,81,33,17
+    PUSHBUTTON      "TEST",IDC_BUTTON_CANOPY,184,80,39,14
+    LTEXT           "RED",IDC_STATIC,329,86,16,8
+    LTEXT           "6.03)ECS OFF",IDC_STATIC,51,105,60,11
+    LTEXT           "ECS OFF",IDC_STATIC,257,106,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_ECSOFF,184,99,39,14
+    LTEXT           "Yellow",IDC_STATIC,328,106,21,8
+    LTEXT           "6.04)ECS Over Pressure",IDC_STATIC,51,125,69,15
+    LTEXT           "ECS OV PR",IDC_STATIC,255,128,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_ECSOVPR,184,120,39,14
+    LTEXT           "Yellow",IDC_STATIC,329,129,22,8
+    LTEXT           "6.05)AOA Mute ",IDC_STATIC,51,148,61,9
+    LTEXT           "AOA Muted",IDC_STATIC,257,148,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_AOAMUTE,184,141,39,14
+    LTEXT           "White",IDC_STATIC,329,149,20,8
+    LTEXT           "6.06)Alarm Mute",IDC_STATIC,52,168,62,11
+    LTEXT           "Alarm Muted",IDC_STATIC,254,171,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_ALARM_MUTE,184,164,39,14
+    LTEXT           "White",IDC_STATIC,329,173,21,8
+    LTEXT           "6.07)Demist",IDC_STATIC,52,190,50,11
+    LTEXT           "Demist ON",IDC_STATIC,256,193,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_DEMIST,184,187,39,14
+    LTEXT           "Green",IDC_STATIC,329,193,21,8
+    LTEXT           "6.08)Start ON",IDC_STATIC,52,211,53,10
+    LTEXT           "Engine ON",IDC_STATIC,257,216,41,8
+    PUSHBUTTON      "TEST",IDC_BUTTON_STARTON,184,210,39,14
+    LTEXT           "Green",IDC_STATIC,329,214,21,8
+    GROUPBOX        "Color on SMFD",IDC_STATIC,317,56,55,174
+    GROUPBOX        "Expected",IDC_STATIC,250,56,48,174
+    CONTROL         "Not Ok",IDC_CHECK_BUSTIE_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,61,37,10
+    CONTROL         "Not Ok",IDC_CHECK_CANOPY_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,81,37,10
+    CONTROL         "Not Ok",IDC_CHECK_ECSOFF_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,101,37,10
+    CONTROL         "Not Ok",IDC_CHECK_ECSOVPR_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,122,37,10
+    CONTROL         "Not Ok",IDC_CHECK_AOAMUTE_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,144,37,10
+    CONTROL         "Not Ok",IDC_CHECK_ALARMMUTE_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,167,37,10
+    CONTROL         "Not Ok",IDC_CHECK_DEMIST_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,191,37,10
+    CONTROL         "Not Ok",IDC_CHECK_STARTON_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,398,214,37,10
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,28,241,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,16,14,81,10
+    LTEXT           "1) Click on Test button for performing each Discrete input checks on SMFD RC and check for the expected value and color on SMFD RC after each test and mark the status as Ok/Not Ok.",IDC_STATIC,26,30,379,17
+END
+
+IDD_DIALOG_SMFD_FUEl_RC DIALOGEX 0, 0, 360, 140
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD RC Fuel Flow Parameter Checks(Test No. 5.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,205,111,50,14
+    EDITTEXT        IDC_EDIT1_RC,291,98,54,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SMFD_FUEL_LABEL_RC,296,98,50,14,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "5.01)Value of Fuel Flow",IDC_STATIC,63,58,85,13
+    EDITTEXT        IDC_EDIT2_RC,195,54,57,14,ES_AUTOHSCROLL
+    LTEXT           "Test Procedure :",IDC_STATIC,13,12,71,8
+    LTEXT           "1) Click on test button to get the Fuel Flow value from SMFD RC.",IDC_STATIC,30,29,219,12
+    LTEXT           "300",IDC_STATIC,294,60,32,8
+    GROUPBOX        "Specification",IDC_STATIC,285,50,50,21
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,88,179,8
+    PUSHBUTTON      "Test",IDC_BUTTON_FUELFLOW_RC,108,111,50,14
+END
+
+IDD_DIALOG_SMFD_GPS_RC DIALOGEX 0, 0, 367, 171
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC GPS Parameters Checks(Test No. 12.01 to 12.04)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,204,144,50,14
+    LTEXT           "12.01)GPS Ground Speed (012)",IDC_STATIC,56,51,110,8
+    LTEXT           "12.04)UTC Time(125)",IDC_STATIC,56,103,79,8
+    EDITTEXT        IDC_EDIT_GPSGRSPD_RC,201,50,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPSTRUETRACK_RC,201,67,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GPSMAGTRACK_RC,201,84,57,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SENDARINC_RC,101,144,50,14
+    LTEXT           "12.02)GPS True Track(013)",IDC_STATIC,56,66,93,8
+    LTEXT           "12.03)GPS Mag Track(053)",IDC_STATIC,56,84,95,8
+    EDITTEXT        IDC_EDIT_GPSTIME_RC,201,102,57,14,ES_AUTOHSCROLL
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,28,125,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,12,14,78,10
+    LTEXT           "1) Click on the send label button to Simulate arinc labels for each test.",IDC_STATIC,28,28,242,9
+    LTEXT           "1000 KM",IDC_STATIC,284,57,31,8
+    LTEXT           "90 deg°",IDC_STATIC,284,72,36,8
+    LTEXT           "Actual Time",IDC_STATIC,283,107,39,8
+    LTEXT           "90 deg°",IDC_STATIC,283,89,34,8
+    GROUPBOX        "Specifications",IDC_STATIC,277,47,46,73
+END
+
+IDD_DIALOG_SMFD_PWR_RC DIALOGEX 0, 0, 394, 144
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD Power Consumption(2.01 to 2.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "CONTINUE",IDOK,231,113,50,13
+    LTEXT           "2.02) Current Consumption of MFD RC",IDC_STATIC,47,62,130,8
+    LTEXT           "2.01) Current Consumption of SMFD RC",IDC_STATIC,47,44,135,10
+    EDITTEXT        IDC_EDIT_SMFD1_PWR_RC,208,43,53,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SMFD2_PWR_RC,208,62,53,12,ES_AUTOHSCROLL
+    LTEXT           "<3.0 A",IDC_STATIC,307,46,33,8
+    LTEXT           "<1.8 A",IDC_STATIC,307,63,33,8
+    GROUPBOX        "Specification",IDC_STATIC,300,36,48,41
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,22,87,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,11,68,8
+    LTEXT           "1) Click on the Test button to get the current consumption of SMFD and MFD FC.",IDC_STATIC,23,23,276,8
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFDRC_PWR,118,112,50,14
+END
+
+IDD_DIALOG_SMFD_REVI_PAGE_RC DIALOGEX 0, 0, 410, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD RC Reversionary Page Check(Test No. 7.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,182,100,50,14
+    CONTROL         "Not Displayed",IDC_CHECK_SMFD_REV_PAGE_RC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,263,54,71,10
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,24,79,179,8
+    LTEXT           "Test procedure : ",IDC_STATIC,13,12,70,8
+    LTEXT           "1) To check the Reversionary Page on SMFD RC Press Bottom 5th key and check on Smfd for Reversionary page and mark the Status.",IDC_STATIC,24,25,364,18
+    LTEXT           "7.01) Reversionary page Status ",IDC_STATIC,65,54,106,8
+END
+
+IDD_DIALOG_SMFD_SW_RC DIALOGEX 0, 0, 431, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Software Configuration Checks of SMFD & MFD RC(Test No. 3.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,202,124,43,14
+    LTEXT           "3.01) Operational Software of SMFD RC ",IDC_STATIC,49,77,156,9
+    EDITTEXT        IDC_EDIT_SMFD_SW_RC,232,74,56,14,ES_AUTOHSCROLL
+    LTEXT           "1) Press the 4th and 5th bezel key from the top on left and right side SMFD FC/RC simultaneously to enter maintenance page .(LSK4,LSK5 ,RSK4,RSK5 to be pressed simultaneously ).",IDC_STATIC,26,26,391,18
+    LTEXT           "3) Click on continue button to proceed for the next Test.",IDC_STATIC,28,102,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,13,10,68,8
+    LTEXT           "2) Following are the expected results.",IDC_STATIC,27,53,122,8
+    LTEXT           "E73D5822",IDC_STATIC,327,78,36,8
+    GROUPBOX        "Specification",IDC_STATIC,320,66,51,26
+END
+
+IDD_DIALOG_SMFD_TACAN_RC DIALOGEX 0, 0, 381, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD RC TACAN Parameters Checks(Test No. 11.01 to 11.03)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,202,175,50,14
+    LTEXT           "11.01)TACAN control word (145) ",IDC_STATIC,51,65,113,8
+    LTEXT           "11.02)TACAN Distance (201)",IDC_STATIC,51,114,100,8
+    LTEXT           "11.03)TACAN Bearing (222)",IDC_STATIC,51,132,97,8
+    EDITTEXT        IDC_EDIT_TAC201_RC,183,112,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAC222_RC,183,128,57,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SENDARINCLABEL_RC,112,176,50,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,22,154,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,14,13,79,11
+    LTEXT           "1) Click on the send label button to simulate Arinc labels for each test.",IDC_STATIC,24,27,237,9
+    LTEXT           "2) For Test No. 11.01 check for the TAC sign on the SMFD RC.",IDC_STATIC,26,45,261,11
+    LTEXT           "3) For Test No. 11.02 to 11.03 Enter the TACAN Distance and  Bearing value below the TAC sign on the SMFD FC.",IDC_STATIC,30,85,285,19
+    CONTROL         "Not Displayed",IDC_CHECK_TACWORDRC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,190,65,55,10
+    LTEXT           "300 Nm",IDC_STATIC,330,112,31,8
+    LTEXT           "90 deg°",IDC_STATIC,330,133,30,8
+    GROUPBOX        "Specification",IDC_STATIC,321,45,48,112
+    LTEXT           "Displayed",IDC_STATIC,328,66,33,8
+END
+
+IDD_DIALOG_SMFD_VORILS_RC DIALOGEX 0, 0, 394, 254
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD & MFD FC VOR/ILS Parameters Checks(Test No. 10.01 to 10.05)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,222,231,50,14
+    LTEXT           "10.01)VOR Frequency Label  (034) ",IDC_STATIC,57,69,121,8
+    LTEXT           "10.03)ILS Frequency Label (034)",IDC_STATIC,54,146,106,8
+    LTEXT           "10.04)Localizer Deviation(173)",IDC_STATIC,54,164,106,8
+    LTEXT           "10.05)Glideslope Deviation (174)",IDC_STATIC,54,181,111,8
+    EDITTEXT        IDC_EDIT_VORBRG_RC,206,103,55,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send Label",IDC_BUTTON_SENDARINCLABEL_RC,122,232,50,14
+    LTEXT           "5) Click on continue button to proceed for the next Test.",IDC_STATIC,31,208,179,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,12,62,9
+    LTEXT           "1) Click on the send label button to simulate Arinc labels.",IDC_STATIC,31,27,223,11
+    LTEXT           "2) For Test No. 10.01 check for the VOR sign on the SMFD RC.",IDC_STATIC,31,48,197,11
+    CONTROL         "Not Displayed",IDC_CHECK_ILS_FREQRC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,204,144,55,10
+    LTEXT           "3) For Test No. 10.02 Enter the Bearing value below the VOR sign on the SMFD RC.",IDC_STATIC,32,85,261,11
+    LTEXT           "10.02)VOR Bearing (222)",IDC_STATIC,57,104,84,8
+    LTEXT           "4) For Test No. 10.03 check for the ILS sign on the SMFD RC.",IDC_STATIC,32,127,205,11
+    CONTROL         "Not Displayed",IDC_CHECK_VORFREQRC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,71,55,10
+    LTEXT           "Displayed",IDC_STATIC,331,66,33,8
+    LTEXT           "0.077 DDM",IDC_STATIC,331,163,40,8
+    LTEXT           "90 deg°",IDC_STATIC,334,105,34,11
+    LTEXT           "-0.087 DDM",IDC_STATIC,331,183,40,8
+    GROUPBOX        "Specifications",IDC_STATIC,322,37,58,180
+    LTEXT           "Displayed",IDC_STATIC,332,144,33,8
+    EDITTEXT        IDC_EDIT_LOCDEV173RC,204,157,55,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GLSDEV174RC,204,178,55,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_ADC_MACH DIALOGEX 0, 0, 421, 126
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Mach Number checks(Test No. 4.09)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,186,102,50,14
+    LTEXT           "4.09)Set value of Altitude 3000 Meters and Airspeed 300 km/hr and press Go on ADTS.Wait for the ADTS to reach the desired pressure.",IDC_STATIC,40,47,225,17
+    EDITTEXT        IDC_EDIT_ADC_MACH1,273,48,40,14,ES_AUTOHSCROLL
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "0.29±0.01 M",IDC_STATIC,347,51,45,8
+    GROUPBOX        "Specifications",IDC_STATIC,341,40,57,24
+    LTEXT           "1) Set the Altitude in meters and Airspeed in km/hr and enter values as per the followings on ADTS to perform the test.",IDC_STATIC,24,24,380,9
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "2) Click on contiue button to procced for the next Test.",IDC_STATIC,23,77,175,11
+END
+
+IDD_DIALOG_ADC_FUNCHK DIALOGEX 0, 0, 415, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Altitude Checks(Test No. 4.01)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,187,101,50,14
+    LTEXT           "2) Turn on ADTS, press the GND button and then set the values as per the following :",IDC_STATIC,23,36,292,11
+    EDITTEXT        IDC_EDIT_ADC_ALTITUDE1,266,56,58,15,ES_AUTOHSCROLL
+    LTEXT           "4.01)Set Pressure Value 7500 feet and press Go on ADTS.             Wait for the ADTS to reach the desired pressure.",IDC_STATIC,41,57,199,18
+    LTEXT           "7500±30 Ft",IDC_STATIC,352,60,38,8
+    GROUPBOX        "Specifications",IDC_STATIC,346,50,53,24
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "3) Click on contiue button to procced for the next Test.",IDC_STATIC,24,83,175,11
+    LTEXT           "1) Interface Ps &and Pt pressure ports of ADC with ADTS.",IDC_STATIC,22,23,292,11
+END
+
+IDD_DIALOG_ADC_ALTITUDE2 DIALOGEX 0, 0, 415, 122
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Altitude Checks(Test No. 4.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,188,94,50,14
+    EDITTEXT        IDC_EDIT_ADC_ALTITUDE2,261,43,58,15,ES_AUTOHSCROLL
+    LTEXT           "4.02)Set Pressure Value 15000 feet and press Go on ADTS.             Wait for the ADTS to reach the desired pressure.",IDC_STATIC,31,42,198,18
+    LTEXT           "15000±45 Ft",IDC_STATIC,348,49,43,8
+    GROUPBOX        "Specifications",IDC_STATIC,341,39,53,24
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "2) Click on contiue button to procced for the next Test.",IDC_STATIC,23,74,175,11
+    LTEXT           "1) Set the values on the ADTS as per the following :",IDC_STATIC,21,24,248,11
+END
+
+IDD_DIALOG_ADC_ALTITUDE3 DIALOGEX 0, 0, 415, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Altitude Checks(Test No. 4.03)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,189,96,50,14
+    EDITTEXT        IDC_EDIT_ADC_ALTITUDE3,260,43,58,15,ES_AUTOHSCROLL
+    LTEXT           "4.03)Set Pressure Value 20000 feet and press Go on ADTS.             Wait for the ADTS to reach the desired pressure.",IDC_STATIC,30,41,198,18
+    LTEXT           "20000±50 Ft",IDC_STATIC,347,49,43,8
+    GROUPBOX        "Specifications",IDC_STATIC,340,39,53,22
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "2) Click on contiue button to procced for the next Test.",IDC_STATIC,23,74,175,11
+    LTEXT           "1) Set the values on the ADTS as per the following :",IDC_STATIC,21,24,292,11
+END
+
+IDD_DIALOG_ADC_AIRSPEED1 DIALOGEX 0, 0, 415, 134
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Air Speed Checks(Test No. 4.06)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,186,108,50,14
+    EDITTEXT        IDC_EDIT_ADC_AIRSPEED1,270,58,58,15,ES_AUTOHSCROLL
+    GROUPBOX        "Specifications",IDC_STATIC,348,54,53,24
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "3) Click on contiue button to procced for the next Test.",IDC_STATIC,26,87,175,11
+    LTEXT           "2) Change the Unit of pressure from feet to Knots and set the following values on ADTS to perform the test :",IDC_STATIC,24,33,365,9
+    LTEXT           "1) Keep ADTS pressure altitude to 9842 ft for Airspeed Tests.",IDC_STATIC,24,20,210,9
+    LTEXT           "4.06)Set value of CAS 100 Knots and press Go on ADTS.                Wait for the ADTS to reach the desired pressure.",IDC_STATIC,47,57,200,17
+    LTEXT           "100±5 Knots",IDC_STATIC,354,64,43,8
+END
+
+IDD_DIALOG_ADC_AIRSPEED2 DIALOGEX 0, 0, 415, 120
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Air Speed Checks(Test No. 4.07)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,186,92,50,14
+    EDITTEXT        IDC_EDIT_ADC_AIRSPEED2,263,42,58,15,ES_AUTOHSCROLL
+    GROUPBOX        "Specifications",IDC_STATIC,341,38,53,24
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "2) Click on contiue button to procced for the next Test.",IDC_STATIC,23,71,175,11
+    LTEXT           "4.07)Set value of CAS 180 Knots and press Go on ADTS.                Wait for the ADTS to reach the desired pressure.",IDC_STATIC,40,41,200,17
+    LTEXT           "183±4 Knots",IDC_STATIC,347,48,43,8
+    LTEXT           "1) Set the values on the ADTS as per the following :",IDC_STATIC,21,24,179,11
+END
+
+IDD_DIALOG_ADC_AIRSPEED3 DIALOGEX 0, 0, 415, 120
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Air Speed Checks(Test No. 4.08)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,186,92,50,14
+    EDITTEXT        IDC_EDIT_ADC_AIRSPEED3,263,42,58,15,ES_AUTOHSCROLL
+    GROUPBOX        "Specifications",IDC_STATIC,341,38,53,24
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "2) Click on contiue button to procced for the next Test.",IDC_STATIC,23,71,175,11
+    LTEXT           "4.08)Set value of CAS 220 Knots and press Go on ADTS.                Wait for the ADTS to reach the desired pressure.",IDC_STATIC,40,41,200,17
+    LTEXT           "223±4 Knots",IDC_STATIC,347,48,43,8
+    LTEXT           "1) Set the values on the ADTS as per the following :",IDC_STATIC,21,24,179,11
+END
+
+IDD_DIALOG_ADC_MACH1 DIALOGEX 0, 0, 404, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Mach Number checks(Test No. 4.10)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,179,102,50,14
+    LTEXT           "4.10)Set value of Altitude 6000 Meter and Airspeed 300 km/hr and press Go on ADTS.Wait for the ADTS to reach the desired pressure.",IDC_STATIC,41,49,213,16
+    EDITTEXT        IDC_EDIT_ADC_MACH2,270,50,45,14,ES_AUTOHSCROLL
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "0.36±0.01 M",IDC_STATIC,335,54,42,8
+    GROUPBOX        "Specifications",IDC_STATIC,329,44,53,22
+    LTEXT           "1) Set the values as given below on the ADTS.",IDC_STATIC,24,24,170,9
+    LTEXT           "Test Procedure :",IDC_STATIC,14,10,50,8
+    LTEXT           "2) Click on contiue button to procced for the next Test.",IDC_STATIC,24,76,175,11
+END
+
+IDD_DIALOG_ADC_ALTIRATE DIALOGEX 0, 0, 387, 219
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ADC Altitude Rate Check(Test No 4.04 to 4.05)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,172,192,50,14
+    LTEXT           "Test Procedure",IDC_STATIC,17,10,51,8
+    LTEXT           "1) On the ADTS, set the ADC altitude rate of 2000 ft/min and set the ADC altitude to a higher value.",IDC_STATIC,26,22,318,8
+    LTEXT           "2) Observe the altitude rate value from the box.",IDC_STATIC,26,42,153,8
+    EDITTEXT        IDC_EDIT_ALTIRATE_ARINCRX,260,36,85,23,ES_AUTOHSCROLL
+    LTEXT           "4.04) Altitude rate is 2000 ft/min ",IDC_STATIC,71,84,105,8
+    LTEXT           "3) Observed value is achieved 2000 ft/min mark the status as Operational else Not Operational.",IDC_STATIC,26,65,309,8
+    CONTROL         "Not Operational",IDC_CHECK_ALTIRATE1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,218,83,67,10
+    LTEXT           "4) On the ADTS, set the ADC altitude rate of 2000 ft/min and set the ADC altitude to a lower value.",IDC_STATIC,26,103,317,8
+    LTEXT           "5) Observe the altitude rate value from the box.",IDC_STATIC,26,121,153,8
+    LTEXT           "6) Observed value is achieved -2000 ft/min mark the status as Operational else Not Operational.",IDC_STATIC,26,137,309,8
+    LTEXT           "4.05) Altitude rate is -2000 ft/min ",IDC_STATIC,73,162,105,8
+    CONTROL         "Not Operational",IDC_CHECK_ALTIRATE2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,220,160,67,10
+END
+
+IDD_DIALOG_STOP DIALOGEX 0, 0, 88, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Stop",ID_STOP,18,15,50,14
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_EOP DIALOGEX 0, 0, 342, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",-1,33,29,260,8
+    LTEXT           "4.02)Engine Oil Pressure",-1,69,53,95,8
+    EDITTEXT        IDC_EDIT_OILPRES,185,51,59,14,ES_AUTOHSCROLL
+    LTEXT           "40±3 psi",-1,271,57,26,8
+    GROUPBOX        "Expected",-1,265,49,37,19
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCEOP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",-1,32,77,183,8
+    LTEXT           "Test Procedure :",-1,15,13,70,8
+    PUSHBUTTON      "Continue",IDOK,206,99,50,14
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_ET DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform  Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,276,49,60,19
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCET,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.03)Engine Torque",IDC_STATIC,67,54,81,8
+    EDITTEXT        IDC_EDIT_TORQUE,184,52,59,14,ES_AUTOHSCROLL
+    LTEXT           "1740±4 ft-lb",IDC_STATIC,282,58,35,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_RTP DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCRTP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.04)Rudder Trim Position",IDC_STATIC,60,53,97,8
+    EDITTEXT        IDC_EDIT_RUDER,195,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "Nose at centre white line",IDC_STATIC,282,51,45,16
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_ETP DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCETP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.05)Elevator Trim Position",IDC_STATIC,51,52,98,8
+    EDITTEXT        IDC_EDIT_ELEVATOR,201,51,59,14,ES_AUTOHSCROLL
+    LTEXT           "Nose at green line & -1.2 deg",IDC_STATIC,282,51,52,16
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_ATP DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCATP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.06)Aileron Trim Position",IDC_STATIC,52,51,90,8
+    EDITTEXT        IDC_EDIT_AILERON,204,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "Wing at green line",IDC_STATIC,283,50,45,16
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_FP3 DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCFP3,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.07)Flap Position at 3V",IDC_STATIC,52,51,83,8
+    EDITTEXT        IDC_EDIT_FLAT3V,193,49,59,14,ES_AUTOHSCROLL
+    LTEXT           "Flaps 20 in Green",IDC_STATIC,281,51,45,15
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_FP4 DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCFP4,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.08)Flap Position at  4.31 V",IDC_STATIC,54,51,94,8
+    EDITTEXT        IDC_EDIT_FLAP4V,209,51,59,14,ES_AUTOHSCROLL
+    LTEXT           "Flaps 30 in Yellow",IDC_STATIC,281,52,45,15
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_GV DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,49,25
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCGV,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    EDITTEXT        IDC_EDIT_GENERAL_V,196,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "4.09)Generator Voltage",IDC_STATIC,55,50,86,8
+    LTEXT           "28±1 V",IDC_STATIC,283,54,29,10
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_BV DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,49,25
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCBV,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "28±1 V",IDC_STATIC,283,54,29,10
+    LTEXT           "4.10)Battery Voltage",IDC_STATIC,53,51,75,8
+    EDITTEXT        IDC_EDIT_BATTERY_VOLT,209,48,59,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_CL DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,49,25
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCCL,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.11)Current Load",IDC_STATIC,57,50,73,8
+    EDITTEXT        IDC_EDIT_CURR,204,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "200±10 A",IDC_STATIC,282,55,37,9
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_HPE DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCHPE,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.13) Hydraulics Pressure Emergency",IDC_STATIC,48,51,129,8
+    EDITTEXT        IDC_EDIT_HYDPRESEMER,210,51,60,14,ES_AUTOHSCROLL
+    LTEXT           "3330± 20 psi",IDC_STATIC,285,55,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_EB DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCEB,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.14) Emergency Brake (Accumulator Pressure)",IDC_STATIC,43,52,163,11
+    EDITTEXT        IDC_EDIT_ACCUMPRES,212,51,60,14,ES_AUTOHSCROLL
+    LTEXT           "1300± 15 psi",IDC_STATIC,286,54,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_LBP DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCLBP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.15) LH Brake Pressure",IDC_STATIC,54,52,88,8
+    EDITTEXT        IDC_EDIT_LHBRAKE,209,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "1200± 15 psi",IDC_STATIC,284,54,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_ES DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCES,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.17) Engine Speed",IDC_STATIC,56,51,84,8
+    EDITTEXT        IDC_EDIT_ENGSPD,208,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "79±2 % rpm",IDC_STATIC,285,55,41,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_FTL DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCFTL,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.18) Fuel Tank LH",IDC_STATIC,59,51,72,8
+    EDITTEXT        IDC_EDIT_LHFUEL,208,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "168±5 lb",IDC_STATIC,284,55,41,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_FTR DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCFTR,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "161±5 lb",IDC_STATIC,284,55,41,8
+    LTEXT           "4.19) Fuel Tank RH",IDC_STATIC,53,51,74,8
+    EDITTEXT        IDC_EDIT_RHFUEL,214,50,60,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_CT DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCCT,100,98,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.20) Collector Tank",IDC_STATIC,57,51,75,8
+    EDITTEXT        IDC_EDIT_COLLECTORANK,212,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "183±5 lb",IDC_STATIC,286,54,41,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_EOT DIALOGEX 0, 0, 415, 126
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,223,104,50,14
+    LTEXT           "1) Click on Test button for performing each analog input checks on SMFD RC.",IDC_STATIC,33,29,260,8
+    LTEXT           "4.01)Engine Oil Temperature",IDC_STATIC,66,55,107,8
+    EDITTEXT        IDC_EDIT_OILTEMP,227,52,59,14,ES_AUTOHSCROLL
+    LTEXT           "60±2 C",IDC_STATIC,312,57,26,8
+    GROUPBOX        "Expected",IDC_STATIC,304,44,60,27
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_RC_ANALOGEOT,114,102,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,34,83,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_EOP DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform  Analog input check on SMFD RC.",-1,33,29,260,8
+    LTEXT           "4.02)Engine Oil Pressure",-1,69,53,95,8
+    EDITTEXT        IDC_EDIT_RCOILPRES,185,51,59,14,ES_AUTOHSCROLL
+    LTEXT           "40±3 psi",-1,282,57,26,8
+    GROUPBOX        "Expected",-1,276,49,60,19
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCEOP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",-1,32,77,183,8
+    LTEXT           "Test Procedure :",-1,15,13,70,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_ET DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform  Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,276,49,60,19
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCET,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.03)Engine Torque",IDC_STATIC,67,54,81,8
+    EDITTEXT        IDC_EDIT_RCTORQUE,184,52,59,14,ES_AUTOHSCROLL
+    LTEXT           "1740±4 ft-lb",IDC_STATIC,282,58,35,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_RTP DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCRTP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.04)Rudder Trim Position",IDC_STATIC,60,53,97,8
+    EDITTEXT        IDC_EDIT_RCRUDER,195,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "Nose at centre white line",IDC_STATIC,282,51,45,16
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_ETP DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCETP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.05)Elevator Trim Position",IDC_STATIC,51,52,98,8
+    EDITTEXT        IDC_EDIT_RCELEVATOR,201,51,59,14,ES_AUTOHSCROLL
+    LTEXT           "Nose at green line & -1.2 deg",IDC_STATIC,282,51,52,16
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_ATP DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCATP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.06)Aileron Trim Position",IDC_STATIC,52,51,90,8
+    EDITTEXT        IDC_EDIT_RCAILERON,197,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "Wing at green line",IDC_STATIC,283,50,45,16
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_FP3 DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCFP3,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.07)Flap Position at 3V",IDC_STATIC,52,51,83,8
+    EDITTEXT        IDC_EDIT_RCFLAT3V,193,49,59,14,ES_AUTOHSCROLL
+    LTEXT           "Flaps 20 in Green",IDC_STATIC,281,51,45,15
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_FP4 DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_RCSMFD_ANALOG_FCFP4,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.08)Flap Position at  4.31 V",IDC_STATIC,54,51,94,8
+    EDITTEXT        IDC_EDIT_RCFLAP4V,209,51,59,14,ES_AUTOHSCROLL
+    LTEXT           "Flaps 30 in Yellow",IDC_STATIC,281,52,45,15
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_GV DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,49,25
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCGV,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    EDITTEXT        IDC_EDIT_RCGENERAL_V,196,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "4.09)Generator Voltage",IDC_STATIC,55,50,86,8
+    LTEXT           "28±1 V",IDC_STATIC,283,54,29,10
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_BV DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,49,25
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCBV,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "28±1 V",IDC_STATIC,283,54,29,10
+    LTEXT           "4.10)Battery Voltage",IDC_STATIC,53,51,75,8
+    EDITTEXT        IDC_EDIT_RCBATTERY_VOLT,209,48,59,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_CL DIALOGEX 0, 0, 362, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,49,25
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCCL,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.11)Current Load",IDC_STATIC,57,50,73,8
+    EDITTEXT        IDC_EDIT_RCCURR,204,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "200±10 A",IDC_STATIC,282,55,37,9
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_HPM DIALOGEX 0, 0, 389, 125
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,256,97,50,14
+    LTEXT           "1) Click on Test button for performing each analog input checks on SMFD RC.",IDC_STATIC,29,27,253,8
+    LTEXT           "4.12) Hydraulics Pressure Main",IDC_STATIC,62,49,114,8
+    EDITTEXT        IDC_EDIT_RCHYDPRESMAIN,222,48,59,14,ES_AUTOHSCROLL
+    LTEXT           "2930±20 psi",IDC_STATIC,308,51,41,8
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_RC_ANHPM,122,97,47,14
+    GROUPBOX        "Expected",IDC_STATIC,303,41,48,24
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,33,78,179,8
+    LTEXT           "Test Procedure  : ",IDC_STATIC,16,12,64,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_HPE DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCHPE,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.13) Hydraulics Pressure Emergency",IDC_STATIC,48,51,129,8
+    EDITTEXT        IDC_EDIT_RCHYDPRESEMER,210,51,60,14,ES_AUTOHSCROLL
+    LTEXT           "3330± 20 psi",IDC_STATIC,285,55,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_EB DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCEB,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.14) Emergency Brake (Accumulator Pressure)",IDC_STATIC,43,52,163,11
+    EDITTEXT        IDC_EDIT_RCACCUMPRES,212,51,60,14,ES_AUTOHSCROLL
+    LTEXT           "1300± 15 psi",IDC_STATIC,286,54,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_LBP DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCLBP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.15) LH Brake Pressure",IDC_STATIC,54,52,88,8
+    EDITTEXT        IDC_EDIT_RCLHBRAKE,209,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "1200± 15 psi",IDC_STATIC,284,54,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_FC_RBP DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD FC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD FC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_FCRBP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.16) RH Brake Pressure",IDC_STATIC,54,52,88,8
+    EDITTEXT        IDC_EDIT_RHBRAKE,209,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "1200± 15 psi",IDC_STATIC,284,54,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_RBP DIALOGEX 0, 0, 362, 122
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCRBP,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.16) RH Brake Pressure",IDC_STATIC,54,52,88,8
+    EDITTEXT        IDC_EDIT_RCLHBRAKE,209,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "1200± 15 psi",IDC_STATIC,284,54,42,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_ES DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCES,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.17) Engine Speed",IDC_STATIC,56,51,84,8
+    EDITTEXT        IDC_EDIT_RCENGSPD,208,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "79±2 % rpm",IDC_STATIC,285,55,41,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_FTL DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCFTL,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.18) Fuel Tank LH",IDC_STATIC,59,51,72,8
+    EDITTEXT        IDC_EDIT_RCLHFUEL,208,50,60,14,ES_AUTOHSCROLL
+    LTEXT           "168±5 lb",IDC_STATIC,284,55,41,8
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_FTR DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCFTR,97,97,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "161±5 lb",IDC_STATIC,284,55,41,8
+    LTEXT           "4.19) Fuel Tank RH",IDC_STATIC,53,51,74,8
+    EDITTEXT        IDC_EDIT_RCRHFUEL,214,50,60,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SMFD_ANALOG_RC_CT DIALOGEX 0, 0, 362, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SMFD RC Analog Checks(Test No. 4.01 to 4.20)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,226,98,50,14
+    LTEXT           "1) Click on Test button to perform Analog input check on SMFD RC.",IDC_STATIC,33,29,260,8
+    GROUPBOX        "Expected",IDC_STATIC,278,43,60,26
+    PUSHBUTTON      "Test",IDC_BUTTON_SMFD_ANALOG_RCCT,100,98,47,14
+    LTEXT           "2) Click on continue button to proceed for the next Test.",IDC_STATIC,32,77,183,8
+    LTEXT           "Test Procedure :",IDC_STATIC,15,13,70,8
+    LTEXT           "4.20) Collector Tank",IDC_STATIC,57,51,75,8
+    EDITTEXT        IDC_EDIT_RCCOLLECTORANK,212,50,59,14,ES_AUTOHSCROLL
+    LTEXT           "183±5 lb",IDC_STATIC,286,54,41,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "SHDS"
+            VALUE "FileDescription", "MFD ILT Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "MFD ILT Application"
+            VALUE "LegalCopyright", "Copyright (C) 2011"
+            VALUE "OriginalFilename", "MFD_ILT.exe"
+            VALUE "ProductName", "MFD ILT"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIAG_ADD_USER DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 14, 0
+0x6441, 0x696d, 0x696e, 0x7473, 0x6172, 0x6f74, 0x0072, 
+    IDC_COMBO1, 0x403, 9, 0
+0x704f, 0x7265, 0x7461, 0x726f, "\000" 
+    0
+END
+
+IDD_DLG_SPLASH DLGINIT
+BEGIN
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3533, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3534, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3535, "\000" 
+    IDC_COMBO_HOLD_TIME, 0x403, 3, 0
+0x3036, "\000" 
+    0
+END
+
+IDD_DLG_MAINPANEL DLGINIT
+BEGIN
+    IDC_COMBO_MODE, 0x403, 12, 0
+0x6e49, 0x6574, 0x7267, 0x7461, 0x6f69, 0x006e, 
+    IDC_COMBO_MODE, 0x403, 11, 0
+0x7453, 0x6e61, 0x6164, 0x6f6c, 0x656e, "\000" 
+    IDC_COMBO_DU_TYPE, 0x403, 9, 0
+0x4d53, 0x4446, 0x4d26, 0x4446, "\000" 
+    IDC_COMBO_DU_TYPE, 0x403, 5, 0
+0x5349, 0x5349, "\000" 
+    IDC_COMBO_DU_TYPE, 0x403, 4, 0
+0x4441, 0x0043, 
+    IDC_COMBO_DU_TYPE, 0x403, 5, 0
+0x4841, 0x5352, "\000" 
+    IDC_COMBO_DU_TYPE, 0x403, 4, 0
+0x5047, 0x0053, 
+    IDC_COMBO_DU_TYPE, 0x403, 14, 0
+0x4f56, 0x2f52, 0x4c49, 0x2053, 0x4154, 0x4143, 0x004e, 
+    IDC_COMBO_SMFD_SELECTION, 0x403, 3, 0
+0x4346, "\000" 
+    IDC_COMBO_SMFD_SELECTION, 0x403, 3, 0
+0x4352, "\000" 
+    IDC_COMBO_SMFD_SELECTION, 0x403, 6, 0
+0x4220, 0x544f, 0x0048, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+    END
+
+    IDR_MAINFRAME, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_MAINPANEL, DIALOG
+    BEGIN
+        HORZGUIDE, 89
+        HORZGUIDE, 92
+    END
+
+    IDD_DLG_SPLASH, DIALOG
+    BEGIN
+    END
+
+    IDD_DIAG_USER_AUTHENTICATION, DIALOG
+    BEGIN
+    END
+
+    IDD_DIAG_ADD_USER, DIALOG
+    BEGIN
+    END
+
+    IDD_DIAG_CHANGE_PASSWORD, DIALOG
+    BEGIN
+    END
+
+    IDD_FORM_EMPTY, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_MSGBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 361
+        VERTGUIDE, 134
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_DIALOG_BENCH_SELFTEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        VERTGUIDE, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_DIALOG_ISIS_PWR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_DIALOG_ISIS_SWCHK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 386
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+    END
+
+    IDD_DIALOG_ISIS_AHRS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 469
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_DIALOG_ISIS_ADU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 475
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+    END
+
+    IDD_DIALOG_ADC_VISUAl, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 405
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_DIALOG_ADC_Leak, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 386
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 233
+    END
+
+    IDD_DIALOG_ADC_PWR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 337
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_DIALOG_GPS_VISUAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_DIALOG_GPS_PWR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_DIALOG_GPS_DATAINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_DIALOG_GPS_SYSINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DIALOG_SMFD_VISUAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 434
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DIALOG_SMFD_PWR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 386
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG_AHRS_VISUAL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 421
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_DIALOG_AHRS_PWR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_VORTAC_VISUAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 420
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DIALOG_VORTAC_PWR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 383
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DIALOG_SMFD_SW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 424
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_DIALOG_SMFD_ANALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        VERTGUIDE, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_DIALOG_SMFD_DISCRETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 467
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_DIALOG_SMFD_REVI_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 441
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG_SMFD_ADC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_DIALOG_SMFD_AHRS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_DIALOG_SMFD_VORILS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_DIALOG_SMFD_TACAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 374
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_DIALOG_SMFD_FUEl, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_DIALOG_SMFD_ANALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DIALOG_SMFD_GPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_DIALOG_AHRS_QUALITATIVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_DIALOG_SMFD_VISUAL_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 434
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DIALOG_SMFD_ADC_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 409
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_DIALOG_SMFD_AHRS_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 398
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_DIALOG_SMFD_ANALOG1_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 421
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_DIALOG_SMFD_DISCRETE_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 457
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 281
+    END
+
+    IDD_DIALOG_SMFD_FUEl_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_DIALOG_SMFD_GPS_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_DIALOG_SMFD_PWR_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_DIALOG_SMFD_REVI_PAGE_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 403
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_SW_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 424
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG_SMFD_TACAN_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 374
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DIALOG_SMFD_VORILS_RC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_DIALOG_ADC_MACH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 414
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_DIALOG_ADC_FUNCHK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_ADC_ALTITUDE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_DIALOG_ADC_ALTITUDE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_ADC_AIRSPEED1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_DIALOG_ADC_AIRSPEED2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_DIALOG_ADC_AIRSPEED3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_DIALOG_ADC_MACH1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 397
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_DIALOG_ADC_ALTIRATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_DIALOG_STOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 81
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_EOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_ET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_RTP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_ETP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_ATP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_FP3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_FP4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_GV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_BV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_CL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_HPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_EB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_LBP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_ES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_FTL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_FTR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_CT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_EOT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        VERTGUIDE, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_EOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_ET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_RTP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_ETP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_ATP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_FP3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_FP4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_GV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_BV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_CL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_HPM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_HPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_EB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_LBP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_FC_RBP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_RBP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_ES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_FTL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_FTR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_SMFD_ANALOG_RC_CT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 124
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (India) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENN)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_INDIA
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP24            BITMAP                  "res\\bitmap24.bmp"
+IDB_BITMAP25            BITMAP                  "res\\bitmap25.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_VISUAL_INSPECTION DIALOGEX 0, 0, 416, 257
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS Visual Inspection (Test No. 1.01 to 1.09)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    LTEXT           "1.01) Enter the FC Display Unit Part Number ",IDC_STATIC,42,40,148,8
+    LTEXT           "1.03) Enter the Air Data Unit (ADU) Part Number ",IDC_STATIC,42,73,170,8
+    LTEXT           "1.04) Enter the Magnetometer Sensor Part Number ",IDC_STATIC,42,91,167,8
+    LTEXT           "1.05) Enter the AHRS Part number ",IDC_STATIC,42,107,126,8
+    PUSHBUTTON      "Continue",IDOK,190,232,50,14
+    LTEXT           "1.06) Inspect for any corrosion on the ISIS System ",IDC_STATIC,41,139,178,11
+    CONTROL         "NO",IDC_CHECK_ISIS_DAMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,283,139,50,10
+    LTEXT           "1.07) Inspect for any foreign material the ISIS System",IDC_STATIC,41,158,186,10
+    CONTROL         "NO",IDC_CHECK_ISIS_SCRATCHES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,283,157,24,11
+    LTEXT           "1.08) Inspect for loose screws on the ISIS System",IDC_STATIC,41,178,191,9
+    CONTROL         "NO",IDC_CHECK_ISIS_SCREW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,283,176,52,10
+    LTEXT           "1.09)Check if any pins connectos are bend on the ISIS System",IDC_STATIC,41,198,203,12
+    CONTROL         "NO",IDC_CHECK_ISIS_PINS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,283,196,54,10
+    LTEXT           "1) Enter the part number written on the ISIS System.",IDC_STATIC,21,21,178,9
+    EDITTEXT        IDC_EDIT_ISISDUPN,244,36,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISADUPN,244,69,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISMMSPN,244,86,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ISISAHRSPN,244,104,63,14,ES_AUTOHSCROLL
+    LTEXT           " IS2100000000",IDC_STATIC,335,39,50,8
+    LTEXT           "AN-014-ADU-V00",IDC_STATIC,335,70,58,8
+    LTEXT           "AN-015-MMS-V00",IDC_STATIC,335,87,59,8
+    LTEXT           "1901400000000",IDC_STATIC,335,105,53,8
+    GROUPBOX        "Specifications",IDC_STATIC,331,29,71,89
+    LTEXT           "1.02) Enter the RC Display Unit Part Number ",IDC_STATIC,42,57,153,8
+    EDITTEXT        IDC_EDIT_ISISDUPNRC,244,52,63,14,ES_AUTOHSCROLL
+    LTEXT           " IS2100000000",IDC_STATIC,335,54,50,8
+    LTEXT           "3) Click Continue button to proceed for the next Test.",IDC_STATIC,24,215,169,9
+    LTEXT           "Test Procedure :",IDC_STATIC,14,9,50,8
+    LTEXT           "2) Inspect the ISIS System for the following defects. Select the corresponding checkbox only if the defect is present.",IDC_STATIC,23,123,379,9
+END
+
+IDD_DIALOG_ISIS_IBIT DIALOGEX 0, 0, 498, 295
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS DU IBIT CHECKS (Test No. 4.01 to 4.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,233,269,50,14
+    LTEXT           "Test Procedure  for IBIT check of ISIS DU FC :",IDC_STATIC,15,11,157,8
+    LTEXT           "1) Press NAV + ALN  keys on DU FC for more than 2 seconds to enter IBIT Maintenance Page.",IDC_STATIC,33,28,312,8
+    LTEXT           "2) Following IBIT status page shall display ADU,AHRS,MMS and FC status.",IDC_STATIC,33,42,270,8
+    LTEXT           "3) GREEN indication is system PASS. Any RED indication is FAIL.",IDC_STATIC,33,56,214,8
+    LTEXT           "4) The FC Status shall display FC in the display unit.",IDC_STATIC,33,70,224,8
+    LTEXT           "4.01 ) ISIS FC DU IBIT Status ",IDC_STATIC,66,106,99,8
+    CONTROL         "Not Operational",IDC_CHECK_ISISFC_IBIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,191,105,67,10
+    LTEXT           "4.02) ISIS RC DU IBIT Status ",IDC_STATIC,65,234,97,8
+    CONTROL         "Not Operational",IDC_CHECK_ISISRC_IBIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,191,233,67,10
+    LTEXT           "Click on continue button to proceed for the next Test.",IDC_STATIC,20,253,179,8
+    LTEXT           "Test Procedure  for IBIT check of ISIS DU RC :",IDC_STATIC,16,130,156,8
+    LTEXT           "1) Press NAV + ALN  keys on DU RC for more than 2 seconds to enter IBIT Maintenance Page.",IDC_STATIC,37,149,311,8
+    LTEXT           "2) Following IBIT status page shall display ADU,AHRS,MMS and RC status.",IDC_STATIC,37,162,270,8
+    LTEXT           "3) GREEN indication is system PASS. Any RED indication is FAIL.",IDC_STATIC,37,176,214,8
+    LTEXT           "4) The RC Status shall display RC in the display unit.",IDC_STATIC,37,191,224,8
+    CONTROL         650,IDC_STATIC,"Static",SS_BITMAP,390,18,100,94
+    CONTROL         651,IDC_STATIC,"Static",SS_BITMAP,391,162,100,94
+    LTEXT           "5) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,33,83,300,9
+    LTEXT           "5) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,37,207,300,9
+END
+
+IDD_DIALOG_ISIS_BRT DIALOGEX 0, 0, 503, 284
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS BRT and SET Knob Checks (Test No. 5.01 to 5.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,228,261,50,14
+    LTEXT           "Test Procedure for Brightness control and Set Knob checks of ISIS-DU FC :",IDC_STATIC,15,11,248,8
+    LTEXT           "1) Momentarily Press NAV + ALN keys for less than 2 seconds to enter brightness control mode.",IDC_STATIC,29,30,319,8
+    LTEXT           "2)The graphical overlay indicating Brightness can be observed on the main page .",IDC_STATIC,29,43,263,8
+    LTEXT           "3) Rotate the Set Knob clockwise to increase the Brightness.",IDC_STATIC,29,57,215,8
+    LTEXT           "4) Rotate the Set Knob Anti-clockwise to decrease the Brightness.",IDC_STATIC,29,70,215,8
+    LTEXT           "5.01) ISIS-DU FC Brightness and SET knob Status ",IDC_STATIC,61,102,167,8
+    CONTROL         "Not Operational",IDC_CHECK_ISISFC_BRT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,266,101,67,10
+    CONTROL         "Not Operational",IDC_CHECK_ISISRC_BRT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,267,219,67,10
+    LTEXT           "5.02) ISIS-DU RC Brightness and SET knob Status ",IDC_STATIC,62,220,168,8
+    LTEXT           "Click on continue button to proceed for the next Test.",IDC_STATIC,18,243,179,8
+    LTEXT           "Test Procedure for Brightness control and Set Knob checks of ISIS-DU RC :",IDC_STATIC,19,123,256,8
+    LTEXT           "1) Momentarily Press NAV + ALN keys for less than 2 seconds to enter brightness control mode.",IDC_STATIC,31,143,316,8
+    LTEXT           "2)The graphical overlay indicating Brightness can be observed on the main page .",IDC_STATIC,31,156,263,8
+    LTEXT           "3) Rotate the Set Knob clockwise to increase the Brightness.",IDC_STATIC,31,171,215,8
+    LTEXT           "4) Rotate the Set Knob Anti-clockwise to decrease the Brightness.",IDC_STATIC,31,185,215,8
+    CONTROL         649,IDC_STATIC,"Static",SS_BITMAP,371,33,100,96
+    LTEXT           "5) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,29,83,300,9
+    LTEXT           "5) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,31,201,300,9
+END
+
+IDD_DIALOG_ISIS_ALN DIALOGEX 0, 0, 504, 273
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS Alignment mode check (Test No. 6.01 to 6.02) "
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,231,250,50,14
+    LTEXT           "Test Procedure for Alignment mode checks of  ISIS-DU FC:",IDC_STATIC,17,11,204,8
+    LTEXT           "1) Press ALN Button on ISIS-DU FC.",IDC_STATIC,32,26,149,8
+    LTEXT           "2) The respective DUs will initiate alignment. This process may take approx. 20 secs.",IDC_STATIC,32,40,284,8
+    LTEXT           "3) During alignment the caption ""Alignment in progess"" shall be displayed on the DU FC.",IDC_STATIC,33,54,298,8
+    LTEXT           "4) Post successful alignment the DU shall be back to main page.",IDC_STATIC,33,68,220,8
+    LTEXT           "6.01) ISIS-DU FC Alignment mode Status",IDC_STATIC,62,104,134,8
+    CONTROL         "Not Operational",IDC_CHECK_ISISFC_ALN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,245,103,67,10
+    CONTROL         "Not Operational",IDC_CHECK_ISISRC_ALN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,249,218,67,10
+    LTEXT           "6) Click on continue button to proceed for the next Test.",IDC_STATIC,20,235,179,8
+    LTEXT           "6.02) ISIS-DU RC Alignment mode Status",IDC_STATIC,64,218,135,8
+    LTEXT           "2) The respective DUs will initiate alignment. This process may take approx. 20 secs.",IDC_STATIC,34,156,276,8
+    LTEXT           "3) During alignment the caption ""Alignment in progess"" shall be displayed on the DU RC.",IDC_STATIC,34,171,276,8
+    LTEXT           "4) Post successful alignment the DU shall be back to main page.",IDC_STATIC,34,185,216,8
+    LTEXT           "Test Procedure for Alignment mode checks of  ISIS-DU RC:",IDC_STATIC,19,125,209,8
+    LTEXT           "1) Press ALN Button on ISIS-DU RC.",IDC_STATIC,34,143,149,8
+    CONTROL         652,IDC_STATIC,"Static",SS_BITMAP,367,31,125,99
+    LTEXT           "5) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,33,83,300,9
+    LTEXT           "5) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,34,198,300,9
+END
+
+IDD_DIALOG_ISIS_NAVMODE DIALOGEX 0, 0, 496, 288
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ISIS Navigation Mode Selection Check(Test No. 7.01 to 7.02)"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,224,254,50,14
+    LTEXT           "Test Procedure for Navigation Mode Selection Check of ISIS DU FC:",IDC_STATIC,13,15,223,8
+    LTEXT           "1) Momentarily press NAV button on DU FC and observe for the VOR-ILS/TACAN mode indication on display unit.",IDC_STATIC,34,35,349,16
+    LTEXT           "2) The Navigation modes are visible on the unit as per the screenshots given :",IDC_STATIC,34,52,252,8
+    LTEXT           "3) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,34,68,299,9
+    LTEXT           "7.01 ) ISIS FC DU navigation mode selection status ",IDC_STATIC,70,93,169,8
+    CONTROL         "Not Operational",IDC_CHECK_ISISFC_NAVMODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,276,91,67,10
+    LTEXT           "7.02 ) ISIS RC DU navigation mode selection status ",IDC_STATIC,71,198,170,8
+    CONTROL         "Not Operational",IDC_CHECK_ISISRC_NAVMODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,277,197,67,10
+    LTEXT           "4) Click on continue button to proceed for the next Test.",IDC_STATIC,20,228,179,8
+    LTEXT           "Test Procedure for Navigation Mode Selection Check of ISIS DU RC :",IDC_STATIC,14,121,226,8
+    LTEXT           "1) Momentarily press NAV button on DU RC and observe for the VOR-ILS/TACAN mode indication on display unit.",IDC_STATIC,36,139,349,16
+    CONTROL         655,IDC_STATIC,"Static",SS_BITMAP,389,10,88,77
+    CONTROL         653,IDC_STATIC,"Static",SS_BITMAP,389,95,88,83
+    CONTROL         654,IDC_STATIC,"Static",SS_BITMAP,389,181,88,82
+    LTEXT           "2) The Navigation modes are visible on the unit as per the screens attached :",IDC_STATIC,36,159,250,8
+    LTEXT           "3) Based on the steps mentioned above mark the status as Operational / Not Operational.",IDC_STATIC,36,173,299,9
+END
+
+IDD_PROGRESS_DIALOG DIALOGEX 0, 0, 198, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TEST STATUS"
+FONT 11, "Arial", 400, 0, 0x0
+BEGIN
+    LTEXT           "Initializing...",IDC_STATIC_STATUS,17,12,163,28
+    CONTROL         "",IDC_PROGRESS_STATUS,"msctls_progress32",PBS_SMOOTH | WS_BORDER,14,47,117,14
+    LTEXT           "0%",IDC_STATIC_PERCENT,145,50,27,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_VISUAL_INSPECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 409
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_DIALOG_ISIS_IBIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 491
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+    END
+
+    IDD_DIALOG_ISIS_BRT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 496
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_DIALOG_ISIS_ALN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 497
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_DIALOG_ISIS_NAVMODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 489
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 281
+    END
+
+    IDD_PROGRESS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (India) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\SIPU_SDU_GndRig.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

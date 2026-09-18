@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2F6DAA0A-F544-4190-A3CF-A2DF49D3F7F7}</ProjectGuid>
+    <RootNamespace>ATI_UT</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\ATI_UT.pch</PrecompiledHeaderOutputFile>
+      <ShowIncludes>false</ShowIncludes>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>debug/Adsapi32.lib;debug/apiLib1.3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>.\Debug\ATI_UT.exe</OutputFile>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\ATI_UT.pch</PrecompiledHeaderOutputFile>
+      <ShowIncludes>false</ShowIncludes>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ADT_L1.lib;ADT_L0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib</AdditionalLibraryDirectories>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <PostBuildEvent>
+      <Command>xcopy /D/Y "$(ProjectDir)bin\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\bkp software\IAT Software Application 3 aug bkp\BC.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="AddUser.h" />
+    <ClInclude Include="AnalogOutput.h" />
+    <ClInclude Include="Api.h" />
+    <ClInclude Include="AppConfig.h" />
+    <ClInclude Include="Arinc429.h" />
+    <ClInclude Include="BenchSelfTest.h" />
+    <ClInclude Include="Bonding_Insulation_Dlg.h" />
+    <ClInclude Include="CaptionBar.h" />
+    <ClInclude Include="CaptionListView.h" />
+    <ClInclude Include="CaptionView.h" />
+    <ClInclude Include="CHANGEPASSWORD.h" />
+    <ClInclude Include="CommonApi.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="DataStruct.h" />
+    <ClInclude Include="DialogSIGNAL.h" />
+    <ClInclude Include="DialogSmfdAHRS.h" />
+    <ClInclude Include="DialogSmfd_ADC.h" />
+    <ClInclude Include="DialogSmfd_Tacan.h" />
+    <ClInclude Include="DialogStop.h" />
+    <ClInclude Include="Dialog_ADC_AIR1.h" />
+    <ClInclude Include="Dialog_ADC_AIR2.h" />
+    <ClInclude Include="Dialog_ADC_AIR3.h" />
+    <ClInclude Include="Dialog_ADC_ALTI2.h" />
+    <ClInclude Include="Dialog_ADC_ALTI3.h" />
+    <ClInclude Include="Dialog_ADC_ALTIRATE.h" />
+    <ClInclude Include="Dialog_ADC_FUNCHK.h" />
+    <ClInclude Include="Dialog_ADC_LEAK.h" />
+    <ClInclude Include="Dialog_ADC_MACH2.h" />
+    <ClInclude Include="Dialog_ADC_MachCHK.h" />
+    <ClInclude Include="Dialog_ADC_Visual.h" />
+    <ClInclude Include="Dialog_AHRS_PWR.h" />
+    <ClInclude Include="Dialog_AHRS_QualityChecks.h" />
+    <ClInclude Include="Dialog_AHRS_VISUAL.h" />
+    <ClInclude Include="Dialog_GPS_DBInfo.h" />
+    <ClInclude Include="Dialog_GPS_PWR.h" />
+    <ClInclude Include="Dialog_GPS_SYSINFO.h" />
+    <ClInclude Include="Dialog_GPS_VISUAL.h" />
+    <ClInclude Include="Dialog_ISIS_ALN.h" />
+    <ClInclude Include="Dialog_ISIS_BRTCHK.h" />
+    <ClInclude Include="Dialog_ISIS_IBIT.h" />
+    <ClInclude Include="Dialog_ISIS_NAVMODE.h" />
+    <ClInclude Include="Dialog_Smfd_Adc_RC.h" />
+    <ClInclude Include="Dialog_Smfd_AHRS_RC.h" />
+    <ClInclude Include="Dialog_Smfd_Analog.h" />
+    <ClInclude Include="Dialog_Smfd_Analog1_RC.h" />
+    <ClInclude Include="Dialog_Smfd_Analog2.h" />
+    <ClInclude Include="Dialog_Smfd_Analog_RC.h" />
+    <ClInclude Include="Dialog_Smfd_Discrete.h" />
+    <ClInclude Include="Dialog_Smfd_Discrete_RC.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANBV.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANCL.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANCT.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANEB.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANES.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANFTL.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANFTR.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANGEOP.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANGV.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANLBP.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ANRBP.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ATP.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ET.h" />
+    <ClInclude Include="Dialog_SMFD_FC_ETP.h" />
+    <ClInclude Include="Dialog_SMFD_FC_FP3.h" />
+    <ClInclude Include="Dialog_SMFD_FC_FP4.h" />
+    <ClInclude Include="Dialog_SMFD_FC_HPE.h" />
+    <ClInclude Include="Dialog_SMFD_FC_RTP.h" />
+    <ClInclude Include="Dialog_Smfd_Fuel.h" />
+    <ClInclude Include="Dialog_Smfd_Fuel_RC.h" />
+    <ClInclude Include="Dialog_SMFD_GPS.h" />
+    <ClInclude Include="Dialog_Smfd_Gps_RC.h" />
+    <ClInclude Include="Dialog_SMFD_PWR.h" />
+    <ClInclude Include="Dialog_Smfd_Pwr_RC.h" />
+    <ClInclude Include="Dialog_SMFD_RC_ANCL.h" />
+    <ClInclude Include="Dialog_SMFD_RC_ATP.h" />
+    <ClInclude Include="Dialog_SMFD_RC_BV.h" />
+    <ClInclude Include="Dialog_SMFD_RC_CT.h" />
+    <ClInclude Include="Dialog_SMFD_RC_EB.h" />
+    <ClInclude Include="Dialog_SMFD_RC_EOP.h" />
+    <ClInclude Include="Dialog_SMFD_RC_EOT.h" />
+    <ClInclude Include="Dialog_SMFD_RC_ES.h" />
+    <ClInclude Include="Dialog_SMFD_RC_ET.h" />
+    <ClInclude Include="Dialog_SMFD_RC_ETP.h" />
+    <ClInclude Include="Dialog_SMFD_RC_FP3.h" />
+    <ClInclude Include="Dialog_SMFD_RC_FP4.h" />
+    <ClInclude Include="Dialog_SMFD_RC_FTL.h" />
+    <ClInclude Include="Dialog_SMFD_RC_FTR.h" />
+    <ClInclude Include="Dialog_SMFD_RC_GV.h" />
+    <ClInclude Include="Dialog_SMFD_RC_HPE.h" />
+    <ClInclude Include="Dialog_SMFD_RC_HPM.h" />
+    <ClInclude Include="Dialog_SMFD_RC_LBP.h" />
+    <ClInclude Include="Dialog_SMFD_RC_RBP.h" />
+    <ClInclude Include="Dialog_SMFD_RC_RTP.h" />
+    <ClInclude Include="Dialog_Smfd_Rev_Page.h" />
+    <ClInclude Include="Dialog_Smfd_Rev_RC.h" />
+    <ClInclude Include="Dialog_SMFD_SW.h" />
+    <ClInclude Include="Dialog_Smfd_Sw_RC.h" />
+    <ClInclude Include="Dialog_Smfd_Tacan_RC.h" />
+    <ClInclude Include="Dialog_Smfd_Visual.h" />
+    <ClInclude Include="Dialog_Smfd_Visual_RC.h" />
+    <ClInclude Include="Dialog_Smfd_VORILS.h" />
+    <ClInclude Include="Dialog_Smfd_Vorils_RC.h" />
+    <ClInclude Include="Dialog_VORTAC_PWR.h" />
+    <ClInclude Include="Dialog_VORTAC_Visual.h" />
+    <ClInclude Include="Dlg_ADC_PWR.h" />
+    <ClInclude Include="Dlg_ISIS_ADUTest.h" />
+    <ClInclude Include="Dlg_ISIS_AHRS.h" />
+    <ClInclude Include="Dlg_ISIS_PWR.h" />
+    <ClInclude Include="Dlg_ISIS_SWCHK.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="DU_General_SelfTest.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="FormEmpty.h" />
+    <ClInclude Include="gfx_printjob.h" />
+    <ClInclude Include="gfx_printunit.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="helper.h" />
+    <ClInclude Include="HI6130.h" />
+    <ClInclude Include="HLPRFuncs.h" />
+    <ClInclude Include="Imagehlp.h" />
+    <ClInclude Include="led.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MemDC.h" />
+    <ClInclude Include="MessageBox_Dlg.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MyCEditView.h" />
+    <ClInclude Include="MyListView.h" />
+    <ClInclude Include="MySplitterClass.h" />
+    <ClInclude Include="PARAS.H" />
+    <ClInclude Include="Plx.h" />
+    <ClInclude Include="PlxApi.h" />
+    <ClInclude Include="PlxDefCk.h" />
+    <ClInclude Include="ProgressDlg.h" />
+    <ClInclude Include="Registers.h" />
+    <ClInclude Include="res\PerRefreshRatedlg.h" />
+    <ClInclude Include="picture.h" />
+    <ClInclude Include="Picture1.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="rowcursor.h" />
+    <ClInclude Include="RS422_PORT1.h" />
+    <ClInclude Include="RS422_Port2.h" />
+    <ClInclude Include="Schedule.h" />
+    <ClInclude Include="SelfTestHeaderPage.h" />
+    <ClInclude Include="SerialCommunication.h" />
+    <ClInclude Include="SerialPort.h" />
+    <ClInclude Include="SIPU_AMStruct.h" />
+    <ClInclude Include="SIPU_SDU_GndRig.h" />
+    <ClInclude Include="SIPU_SDU_GndRigDoc.h" />
+    <ClInclude Include="SIPU_SDU_GndRigView.h" />
+    <ClInclude Include="SIPUPowerONPage.h" />
+    <ClInclude Include="Splach.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Structures.h" />
+    <ClInclude Include="TestTable.h" />
+    <ClInclude Include="unit_headerpage.h" />
+    <ClInclude Include="unit_indexpage.h" />
+    <ClInclude Include="unit_selftest_table.h" />
+    <ClInclude Include="unit_table1.h" />
+    <ClInclude Include="UserAuthendication.h" />
+    <ClInclude Include="VisualInspection.h" />
+    <ClInclude Include="WndSlider.h" />
+    <ClInclude Include="XComboList.h" />
+    <ClInclude Include="XHeaderCtrl.h" />
+    <ClInclude Include="XListCtrl.h" />
+    <ClInclude Include="XTOutlookBar.h" />
+    <ClInclude Include="XTPagerCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="apiLib 1.3.sdf" />
+    <None Include="Debug\PlxApi711.dll" />
+    <None Include="PlxApi711.dll" />
+    <None Include="resource.hm" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\SIPU_SDU_GndRig.rc2" />
+    <None Include="debug\BuildLog.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Downloads\alignment (1).bmp" />
+    <Image Include="..\..\..\..\..\Downloads\alignment.bmp" />
+    <Image Include="..\..\..\..\..\Downloads\brtness (1).bmp" />
+    <Image Include="..\..\..\..\..\Downloads\brtness.bmp" />
+    <Image Include="..\..\..\..\..\Downloads\ibit_fc (1).bmp" />
+    <Image Include="..\..\..\..\..\Downloads\ibit_fc.bmp" />
+    <Image Include="..\..\..\..\..\Downloads\ibit_rc (1).bmp" />
+    <Image Include="..\..\..\..\..\Downloads\Media (1).bmp" />
+    <Image Include="..\..\..\..\..\Downloads\Media.bmp" />
+    <Image Include="..\..\..\..\..\Downloads\nav (1).bmp" />
+    <Image Include="..\..\..\..\..\Downloads\nav.bmp" />
+    <Image Include="C:\Users\Deepak\Downloads\Screenshot 2026-08-21 170846 (1).bmp" />
+    <Image Include="C:\Users\Deepak\Downloads\Screenshot 2026-08-21 170846 (2).bmp" />
+    <Image Include="C:\Users\Deepak\Downloads\Screenshot 2026-08-21 170846.bmp" />
+    <Image Include="C:\Users\dell\Pictures\Untitled.bmp" />
+    <Image Include="res\alignment (1).bmp" />
+    <Image Include="res\AUD Bus Status Config.ico" />
+    <Image Include="res\Audio Analyzer.ico" />
+    <Image Include="res\bitmap20.bmp" />
+    <Image Include="res\bitmap21.bmp" />
+    <Image Include="res\bitmap23.bmp" />
+    <Image Include="res\bitmap24.bmp" />
+    <Image Include="res\bitmap24.png" />
+    <Image Include="res\bitmap25.bmp" />
+    <Image Include="res\bitmap26.bmp" />
+    <Image Include="res\bitmap28.bmp" />
+    <Image Include="res\bitmap29.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap34.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\Black_Pattern.bmp" />
+    <Image Include="res\Blue_Pattern.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\bmp00013.bmp" />
+    <Image Include="res\bmp00014.bmp" />
+    <Image Include="res\bmp00015.bmp" />
+    <Image Include="res\bmp00016.bmp" />
+    <Image Include="res\bmp00017.bmp" />
+    <Image Include="res\bmp00018.bmp" />
+    <Image Include="res\bmp00019.bmp" />
+    <Image Include="res\bmp00020.bmp" />
+    <Image Include="res\bmp00021.bmp" />
+    <Image Include="res\bmp00022.bmp" />
+    <Image Include="res\bmp00023.bmp" />
+    <Image Include="res\bmp00024.bmp" />
+    <Image Include="res\bmp00025.bmp" />
+    <Image Include="res\bmp00026.bmp" />
+    <Image Include="res\bmp00027.bmp" />
+    <Image Include="res\bmp00028.bmp" />
+    <Image Include="res\bmp00029.bmp" />
+    <Image Include="res\bmp00030.bmp" />
+    <Image Include="res\bmp00031.bmp" />
+    <Image Include="res\bmp00032.bmp" />
+    <Image Include="res\bmp00033.bmp" />
+    <Image Include="res\bmp00034.bmp" />
+    <Image Include="res\bmp00035.bmp" />
+    <Image Include="res\bmp00036.bmp" />
+    <Image Include="res\bmp00037.bmp" />
+    <Image Include="res\bmp00038.bmp" />
+    <Image Include="res\bmp00039.bmp" />
+    <Image Include="res\bmp00040.bmp" />
+    <Image Include="res\bmp00041.bmp" />
+    <Image Include="res\bmp00042.bmp" />
+    <Image Include="res\bmp00043.bmp" />
+    <Image Include="res\bmp00044.bmp" />
+    <Image Include="res\bmp00045.bmp" />
+    <Image Include="res\bmp00046.bmp" />
+    <Image Include="res\bmp00047.bmp" />
+    <Image Include="res\bmp00048.bmp" />
+    <Image Include="res\bmp00049.bmp" />
+    <Image Include="res\bmp_mfd6.bmp" />
+    <Image Include="res\bmp_mfdb.bmp" />
+    <Image Include="res\bmp_mfdl.bmp" />
+    <Image Include="res\brtness (1).bmp" />
+    <Image Include="res\Centering_template.bmp" />
+    <Image Include="res\checkboxes.bmp" />
+    <Image Include="res\Color_barPattern.bmp" />
+    <Image Include="res\custom1.bmp" />
+    <Image Include="res\Green_Pattern.bmp" />
+    <Image Include="res\greenButton.bmp" />
+    <Image Include="res\ibit_fc (1).bmp" />
+    <Image Include="res\ibit_rc (1).bmp" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\ico00003.ico" />
+    <Image Include="res\ico00004.ico" />
+    <Image Include="res\ico00005.ico" />
+    <Image Include="res\ico00006.ico" />
+    <Image Include="res\ico00007.ico" />
+    <Image Include="res\ico00008.ico" />
+    <Image Include="res\ico00009.ico" />
+    <Image Include="res\ico00010.ico" />
+    <Image Include="res\ico00011.ico" />
+    <Image Include="res\ico00012.ico" />
+    <Image Include="res\ico00013.ico" />
+    <Image Include="res\ico00014.ico" />
+    <Image Include="res\ico00015.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\icon4.ico" />
+    <Image Include="res\icon5.ico" />
+    <Image Include="res\icon6.ico" />
+    <Image Include="res\icon_fus.ico" />
+    <Image Include="res\IDB_BITMAP24.png" />
+    <Image Include="res\Media (1).bmp" />
+    <Image Include="res\Media.bmp" />
+    <Image Include="res\mem.ico" />
+    <Image Include="res\MFD_STB_FP.bmp" />
+    <Image Include="res\nav (1).bmp" />
+    <Image Include="res\opmode.ico" />
+    <Image Include="res\PASSWORD.ICO" />
+    <Image Include="res\PLANE5.ICO" />
+    <Image Include="res\PLANES.ICO" />
+    <Image Include="res\Red_Pattern.bmp" />
+    <Image Include="res\redButton.bmp" />
+    <Image Include="res\Screenshot 2026-08-21 170846 (1).bmp" />
+    <Image Include="res\Screenshot 2026-08-21 170846 (2).bmp" />
+    <Image Include="res\sdu2.ico" />
+    <Image Include="res\sducode.ico" />
+    <Image Include="res\SIPU_SDU_GndRigDoc.ico" />
+    <Image Include="res\sipufaul.ico" />
+    <Image Include="res\spr.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\TOOLS1.ICO" />
+    <Image Include="res\TOOLS3.ICO" />
+    <Image Include="res\Untitled.bmp" />
+    <Image Include="res\White_Pattern.bmp" />
+    <Image Include="res\wi0126-16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SIPU_SDU_GndRig.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddUser.cpp" />
+    <ClCompile Include="AnalogOutput.cpp" />
+    <ClCompile Include="Arinc429.cpp" />
+    <ClCompile Include="BenchSelfTest.cpp" />
+    <ClCompile Include="CaptionBar.cpp" />
+    <ClCompile Include="CaptionListView.cpp" />
+    <ClCompile Include="CaptionView.cpp" />
+    <ClCompile Include="CDialog_SMFD_FC_ANGEOP.cpp" />
+    <ClCompile Include="CHANGEPASSWORD.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="DataStruct.cpp" />
+    <ClCompile Include="demos.cpp" />
+    <ClCompile Include="DialogSmfdAHRS.cpp" />
+    <ClCompile Include="DialogSmfd_ADC.cpp" />
+    <ClCompile Include="DialogSmfd_Tacan.cpp" />
+    <ClCompile Include="DialogStop.cpp" />
+    <ClCompile Include="Dialog_ADC_AIR1.cpp" />
+    <ClCompile Include="Dialog_ADC_AIR2.cpp" />
+    <ClCompile Include="Dialog_ADC_AIR3.cpp" />
+    <ClCompile Include="Dialog_ADC_ALTI2.cpp" />
+    <ClCompile Include="Dialog_ADC_ALTI3.cpp" />
+    <ClCompile Include="Dialog_ADC_ALTIRATE.cpp" />
+    <ClCompile Include="Dialog_ADC_FUNCHK.cpp" />
+    <ClCompile Include="Dialog_ADC_LEAK.cpp" />
+    <ClCompile Include="Dialog_ADC_MACH2.cpp" />
+    <ClCompile Include="Dialog_ADC_MachCHK.cpp" />
+    <ClCompile Include="Dialog_ADC_Visual.cpp" />
+    <ClCompile Include="Dialog_AHRS_PWR.cpp" />
+    <ClCompile Include="Dialog_AHRS_QualityChecks.cpp" />
+    <ClCompile Include="Dialog_AHRS_VISUAL.cpp" />
+    <ClCompile Include="Dialog_GPS_DBInfo.cpp" />
+    <ClCompile Include="Dialog_GPS_PWR.cpp" />
+    <ClCompile Include="Dialog_GPS_SYSINFO.cpp" />
+    <ClCompile Include="Dialog_GPS_VISUAL.cpp" />
+    <ClCompile Include="Dialog_ISIS_ALN.cpp" />
+    <ClCompile Include="Dialog_ISIS_BRTCHK.cpp" />
+    <ClCompile Include="Dialog_ISIS_IBIT.cpp" />
+    <ClCompile Include="Dialog_ISIS_NAVMODE.cpp" />
+    <ClCompile Include="Dialog_Smfd_Adc_RC.cpp" />
+    <ClCompile Include="Dialog_Smfd_AHRS_RC.cpp" />
+    <ClCompile Include="Dialog_Smfd_Analog.cpp" />
+    <ClCompile Include="Dialog_Smfd_Analog2.cpp" />
+    <ClCompile Include="Dialog_Smfd_Discrete.cpp" />
+    <ClCompile Include="Dialog_Smfd_Discrete_RC.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANBV.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANCL.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANCT.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANEB.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANES.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANFTL.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANFTR.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANGV.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANLBP.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ANRBP.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ATP.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ET.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_ETP.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_FP3.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_FP4.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_HPE.cpp" />
+    <ClCompile Include="Dialog_SMFD_FC_RTP.cpp" />
+    <ClCompile Include="Dialog_Smfd_Fuel.cpp" />
+    <ClCompile Include="Dialog_Smfd_Fuel_RC.cpp" />
+    <ClCompile Include="Dialog_SMFD_GPS.cpp" />
+    <ClCompile Include="Dialog_Smfd_Gps_RC.cpp" />
+    <ClCompile Include="Dialog_SMFD_PWR.cpp" />
+    <ClCompile Include="Dialog_Smfd_Pwr_RC.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_ANCL.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_ATP.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_BV.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_CT.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_EB.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_EOP.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_EOT.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_ES.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_ET.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_ETP.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_FP3.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_FP4.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_FTL.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_FTR.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_GV.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_HPE.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_HPM.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_LBP.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_RBP.cpp" />
+    <ClCompile Include="Dialog_SMFD_RC_RTP.cpp" />
+    <ClCompile Include="Dialog_Smfd_Rev_Page.cpp" />
+    <ClCompile Include="Dialog_Smfd_Rev_RC.cpp" />
+    <ClCompile Include="Dialog_SMFD_SW.cpp" />
+    <ClCompile Include="Dialog_Smfd_Sw_RC.cpp" />
+    <ClCompile Include="Dialog_Smfd_Tacan_RC.cpp" />
+    <ClCompile Include="Dialog_Smfd_Visual.cpp" />
+    <ClCompile Include="Dialog_Smfd_Visual_RC.cpp" />
+    <ClCompile Include="Dialog_Smfd_VORILS.cpp" />
+    <ClCompile Include="Dialog_Smfd_Vorils_RC.cpp" />
+    <ClCompile Include="Dialog_VORTAC_PWR.cpp" />
+    <ClCompile Include="Dialog_VORTAC_Visual.cpp" />
+    <ClCompile Include="Dlg_ADC_PWR.cpp" />
+    <ClCompile Include="Dlg_ISIS_ADUTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Dlg_ISIS_AHRS.cpp" />
+    <ClCompile Include="Dlg_ISIS_PWR.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FormEmpty.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="gfx_printjob.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="gfx_printunit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="helper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="HlprFuncs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="led.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MessageBox_Dlg.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MyCEditView.cpp" />
+    <ClCompile Include="MyListView.cpp" />
+    <ClCompile Include="MySplitterClass.cpp" />
+    <ClCompile Include="picture.cpp" />
+    <ClCompile Include="Picture1.cpp" />
+    <ClCompile Include="PlxInit.cpp" />
+    <ClCompile Include="ProgressDlg.cpp" />
+    <ClCompile Include="rowcursor.cpp" />
+    <ClCompile Include="Schedule.cpp" />
+    <ClCompile Include="SelfTestHeaderPage.cpp" />
+    <ClCompile Include="SerialPort.cpp" />
+    <ClCompile Include="SIPU_SDU_GndRig.cpp" />
+    <ClCompile Include="SIPU_SDU_GndRigDoc.cpp" />
+    <ClCompile Include="SIPU_SDU_GndRigView.cpp" />
+    <ClCompile Include="SIPUPowerONPage.cpp" />
+    <ClCompile Include="Dlg_ISIS_SWCHK.cpp" />
+    <ClCompile Include="Splach.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="TestTable.cpp" />
+    <ClCompile Include="unit_headerpage.cpp" />
+    <ClCompile Include="unit_indexpage.cpp" />
+    <ClCompile Include="unit_selftest_table.cpp" />
+    <ClCompile Include="unit_table1.cpp" />
+    <ClCompile Include="UserAuthendication.cpp" />
+    <ClCompile Include="VisualInspection.cpp" />
+    <ClCompile Include="WndSlider.cpp" />
+    <ClCompile Include="XComboList.cpp" />
+    <ClCompile Include="XHeaderCtrl.cpp" />
+    <ClCompile Include="XListCtrl.cpp" />
+    <ClCompile Include="XTOutlookBar.cpp" />
+    <ClCompile Include="XTPagerCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Debug\apiLib1.3.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </Library>
+    <Library Include="PlxApi.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SIPU_SDU_GndRig.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,485 @@
+﻿Build started 15-09-2026 15:49:26.
+     1>Project "C:\Projects\IAT\IAT Software Application 3 sept\ATI_UT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Projects\IAT\IAT Software Application 3 sept\include" /Z7 /nologo /W3 /WX- /MP /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt AddUser.cpp Arinc429.cpp BenchSelfTest.cpp CHANGEPASSWORD.cpp DataStruct.cpp DialogSmfdAHRS.cpp DialogSmfd_ADC.cpp DialogSmfd_Tacan.cpp Dialog_ADC_AIR1.cpp Dialog_ADC_AIR2.cpp Dialog_ADC_AIR3.cpp Dialog_ADC_ALTI2.cpp Dialog_ADC_ALTI3.cpp Dialog_ADC_ALTIRATE.cpp Dialog_ADC_FUNCHK.cpp Dialog_ADC_MACH2.cpp Dialog_ADC_MachCHK.cpp Dialog_AHRS_PWR.cpp Dialog_AHRS_QualityChecks.cpp Dialog_GPS_PWR.cpp Dialog_ISIS_NAVMODE.cpp Dialog_SMFD_PWR.cpp Dialog_Smfd_AHRS_RC.cpp Dialog_Smfd_Adc_RC.cpp Dialog_Smfd_Analog.cpp Dialog_Smfd_Discrete.cpp Dialog_Smfd_Discrete_RC.cpp Dialog_Smfd_Pwr_RC.cpp Dialog_Smfd_Tacan_RC.cpp Dialog_Smfd_VORILS.cpp Dialog_Smfd_Vorils_RC.cpp Dialog_VORTAC_PWR.cpp Dlg_ADC_PWR.cpp Dlg_ISIS_SWCHK.cpp SIPUPowerONPage.cpp SIPU_SDU_GndRig.cpp SelfTestHeaderPage.cpp UserAuthendication.cpp WndSlider.cpp unit_headerpage.cpp unit_selftest_table.cpp unit_table1.cpp
+         AddUser.cpp
+         Arinc429.cpp
+         BenchSelfTest.cpp
+         CHANGEPASSWORD.cpp
+         DataStruct.cpp
+         DialogSmfdAHRS.cpp
+         DialogSmfd_ADC.cpp
+         DialogSmfd_Tacan.cpp
+         Dialog_ADC_AIR1.cpp
+         Dialog_ADC_AIR2.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dialog_ADC_AIR3.cpp
+         Dialog_ADC_ALTI2.cpp
+         Dialog_ADC_ALTI3.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dialog_ADC_ALTIRATE.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dialog_ADC_FUNCHK.cpp
+         Dialog_ADC_MACH2.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>Dialog_ADC_AIR1.cpp(100): warning C4101: 'value' : unreferenced local variable
+     1>Dialog_ADC_AIR2.cpp(98): warning C4101: 'value' : unreferenced local variable
+     1>Dialog_ADC_AIR3.cpp(97): warning C4101: 'value' : unreferenced local variable
+     1>CHANGEPASSWORD.cpp(222): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>CHANGEPASSWORD.cpp(237): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>CHANGEPASSWORD.cpp(299): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>CHANGEPASSWORD.cpp(339): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>CHANGEPASSWORD.cpp(189): warning C4101: 'carrSysDir1' : unreferenced local variable
+         Dialog_ADC_MachCHK.cpp
+         Dialog_AHRS_PWR.cpp
+         Dialog_AHRS_QualityChecks.cpp
+         Dialog_GPS_PWR.cpp
+         Dialog_ISIS_NAVMODE.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dialog_SMFD_PWR.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dialog_Smfd_AHRS_RC.cpp
+         Dialog_Smfd_Adc_RC.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dialog_Smfd_Analog.cpp
+         Dialog_Smfd_Discrete.cpp
+         Dialog_Smfd_Discrete_RC.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>AddUser.cpp(191): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>AddUser.cpp(210): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>AddUser.cpp(301): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>AddUser.cpp(314): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>AddUser.cpp(138): warning C4101: 'pfUserDetails1' : unreferenced local variable
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>DataStruct.cpp(80): warning C4005: '_T' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\tchar.h(2398) : see previous definition of '_T'
+     1>DataStruct.cpp(81): warning C4005: 'TEXT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(494) : see previous definition of 'TEXT'
+     1>DataStruct.cpp(121): warning C4101: 'm_szErrMsg' : unreferenced local variable
+     1>DataStruct.cpp(433): warning C4101: 'm_lrErrCode' : unreferenced local variable
+     1>DataStruct.cpp(432): warning C4101: 'm_szErrMsg' : unreferenced local variable
+     1>DataStruct.cpp(467): warning C4101: 'ucLBackCmd' : unreferenced local variable
+     1>DataStruct.cpp(466): warning C4101: 'bTrsFlag' : unreferenced local variable
+     1>DataStruct.cpp(925): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(935): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(944): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(953): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>DataStruct.cpp(962): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>DataStruct.cpp(969): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(976): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(983): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(1420): warning C4018: '<' : signed/unsigned mismatch
+     1>DataStruct.cpp(1457): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(1478): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(1487): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>DataStruct.cpp(1496): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>DataStruct.cpp(1503): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(1510): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(1517): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DataStruct.cpp(1548): warning C4018: '<' : signed/unsigned mismatch
+     1>DataStruct.cpp(1609): warning C4101: 'iEVolt' : unreferenced local variable
+     1>DataStruct.cpp(1609): warning C4101: 'iEFreq' : unreferenced local variable
+     1>DataStruct.cpp(1718): warning C4101: 'iEVolt' : unreferenced local variable
+     1>DataStruct.cpp(1718): warning C4101: 'iEFreq' : unreferenced local variable
+     1>DataStruct.cpp(1806): warning C4101: 'm_szErrMsg' : unreferenced local variable
+         Dialog_Smfd_Pwr_RC.cpp
+         Dialog_Smfd_Tacan_RC.cpp
+         Dialog_Smfd_VORILS.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dialog_Smfd_Vorils_RC.cpp
+         Dialog_VORTAC_PWR.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Dlg_ADC_PWR.cpp
+         Dlg_ISIS_SWCHK.cpp
+         SIPUPowerONPage.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         SIPU_SDU_GndRig.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         SelfTestHeaderPage.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         UserAuthendication.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         WndSlider.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         unit_headerpage.cpp
+         unit_selftest_table.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         unit_table1.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>Dlg_ISIS_SWCHK.cpp(353): warning C4101: 'bTrsFlag' : unreferenced local variable
+     1>UserAuthendication.cpp(247): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>UserAuthendication.cpp(267): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>UserAuthendication.cpp(283): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>UserAuthendication.cpp(302): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>SIPU_SDU_GndRig.cpp(226): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afxwin.h(5361) : see declaration of 'CWinApp::Enable3dControls'
+     1>SIPU_SDU_GndRig.cpp(152): warning C4101: 'ucIOBRD_Status' : unreferenced local variable
+     1>SIPU_SDU_GndRig.cpp(144): warning C4101: 'ucBytecount' : unreferenced local variable
+     1>SIPU_SDU_GndRig.cpp(347): warning C4101: 'iMboxRet' : unreferenced local variable
+     1>SIPU_SDU_GndRig.cpp(422): warning C4101: 'bTrsFlag' : unreferenced local variable
+     1>WndSlider.cpp(79): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(179): warning C4244: 'return' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(218): warning C4244: 'return' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(707): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(741): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(960): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(1024): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(1044): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>WndSlider.cpp(1797): warning C4244: 'argument' : conversion from 'WPARAM' to 'const int', possible loss of data
+     1>WndSlider.cpp(1798): warning C4244: '=' : conversion from 'WPARAM' to 'int', possible loss of data
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_FUNCHK.h(4): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dlg_ISIS_ADUTest.h(5) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_AHRS_QualityChecks.h(6): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_FUNCHK.h(4) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_Smfd_VORILS.h(4): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_AHRS_QualityChecks.h(6) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\DialogSmfd_ADC.h(6): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_Smfd_VORILS.h(4) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\DialogSmfd_Tacan.h(5): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\DialogSmfd_ADC.h(6) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_Smfd_Adc_RC.h(5): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\DialogSmfd_Tacan.h(5) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_Smfd_AHRS_RC.h(5): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_Smfd_Adc_RC.h(5) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_MachCHK.h(5): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_Smfd_AHRS_RC.h(5) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_ALTI2.h(4): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_MachCHK.h(5) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_ALTI3.h(3): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_ALTI2.h(4) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_AIR1.h(3): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_ALTI3.h(3) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_AIR2.h(3): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_AIR1.h(3) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_AIR3.h(3): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_AIR2.h(3) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_ALTIRATE.h(5): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_AIR3.h(3) : see previous definition of 'WM_UPDATE_ARINC'
+     1>c:\projects\iat\iat software application 3 sept\Dialog_ADC_MACH2.h(3): warning C4005: 'WM_UPDATE_ARINC' : macro redefinition (SIPUPowerONPage.cpp)
+                 c:\projects\iat\iat software application 3 sept\Dialog_ADC_ALTIRATE.h(5) : see previous definition of 'WM_UPDATE_ARINC'
+     1>SIPUPowerONPage.cpp(284): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>SIPUPowerONPage.cpp(846): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>SIPUPowerONPage.cpp(1327): warning C4101: 'iMboxRet' : unreferenced local variable
+     1>SIPUPowerONPage.cpp(1326): warning C4101: 'chStopLogFile' : unreferenced local variable
+     1>SIPUPowerONPage.cpp(1328): warning C4101: 'ulSysDir' : unreferenced local variable
+     1>SIPUPowerONPage.cpp(1373): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>SIPUPowerONPage.cpp(1374): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>SIPUPowerONPage.cpp(4634): warning C4005: 'ADD_TEST' : macro redefinition
+                 SIPUPowerONPage.cpp(4400) : see previous definition of 'ADD_TEST'
+     1>SIPUPowerONPage.cpp(4889): warning C4005: 'ADD_TEST' : macro redefinition
+                 SIPUPowerONPage.cpp(4634) : see previous definition of 'ADD_TEST'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Projects\IAT\IAT Software Application 3 sept\include" /Z7 /nologo /W3 /WX- /MP /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt Dlg_ISIS_ADUTest.cpp Dlg_ISIS_PWR.cpp helper.cpp
+         Dlg_ISIS_ADUTest.cpp
+         Dlg_ISIS_PWR.cpp
+         helper.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\IAT\IAT Software Application 3 sept\x64\Debug\ATI_UT.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Projects\IAT\IAT Software Application 3 sept\lib" ADT_L1.lib ADT_L0.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Projects\IAT\IAT Software Application 3 sept\x64\Debug\ATI_UT.pdb" /SUBSYSTEM:WINDOWS /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\IAT\IAT Software Application 3 sept\x64\Debug\ATI_UT.lib" /MACHINE:X64 /VERBOSE:LIB x64\Debug\SIPU_SDU_GndRig.res
+         x64\Debug\AddUser.obj
+         x64\Debug\Arinc429.obj
+         x64\Debug\BenchSelfTest.obj
+         x64\Debug\CaptionBar.obj
+         x64\Debug\CaptionListView.obj
+         x64\Debug\CaptionView.obj
+         x64\Debug\CHANGEPASSWORD.obj
+         x64\Debug\Cursor.obj
+         x64\Debug\DataStruct.obj
+         x64\Debug\demos.obj
+         x64\Debug\DialogSmfdAHRS.obj
+         x64\Debug\DialogSmfd_ADC.obj
+         x64\Debug\DialogSmfd_Tacan.obj
+         x64\Debug\DialogStop.obj
+         x64\Debug\Dialog_ADC_AIR1.obj
+         x64\Debug\Dialog_ADC_AIR2.obj
+         x64\Debug\Dialog_ADC_AIR3.obj
+         x64\Debug\Dialog_ADC_ALTI2.obj
+         x64\Debug\Dialog_ADC_ALTI3.obj
+         x64\Debug\Dialog_ADC_ALTIRATE.obj
+         x64\Debug\Dialog_ADC_FUNCHK.obj
+         x64\Debug\Dialog_ADC_LEAK.obj
+         x64\Debug\Dialog_ADC_MACH2.obj
+         x64\Debug\Dialog_ADC_MachCHK.obj
+         x64\Debug\Dialog_ADC_Visual.obj
+         x64\Debug\Dialog_AHRS_PWR.obj
+         x64\Debug\Dialog_AHRS_QualityChecks.obj
+         x64\Debug\Dialog_AHRS_VISUAL.obj
+         x64\Debug\Dialog_GPS_DBInfo.obj
+         x64\Debug\Dialog_GPS_PWR.obj
+         x64\Debug\Dialog_GPS_SYSINFO.obj
+         x64\Debug\Dialog_GPS_VISUAL.obj
+         x64\Debug\Dialog_ISIS_ALN.obj
+         x64\Debug\Dialog_ISIS_BRTCHK.obj
+         x64\Debug\Dialog_ISIS_IBIT.obj
+         x64\Debug\Dialog_ISIS_NAVMODE.obj
+         x64\Debug\Dialog_Smfd_Adc_RC.obj
+         x64\Debug\Dialog_Smfd_AHRS_RC.obj
+         x64\Debug\Dialog_Smfd_Analog.obj
+         x64\Debug\Dialog_Smfd_Analog2.obj
+         x64\Debug\Dialog_Smfd_Discrete.obj
+         x64\Debug\Dialog_Smfd_Discrete_RC.obj
+         x64\Debug\Dialog_SMFD_FC_ANBV.obj
+         x64\Debug\Dialog_SMFD_FC_ANCL.obj
+         x64\Debug\Dialog_SMFD_FC_ANCT.obj
+         x64\Debug\Dialog_SMFD_FC_ANEB.obj
+         x64\Debug\dialog_smfd_fc_angeop.obj
+         x64\Debug\Dialog_SMFD_FC_ANES.obj
+         x64\Debug\Dialog_SMFD_FC_ANFTL.obj
+         x64\Debug\Dialog_SMFD_FC_ANFTR.obj
+         x64\Debug\Dialog_SMFD_FC_ANGV.obj
+         x64\Debug\Dialog_SMFD_FC_ANLBP.obj
+         x64\Debug\Dialog_SMFD_FC_ANRBP.obj
+         x64\Debug\Dialog_SMFD_FC_ATP.obj
+         x64\Debug\Dialog_SMFD_FC_ET.obj
+         x64\Debug\Dialog_SMFD_FC_ETP.obj
+         x64\Debug\Dialog_SMFD_FC_FP3.obj
+         x64\Debug\Dialog_SMFD_FC_FP4.obj
+         x64\Debug\Dialog_SMFD_FC_HPE.obj
+         x64\Debug\Dialog_SMFD_FC_RTP.obj
+         x64\Debug\Dialog_Smfd_Fuel.obj
+         x64\Debug\Dialog_Smfd_Fuel_RC.obj
+         x64\Debug\Dialog_SMFD_GPS.obj
+         x64\Debug\Dialog_Smfd_Gps_RC.obj
+         x64\Debug\Dialog_SMFD_PWR.obj
+         x64\Debug\Dialog_Smfd_Pwr_RC.obj
+         x64\Debug\Dialog_SMFD_RC_ANCL.obj
+         x64\Debug\Dialog_SMFD_RC_ATP.obj
+         x64\Debug\Dialog_SMFD_RC_BV.obj
+         x64\Debug\Dialog_SMFD_RC_CT.obj
+         x64\Debug\Dialog_SMFD_RC_EB.obj
+         x64\Debug\Dialog_SMFD_RC_EOP.obj
+         x64\Debug\Dialog_SMFD_RC_EOT.obj
+         x64\Debug\Dialog_SMFD_RC_ES.obj
+         x64\Debug\Dialog_SMFD_RC_ET.obj
+         x64\Debug\Dialog_SMFD_RC_ETP.obj
+         x64\Debug\Dialog_SMFD_RC_FP3.obj
+         x64\Debug\Dialog_SMFD_RC_FP4.obj
+         x64\Debug\Dialog_SMFD_RC_FTL.obj
+         x64\Debug\Dialog_SMFD_RC_FTR.obj
+         x64\Debug\Dialog_SMFD_RC_GV.obj
+         x64\Debug\Dialog_SMFD_RC_HPE.obj
+         x64\Debug\Dialog_SMFD_RC_HPM.obj
+         x64\Debug\Dialog_SMFD_RC_LBP.obj
+         x64\Debug\Dialog_SMFD_RC_RBP.obj
+         x64\Debug\Dialog_SMFD_RC_RTP.obj
+         x64\Debug\Dialog_Smfd_Rev_Page.obj
+         x64\Debug\Dialog_Smfd_Rev_RC.obj
+         x64\Debug\Dialog_SMFD_SW.obj
+         x64\Debug\Dialog_Smfd_Sw_RC.obj
+         x64\Debug\Dialog_Smfd_Tacan_RC.obj
+         x64\Debug\Dialog_Smfd_Visual.obj
+         x64\Debug\Dialog_Smfd_Visual_RC.obj
+         x64\Debug\Dialog_Smfd_VORILS.obj
+         x64\Debug\Dialog_Smfd_Vorils_RC.obj
+         x64\Debug\Dialog_VORTAC_PWR.obj
+         x64\Debug\Dialog_VORTAC_Visual.obj
+         x64\Debug\Dlg_ADC_PWR.obj
+         x64\Debug\Dlg_ISIS_AHRS.obj
+         x64\Debug\Globals.obj
+         x64\Debug\led.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\MessageBox_Dlg.obj
+         x64\Debug\Mouse.obj
+         x64\Debug\MyCEditView.obj
+         x64\Debug\MyListView.obj
+         x64\Debug\MySplitterClass.obj
+         x64\Debug\picture.obj
+         x64\Debug\Picture1.obj
+         x64\Debug\PlxInit.obj
+         x64\Debug\ProgressDlg.obj
+         x64\Debug\rowcursor.obj
+         x64\Debug\Schedule.obj
+         x64\Debug\SelfTestHeaderPage.obj
+         x64\Debug\SerialPort.obj
+         x64\Debug\SIPU_SDU_GndRig.obj
+         x64\Debug\SIPU_SDU_GndRigDoc.obj
+         x64\Debug\SIPU_SDU_GndRigView.obj
+         x64\Debug\SIPUPowerONPage.obj
+         x64\Debug\Dlg_ISIS_SWCHK.obj
+         x64\Debug\Splach.obj
+         x64\Debug\StdAfx.obj
+         x64\Debug\TestTable.obj
+         x64\Debug\unit_headerpage.obj
+         x64\Debug\unit_indexpage.obj
+         x64\Debug\unit_selftest_table.obj
+         x64\Debug\unit_table1.obj
+         x64\Debug\UserAuthendication.obj
+         x64\Debug\VisualInspection.obj
+         x64\Debug\WndSlider.obj
+         x64\Debug\XComboList.obj
+         x64\Debug\XHeaderCtrl.obj
+         x64\Debug\XListCtrl.obj
+         x64\Debug\XTOutlookBar.obj
+         x64\Debug\XTPagerCtrl.obj
+         x64\Debug\Dlg_ISIS_ADUTest.obj
+         x64\Debug\Dlg_ISIS_PWR.obj
+         x64\Debug\font.obj
+         x64\Debug\FormEmpty.obj
+         x64\Debug\gfx_printjob.obj
+         x64\Debug\gfx_printunit.obj
+         x64\Debug\helper.obj
+         x64\Debug\HlprFuncs.obj
+         Debug\apiLib1.3.lib
+         PlxApi.lib
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         
+         Searching libraries
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L1.lib:
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comctl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uxtheme.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\windowscodecs.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\dwmapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\atlsnd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oledlg.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\urlmon.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdiplus.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\comsuppwd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\wininet.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ws2_32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\mswsock.lib:
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L1.lib:
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comctl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uxtheme.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\windowscodecs.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\dwmapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\atlsnd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oledlg.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\urlmon.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdiplus.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\comsuppwd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\wininet.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ws2_32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\mswsock.lib:
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L1.lib:
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+         
+         Finished searching libraries
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         
+         Searching libraries
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L1.lib:
+             Searching C:\Projects\IAT\IAT Software Application 3 sept\lib\ADT_L0.lib:
+             Searching Debug\apiLib1.3.lib:
+             Searching PlxApi.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfc110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\mfcs110d.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcrtd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\msimg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\comctl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uxtheme.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\windowscodecs.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\dwmapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64\atlsnd.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\oledlg.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\urlmon.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\gdiplus.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\comsuppwd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\wininet.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\ws2_32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64\mswsock.lib:
+         
+         Finished searching libraries
+         ATI_UT.vcxproj -> C:\Projects\IAT\IAT Software Application 3 sept\x64\Debug\ATI_UT.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"C:\Projects\IAT\IAT Software Application 3 sept\x64\Debug\ATI_UT.bsc" x64\Debug\AddUser.sbr x64\Debug\Arinc429.sbr x64\Debug\BenchSelfTest.sbr x64\Debug\CaptionBar.sbr x64\Debug\CaptionListView.sbr x64\Debug\CaptionView.sbr x64\Debug\CHANGEPASSWORD.sbr x64\Debug\Cursor.sbr x64\Debug\DataStruct.sbr x64\Debug\demos.sbr x64\Debug\DialogSmfdAHRS.sbr x64\Debug\DialogSmfd_ADC.sbr x64\Debug\DialogSmfd_Tacan.sbr x64\Debug\DialogStop.sbr x64\Debug\Dialog_ADC_AIR1.sbr x64\Debug\Dialog_ADC_AIR2.sbr x64\Debug\Dialog_ADC_AIR3.sbr x64\Debug\Dialog_ADC_ALTI2.sbr x64\Debug\Dialog_ADC_ALTI3.sbr x64\Debug\Dialog_ADC_ALTIRATE.sbr x64\Debug\Dialog_ADC_FUNCHK.sbr x64\Debug\Dialog_ADC_LEAK.sbr x64\Debug\Dialog_ADC_MACH2.sbr x64\Debug\Dialog_ADC_MachCHK.sbr x64\Debug\Dialog_ADC_Visual.sbr x64\Debug\Dialog_AHRS_PWR.sbr x64\Debug\Dialog_AHRS_QualityChecks.sbr x64\Debug\Dialog_AHRS_VISUAL.sbr x64\Debug\Dialog_GPS_DBInfo.sbr x64\Debug\Dialog_GPS_PWR.sbr x64\Debug\Dialog_GPS_SYSINFO.sbr x64\Debug\Dialog_GPS_VISUAL.sbr x64\Debug\Dialog_ISIS_ALN.sbr x64\Debug\Dialog_ISIS_BRTCHK.sbr x64\Debug\Dialog_ISIS_IBIT.sbr x64\Debug\Dialog_ISIS_NAVMODE.sbr x64\Debug\Dialog_Smfd_Adc_RC.sbr x64\Debug\Dialog_Smfd_AHRS_RC.sbr x64\Debug\Dialog_Smfd_Analog.sbr x64\Debug\Dialog_Smfd_Analog2.sbr x64\Debug\Dialog_Smfd_Discrete.sbr x64\Debug\Dialog_Smfd_Discrete_RC.sbr x64\Debug\Dialog_SMFD_FC_ANBV.sbr x64\Debug\Dialog_SMFD_FC_ANCL.sbr x64\Debug\Dialog_SMFD_FC_ANCT.sbr x64\Debug\Dialog_SMFD_FC_ANEB.sbr x64\Debug\dialog_smfd_fc_angeop.sbr x64\Debug\Dialog_SMFD_FC_ANES.sbr x64\Debug\Dialog_SMFD_FC_ANFTL.sbr x64\Debug\Dialog_SMFD_FC_ANFTR.sbr x64\Debug\Dialog_SMFD_FC_ANGV.sbr x64\Debug\Dialog_SMFD_FC_ANLBP.sbr x64\Debug\Dialog_SMFD_FC_ANRBP.sbr x64\Debug\Dialog_SMFD_FC_ATP.sbr x64\Debug\Dialog_SMFD_FC_ET.sbr x64\Debug\Dialog_SMFD_FC_ETP.sbr x64\Debug\Dialog_SMFD_FC_FP3.sbr x64\Debug\Dialog_SMFD_FC_FP4.sbr x64\Debug\Dialog_SMFD_FC_HPE.sbr x64\Debug\Dialog_SMFD_FC_RTP.sbr x64\Debug\Dialog_Smfd_Fuel.sbr x64\Debug\Dialog_Smfd_Fuel_RC.sbr x64\Debug\Dialog_SMFD_GPS.sbr x64\Debug\Dialog_Smfd_Gps_RC.sbr x64\Debug\Dialog_SMFD_PWR.sbr x64\Debug\Dialog_Smfd_Pwr_RC.sbr x64\Debug\Dialog_SMFD_RC_ANCL.sbr x64\Debug\Dialog_SMFD_RC_ATP.sbr x64\Debug\Dialog_SMFD_RC_BV.sbr x64\Debug\Dialog_SMFD_RC_CT.sbr x64\Debug\Dialog_SMFD_RC_EB.sbr x64\Debug\Dialog_SMFD_RC_EOP.sbr x64\Debug\Dialog_SMFD_RC_EOT.sbr x64\Debug\Dialog_SMFD_RC_ES.sbr x64\Debug\Dialog_SMFD_RC_ET.sbr x64\Debug\Dialog_SMFD_RC_ETP.sbr x64\Debug\Dialog_SMFD_RC_FP3.sbr x64\Debug\Dialog_SMFD_RC_FP4.sbr x64\Debug\Dialog_SMFD_RC_FTL.sbr x64\Debug\Dialog_SMFD_RC_FTR.sbr x64\Debug\Dialog_SMFD_RC_GV.sbr x64\Debug\Dialog_SMFD_RC_HPE.sbr x64\Debug\Dialog_SMFD_RC_HPM.sbr x64\Debug\Dialog_SMFD_RC_LBP.sbr x64\Debug\Dialog_SMFD_RC_RBP.sbr x64\Debug\Dialog_SMFD_RC_RTP.sbr x64\Debug\Dialog_Smfd_Rev_Page.sbr x64\Debug\Dialog_Smfd_Rev_RC.sbr x64\Debug\Dialog_SMFD_SW.sbr x64\Debug\Dialog_Smfd_Sw_RC.sbr x64\Debug\Dialog_Smfd_Tacan_RC.sbr x64\Debug\Dialog_Smfd_Visual.sbr x64\Debug\Dialog_Smfd_Visual_RC.sbr x64\Debug\Dialog_Smfd_VORILS.sbr x64\Debug\Dialog_Smfd_Vorils_RC.sbr x64\Debug\Dialog_VORTAC_PWR.sbr x64\Debug\Dialog_VORTAC_Visual.sbr x64\Debug\Dlg_ADC_PWR.sbr x64\Debug\Dlg_ISIS_AHRS.sbr x64\Debug\Globals.sbr x64\Debug\led.sbr x64\Debug\MainFrm.sbr x64\Debug\MessageBox_Dlg.sbr x64\Debug\Mouse.sbr x64\Debug\MyCEditView.sbr x64\Debug\MyListView.sbr x64\Debug\MySplitterClass.sbr x64\Debug\picture.sbr x64\Debug\Picture1.sbr x64\Debug\PlxInit.sbr x64\Debug\ProgressDlg.sbr x64\Debug\rowcursor.sbr x64\Debug\Schedule.sbr x64\Debug\SelfTestHeaderPage.sbr x64\Debug\SerialPort.sbr x64\Debug\SIPU_SDU_GndRig.sbr x64\Debug\SIPU_SDU_GndRigDoc.sbr x64\Debug\SIPU_SDU_GndRigView.sbr x64\Debug\SIPUPowerONPage.sbr x64\Debug\Dlg_ISIS_SWCHK.sbr x64\Debug\Splach.sbr x64\Debug\StdAfx.sbr x64\Debug\TestTable.sbr x64\Debug\unit_headerpage.sbr x64\Debug\unit_indexpage.sbr x64\Debug\unit_selftest_table.sbr x64\Debug\unit_table1.sbr x64\Debug\UserAuthendication.sbr x64\Debug\VisualInspection.sbr x64\Debug\WndSlider.sbr x64\Debug\XComboList.sbr x64\Debug\XHeaderCtrl.sbr x64\Debug\XListCtrl.sbr x64\Debug\XTOutlookBar.sbr x64\Debug\XTPagerCtrl.sbr x64\Debug\Dlg_ISIS_ADUTest.sbr x64\Debug\Dlg_ISIS_PWR.sbr x64\Debug\font.sbr x64\Debug\FormEmpty.sbr x64\Debug\gfx_printjob.sbr x64\Debug\gfx_printunit.sbr x64\Debug\helper.sbr x64\Debug\HlprFuncs.sbr
+       PostBuildEvent:
+         xcopy /D/Y "C:\Projects\IAT\IAT Software Application 3 sept\bin\*.dll" "C:\Projects\IAT\IAT Software Application 3 sept\x64\Debug\"
+         :VCEnd
+         0 File(s) copied
+     1>Done Building Project "C:\Projects\IAT\IAT Software Application 3 sept\ATI_UT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:48.39

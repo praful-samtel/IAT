@@ -1,0 +1,13 @@
+﻿Build started 15-09-2026 13:42:34.
+     1>Project "C:\Deepak\IAT Software Application 3 sept\ATI_UT.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         ATI_UT.vcxproj -> C:\Deepak\IAT Software Application 3 sept\x64\Debug\ATI_UT.exe
+       PostBuildEvent:
+         xcopy /D/Y "C:\Deepak\IAT Software Application 3 sept\bin\*.dll" "C:\Deepak\IAT Software Application 3 sept\x64\Debug\"
+         :VCEnd
+         0 File(s) copied
+     1>Done Building Project "C:\Deepak\IAT Software Application 3 sept\ATI_UT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.22

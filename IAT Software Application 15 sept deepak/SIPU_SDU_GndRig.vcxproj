@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC78F352-6EEE-468A-8D62-C989AFEC7DF8}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/SIPU_SDU_GndRig.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/SIPU_SDU_GndRig.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\Debug/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Debug/INPOUT32.lib;Debug/IMAGEHLP.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Debug/MFD_ILT.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/MFD_ILT.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/SIPU_SDU_GndRig.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/SIPU_SDU_GndRig.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/SIPU_SDU_GndRig.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\Release/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Release/INPOUT32.lib;Release/IMAGEHLP.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Release/MFD_ILT.exe </OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/MFD_ILT.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/SIPU_SDU_GndRig.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddUser.cpp" />
+    <ClCompile Include="BenchSelfTest.cpp" />
+    <ClCompile Include="CaptionBar.cpp" />
+    <ClCompile Include="CaptionListView.cpp" />
+    <ClCompile Include="CaptionView.cpp" />
+    <ClCompile Include="CHANGEPASSWORD.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="DataStruct.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="FormEmpty.cpp" />
+    <ClCompile Include="gfx_printjob.cpp" />
+    <ClCompile Include="gfx_printunit.cpp" />
+    <ClCompile Include="helper.cpp" />
+    <ClCompile Include="HlprFuncs.cpp" />
+    <ClCompile Include="led.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MessageBox_Dlg.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MyCEditView.cpp" />
+    <ClCompile Include="MyListView.cpp" />
+    <ClCompile Include="MySplitterClass.cpp" />
+    <ClCompile Include="picture.cpp" />
+    <ClCompile Include="Picture1.cpp" />
+    <ClCompile Include="rowcursor.cpp" />
+    <ClCompile Include="Schedule.cpp" />
+    <ClCompile Include="SIPU_SDU_GndRig.cpp" />
+    <ClCompile Include="SIPU_SDU_GndRigDoc.cpp" />
+    <ClCompile Include="SIPU_SDU_GndRigView.cpp" />
+    <ClCompile Include="SIPUPowerONPage.cpp" />
+    <ClCompile Include="Splach.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="unit_headerpage.cpp" />
+    <ClCompile Include="unit_indexpage.cpp" />
+    <ClCompile Include="unit_table1.cpp" />
+    <ClCompile Include="UserAuthendication.cpp" />
+    <ClCompile Include="WndSlider.cpp" />
+    <ClCompile Include="XComboList.cpp" />
+    <ClCompile Include="XHeaderCtrl.cpp" />
+    <ClCompile Include="XListCtrl.cpp" />
+    <ClCompile Include="XTOutlookBar.cpp" />
+    <ClCompile Include="XTPagerCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SIPU_SDU_GndRig.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddUser.h" />
+    <ClInclude Include="BenchSelfTest.h" />
+    <ClInclude Include="CaptionBar.h" />
+    <ClInclude Include="CaptionListView.h" />
+    <ClInclude Include="CaptionView.h" />
+    <ClInclude Include="CHANGEPASSWORD.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="DataStruct.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="FormEmpty.h" />
+    <ClInclude Include="gfx_printjob.h" />
+    <ClInclude Include="gfx_printunit.h" />
+    <ClInclude Include="helper.h" />
+    <ClInclude Include="HLPRFuncs.h" />
+    <ClInclude Include="image1.h" />
+    <ClInclude Include="led.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MessageBox_Dlg.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MyCEditView.h" />
+    <ClInclude Include="MyListView.h" />
+    <ClInclude Include="MySplitterClass.h" />
+    <ClInclude Include="picture.h" />
+    <ClInclude Include="Picture1.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RightView.h" />
+    <ClInclude Include="rowcursor.h" />
+    <ClInclude Include="Schedule.h" />
+    <ClInclude Include="SIPU_AMStruct.h" />
+    <ClInclude Include="SIPU_SDU_GndRig.h" />
+    <ClInclude Include="SIPU_SDU_GndRigDoc.h" />
+    <ClInclude Include="SIPU_SDU_GndRigView.h" />
+    <ClInclude Include="SIPUPowerONPage.h" />
+    <ClInclude Include="Splach.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Structurs.h" />
+    <ClInclude Include="unit_headerpage.h" />
+    <ClInclude Include="unit_indexpage.h" />
+    <ClInclude Include="unit_table1.h" />
+    <ClInclude Include="UserAuthendication.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="WndSlider.h" />
+    <ClInclude Include="XComboList.h" />
+    <ClInclude Include="XHeaderCtrl.h" />
+    <ClInclude Include="XListCtrl.h" />
+    <ClInclude Include="XTOutlookBar.h" />
+    <ClInclude Include="XTPagerCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\11_24.ico" />
+    <Image Include="res\ABRK.bmp" />
+    <Image Include="res\AHRS.bmp" />
+    <Image Include="res\AIL.bmp" />
+    <Image Include="res\APC Tail Data Settings.ICO" />
+    <Image Include="res\ASTRA_DP_LOGO12.bmp" />
+    <Image Include="res\ASTRA_DP_LOGO2.bmp" />
+    <Image Include="res\ASTRA_OBCTestRigApp.ico" />
+    <Image Include="res\AUD Bus Status Config.ico" />
+    <Image Include="res\Audio Analyzer.ico" />
+    <Image Include="res\bitmap10.bmp" />
+    <Image Include="res\bitmap18.bmp" />
+    <Image Include="res\bitmap19.bmp" />
+    <Image Include="res\bitmap20.bmp" />
+    <Image Include="res\bitmap21.bmp" />
+    <Image Include="res\bitmap23.bmp" />
+    <Image Include="res\bitmap24.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\Black_Pattern.bmp" />
+    <Image Include="res\Blue_Pattern.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\bmp00013.bmp" />
+    <Image Include="res\bmp00014.bmp" />
+    <Image Include="res\bmp00015.bmp" />
+    <Image Include="res\bmp00016.bmp" />
+    <Image Include="res\bmp00017.bmp" />
+    <Image Include="res\bmp00018.bmp" />
+    <Image Include="res\bmp00019.bmp" />
+    <Image Include="res\bmp00020.bmp" />
+    <Image Include="res\bmp00021.bmp" />
+    <Image Include="res\bmp00022.bmp" />
+    <Image Include="res\bmp00023.bmp" />
+    <Image Include="res\bmp00024.bmp" />
+    <Image Include="res\bmp00025.bmp" />
+    <Image Include="res\bmp00026.bmp" />
+    <Image Include="res\bmp00027.bmp" />
+    <Image Include="res\bmp00028.bmp" />
+    <Image Include="res\bmp00029.bmp" />
+    <Image Include="res\bmp00030.bmp" />
+    <Image Include="res\bmp00031.bmp" />
+    <Image Include="res\bmp00032.bmp" />
+    <Image Include="res\bmp00033.bmp" />
+    <Image Include="res\bmp00034.bmp" />
+    <Image Include="res\bmp00035.bmp" />
+    <Image Include="res\bmp00036.bmp" />
+    <Image Include="res\bmp00037.bmp" />
+    <Image Include="res\bmp00038.bmp" />
+    <Image Include="res\bmp00039.bmp" />
+    <Image Include="res\bmp00040.bmp" />
+    <Image Include="res\bmp00041.bmp" />
+    <Image Include="res\bmp00042.bmp" />
+    <Image Include="res\bmp00043.bmp" />
+    <Image Include="res\bmp00044.bmp" />
+    <Image Include="res\bmp00045.bmp" />
+    <Image Include="res\bmp00046.bmp" />
+    <Image Include="res\bmp00047.bmp" />
+    <Image Include="res\bmp00048.bmp" />
+    <Image Include="res\bmp00049.bmp" />
+    <Image Include="res\bmp_mfd6.bmp" />
+    <Image Include="res\bmp_mfdb.bmp" />
+    <Image Include="res\bmp_mfdl.bmp" />
+    <Image Include="res\BRAKE.bmp" />
+    <Image Include="res\BUS12.bmp" />
+    <Image Include="res\CAB DB.bmp" />
+    <Image Include="res\Centering_template.bmp" />
+    <Image Include="res\checkboxes.bmp" />
+    <Image Include="res\Color_barPattern.bmp" />
+    <Image Include="res\custom1.bmp" />
+    <Image Include="res\Data Patterns Logo.bmp" />
+    <Image Include="res\DTOT.bmp" />
+    <Image Include="res\EGT.bmp" />
+    <Image Include="res\FLAP.bmp" />
+    <Image Include="res\FLASH.ico" />
+    <Image Include="res\FUEL.bmp" />
+    <Image Include="res\FUELTRANSFER.bmp" />
+    <Image Include="res\FUSE.bmp" />
+    <Image Include="res\Green_Pattern.bmp" />
+    <Image Include="res\greenButton.bmp" />
+    <Image Include="res\HDRALIC.bmp" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\ico00003.ico" />
+    <Image Include="res\ico00004.ico" />
+    <Image Include="res\ico00005.ico" />
+    <Image Include="res\ico00006.ico" />
+    <Image Include="res\ico00007.ico" />
+    <Image Include="res\ico00008.ico" />
+    <Image Include="res\ico00009.ico" />
+    <Image Include="res\ico00010.ico" />
+    <Image Include="res\ico00011.ico" />
+    <Image Include="res\ico00012.ico" />
+    <Image Include="res\ico00013.ico" />
+    <Image Include="res\ico00014.ico" />
+    <Image Include="res\ico00015.ico" />
+    <Image Include="res\ico00016.ico" />
+    <Image Include="res\ico00018.ico" />
+    <Image Include="res\ico00019.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\icon4.ico" />
+    <Image Include="res\icon5.ico" />
+    <Image Include="res\icon6.ico" />
+    <Image Include="res\icon_fus.ico" />
+    <Image Include="res\idr_dele.ico" />
+    <Image Include="res\idr_madc.ico" />
+    <Image Include="res\images_256ico.ico" />
+    <Image Include="res\mem.ico" />
+    <Image Include="res\MFD_STB_FP.bmp" />
+    <Image Include="res\opmode.ico" />
+    <Image Include="res\PASSWORD.ICO" />
+    <Image Include="res\PLANE5.ICO" />
+    <Image Include="res\PLANES.ICO" />
+    <Image Include="res\Red_Pattern.bmp" />
+    <Image Include="res\redButton.bmp" />
+    <Image Include="res\Relay.ico" />
+    <Image Include="res\Reset.ico" />
+    <Image Include="res\RPM.bmp" />
+    <Image Include="res\RPM_SIPU.bmp" />
+    <Image Include="res\RTC.ico" />
+    <Image Include="res\RUD.bmp" />
+    <Image Include="res\SDU1.bmp" />
+    <Image Include="res\SDU2.bmp" />
+    <Image Include="res\sdu2.ico" />
+    <Image Include="res\SDU3.bmp" />
+    <Image Include="res\sdu3.ico" />
+    <Image Include="res\SDU4.bmp" />
+    <Image Include="res\sducode.ico" />
+    <Image Include="res\sdufault.ico" />
+    <Image Include="res\SIPU-SDU_Ground RigApp.ico" />
+    <Image Include="res\SIPU.bmp" />
+    <Image Include="res\SIPU_SDU_GndRig.ico" />
+    <Image Include="res\SIPU_SDU_GndRigDoc.ico" />
+    <Image Include="res\sipufaul.ico" />
+    <Image Include="res\spr.ico" />
+    <Image Include="res\TAILPLANE.bmp" />
+    <Image Include="res\timer.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\TOOLS1.ICO" />
+    <Image Include="res\TOOLS3.ICO" />
+    <Image Include="res\tram.ico" />
+    <Image Include="res\WDT.ico" />
+    <Image Include="res\White_Pattern.bmp" />
+    <Image Include="res\wi0126-16.ico" />
+    <Image Include="res\YUKON.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur" />
+    <None Include="res\SIPU_SDU_GndRig.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SIPU_SDU_GndRig.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

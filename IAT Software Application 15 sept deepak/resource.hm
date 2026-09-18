@@ -1,0 +1,5 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by SIPU_SDU_GndRig.rc
+//
+#define HIDC_BUTTON1                    0x808803fb    // IDD_POWERONPAGE_SIPU
+#define HIDC_STATIC                     0x8088ffff    // IDD_POWERONPAGE_SIPU

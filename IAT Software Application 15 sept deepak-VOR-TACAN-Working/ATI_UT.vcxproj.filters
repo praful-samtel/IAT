@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BenchSelfTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonding_Insulation_Dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptionBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptionListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHANGEPASSWORD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DU_General_SelfTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormEmpty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx_printjob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx_printunit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HLPRFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imagehlp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="led.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBox_Dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCEditView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitterClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PARAS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="res\PerRefreshRatedlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rowcursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RS422_PORT1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RS422_Port2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SIPU_AMStruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SIPU_SDU_GndRig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SIPU_SDU_GndRigDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SIPU_SDU_GndRigView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SIPUPowerONPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Splach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_headerpage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_indexpage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_table1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAuthendication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualInspection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WndSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XComboList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XHeaderCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XTOutlookBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XTPagerCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HI6130.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlxApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlxDefCk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_ISIS_ADUTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_ISIS_PWR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_ISIS_SWCHK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_ISIS_AHRS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_Visual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_ADC_PWR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_LEAK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_FUNCHK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_AHRS_VISUAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_AHRS_PWR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_GPS_VISUAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_GPS_PWR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSIGNAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_VORTAC_Visual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_VORTAC_PWR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_SW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Visual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_PWR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Rev_Page.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Fuel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSmfdAHRS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_VORILS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSmfd_Tacan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSmfd_ADC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_GPS_SYSINFO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Analog2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Discrete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_GPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_AHRS_QualityChecks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_GPS_DBInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ISIS_IBIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ISIS_BRTCHK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ISIS_ALN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ISIS_NAVMODE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Visual_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Tacan_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Rev_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Sw_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Pwr_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Gps_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Fuel_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Discrete_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Analog_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Analog1_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_AHRS_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Adc_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_Smfd_Vorils_RC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arinc429.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_MachCHK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_ALTI2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_ALTI3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_AIR1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_AIR2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_AIR3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_MACH2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_ADC_ALTIRATE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bkp software\IAT Software Application 3 aug bkp\BC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogStop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANGEOP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ET.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_RTP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ETP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ATP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_FP3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_FP4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANGV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANBV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANCL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_HPE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANEB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANLBP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANRBP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANFTL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANFTR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_FC_ANCT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_EOT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_EOP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_ET.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_RTP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_ETP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_ATP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_FP3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_FP4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_GV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_BV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_ANCL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_HPM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_HPE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_EB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_LBP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_RBP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_ES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_FTL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_FTR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog_SMFD_RC_CT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalogOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_selftest_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfTestHeaderPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource.hm">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SIPU_SDU_GndRig.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="debug\BuildLog.htm" />
+    <None Include="apiLib 1.3.sdf" />
+    <None Include="Debug\PlxApi711.dll" />
+    <None Include="PlxApi711.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AUD Bus Status Config.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Audio Analyzer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Black_Pattern.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blue_Pattern.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00009.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00013.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00014.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00015.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00016.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00017.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00018.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00019.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00020.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00021.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00022.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00023.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00024.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00025.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00026.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00027.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00028.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00029.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00030.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00031.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00032.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00033.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00034.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00035.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00036.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00037.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00038.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00039.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00040.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00041.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00042.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00043.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00044.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00045.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00046.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00047.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00048.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00049.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp_mfd6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp_mfdb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp_mfdl.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Centering_template.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\checkboxes.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Color_barPattern.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\custom1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Green_Pattern.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\greenButton.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00007.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00008.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00009.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00010.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00011.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00013.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00014.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00015.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_fus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mem.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MFD_STB_FP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\opmode.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PASSWORD.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PLANE5.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PLANES.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Red_Pattern.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\redButton.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sdu2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sducode.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SIPU_SDU_GndRigDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sipufaul.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\spr.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TOOLS1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TOOLS3.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\White_Pattern.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\wi0126-16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\IDB_BITMAP24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\dell\Pictures\Untitled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Untitled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap29.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\nav.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\ibit_fc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\brtness.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\alignment.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap34.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\alignment (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\brtness (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\ibit_fc (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\ibit_rc (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\Media.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\Media (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\nav (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\brtness (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ibit_fc (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ibit_rc (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alignment (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Media.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Media (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nav (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Deepak\Downloads\Screenshot 2026-08-21 170846.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Deepak\Downloads\Screenshot 2026-08-21 170846 (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Deepak\Downloads\Screenshot 2026-08-21 170846 (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Screenshot 2026-08-21 170846 (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Screenshot 2026-08-21 170846 (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SIPU_SDU_GndRig.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BenchSelfTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptionBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptionListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptionView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHANGEPASSWORD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStruct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormEmpty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx_printjob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx_printunit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HlprFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="led.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBox_Dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCEditView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitterClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rowcursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SIPU_SDU_GndRig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SIPU_SDU_GndRigDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SIPU_SDU_GndRigView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SIPUPowerONPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Splach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_headerpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_indexpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_table1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAuthendication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualInspection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XComboList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XHeaderCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XTOutlookBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XTPagerCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlxInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_ISIS_ADUTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_ISIS_PWR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_ISIS_AHRS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_Visual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_ADC_PWR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_LEAK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_FUNCHK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_AHRS_VISUAL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_AHRS_PWR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_GPS_VISUAL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_GPS_PWR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_VORTAC_Visual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_VORTAC_PWR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_SW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Visual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_PWR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Rev_Page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Fuel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSmfdAHRS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_VORILS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSmfd_Tacan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSmfd_ADC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_GPS_SYSINFO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Analog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Analog2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Discrete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_GPS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_AHRS_QualityChecks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_GPS_DBInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ISIS_IBIT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ISIS_BRTCHK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ISIS_ALN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ISIS_NAVMODE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Visual_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Tacan_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Rev_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Sw_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Pwr_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Gps_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Fuel_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Discrete_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_AHRS_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Adc_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_Smfd_Vorils_RC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arinc429.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_ISIS_SWCHK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_MachCHK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_ALTI2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_ALTI3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_AIR1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_AIR2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_AIR3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_MACH2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_ADC_ALTIRATE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogStop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ET.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_RTP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ETP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ATP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_FP3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_FP4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANGV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANBV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANCL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_HPE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANEB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANLBP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANRBP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANFTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANFTR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_FC_ANCT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_EOT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_EOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_ET.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_RTP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_ETP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_ATP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_FP3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_FP4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_GV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_BV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_ANCL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_HPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_HPE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_EB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_LBP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_RBP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_ES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_FTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_FTR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog_SMFD_RC_CT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalogOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialog_SMFD_FC_ANGEOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_selftest_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfTestHeaderPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="PlxApi.lib" />
+    <Library Include="Debug\apiLib1.3.lib" />
+  </ItemGroup>
+</Project>

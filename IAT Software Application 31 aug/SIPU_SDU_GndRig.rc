@@ -844,7 +844,7 @@ BEGIN
     LTEXT           "1) Press the 4th and 5th bezel key from the top on left and right side SMFD FC simultaneously to enter maintenance page .(LSK4,LSK5 ,RSK4,RSK5 to be pressed simultaneously ).",IDC_STATIC,28,23,391,16
     LTEXT           "3) Click on continue button to proceed for the next Test.",IDC_STATIC,28,97,179,8
     LTEXT           "Test Procedure :",IDC_STATIC,14,9,68,8
-    LTEXT           "2) Ente the observed software version below :-",IDC_STATIC,29,50,138,8
+    LTEXT           "2) Enter the observed software version below :-",IDC_STATIC,29,50,138,8
     LTEXT           "Test Procedure :",IDC_STATIC,14,9,68,8
     LTEXT           "E73D5822",IDC_STATIC,326,71,36,8
     GROUPBOX        "Specification",IDC_STATIC,319,59,51,26
